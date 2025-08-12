@@ -1,0 +1,6 @@
+python utils/parse_pdf.py
+python utils/embed_documents.py
+streamlit run ui/rag_query_app.py
+
+ python check_vector_db.py rebuild   
+ python clear_data.py all

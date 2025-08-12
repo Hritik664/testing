@@ -1,0 +1,161 @@
+2025-08-09 08:45:12,795 - financial_rag - INFO - info:51 - File validation passed: conference call transcript.pdf
+2025-08-09 08:45:12,798 - financial_rag - INFO - info:51 - File validation passed: Investor ppt.pdf
+2025-08-09 08:45:13,164 - financial_rag - INFO - info:51 - Successfully processed: Investor ppt.pdf (31 pages)
+2025-08-09 08:45:13,167 - financial_rag - INFO - info:51 - Successfully processed: conference call transcript.pdf (29 pages)
+2025-08-09 08:45:25,285 - financial_rag - INFO - info:51 - Added 124 documents to existing vector store
+2025-08-09 08:45:25,296 - financial_rag - INFO - info:51 - File Processing - embeddings (embed_and_store): SUCCESS
+2025-08-09 08:50:07,243 - financial_rag - INFO - info:51 - Vector database loaded successfully with 124 documents
+2025-08-09 08:50:07,252 - financial_rag - INFO - info:51 - Enhanced retriever initialized successfully
+2025-08-09 08:50:12,381 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (4.83s)
+2025-08-09 08:50:50,165 - financial_rag - INFO - info:51 - Vector database loaded successfully with 124 documents
+2025-08-09 08:50:50,166 - financial_rag - INFO - info:51 - Enhanced retriever initialized successfully
+2025-08-09 08:50:52,661 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (2.43s)
+2025-08-09 08:51:22,301 - financial_rag - INFO - info:51 - Vector database loaded successfully with 124 documents
+2025-08-09 08:51:22,303 - financial_rag - INFO - info:51 - Enhanced retriever initialized successfully
+2025-08-09 08:51:23,688 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (1.34s)
+2025-08-09 08:54:27,075 - financial_rag - INFO - info:51 - Vector database loaded successfully with 124 documents
+2025-08-09 08:54:27,077 - financial_rag - INFO - info:51 - Enhanced retriever initialized successfully
+2025-08-09 08:54:28,528 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (1.38s)
+2025-08-09 08:54:28,557 - financial_rag - INFO - info:51 - Query - Model: Google Gemini 2.0, Status: SUCCESS, Query: What was the cost on a per ton basis in Q1FY26?
+2025-08-09 09:02:31,407 - financial_rag - INFO - info:51 - Vector database loaded successfully with 124 documents
+2025-08-09 09:02:31,408 - financial_rag - INFO - info:51 - Enhanced retriever initialized successfully
+2025-08-09 09:02:34,296 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (2.58s)
+2025-08-09 09:02:34,317 - financial_rag - INFO - info:51 - Query - Model: Google Gemini 2.0, Status: SUCCESS, Query: What was the total cost in Rs Cr in Q1FY26?
+2025-08-09 09:07:43,062 - financial_rag - INFO - info:51 - Vector database loaded successfully with 124 documents
+2025-08-09 09:07:43,063 - financial_rag - INFO - info:51 - Enhanced retriever initialized successfully
+2025-08-09 09:07:45,601 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (2.48s)
+2025-08-09 09:07:45,617 - financial_rag - INFO - info:51 - Query - Model: Google Gemini 2.0, Status: SUCCESS, Query: What was the total cost in Rs Cr in Q1FY26?
+2025-08-09 09:09:56,068 - financial_rag - INFO - info:51 - Vector database loaded successfully with 124 documents
+2025-08-09 09:09:56,069 - financial_rag - INFO - info:51 - Enhanced retriever initialized successfully
+2025-08-09 09:09:57,292 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (1.01s)
+2025-08-09 09:09:57,321 - financial_rag - INFO - info:51 - Query - Model: Google Gemini 2.0, Status: SUCCESS, Query: What was the total cost in Rs Cr in Q1FY26?
+2025-08-09 09:17:59,507 - financial_rag - INFO - info:51 - Vector database loaded successfully with 124 documents
+2025-08-09 09:17:59,508 - financial_rag - INFO - info:51 - Enhanced retriever initialized successfully
+2025-08-09 09:18:03,550 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (3.70s)
+2025-08-09 09:18:03,585 - financial_rag - INFO - info:51 - Query - Model: Google Gemini 2.0, Status: SUCCESS, Query: What was the total cost in Rs Cr in Q1FY26?
+2025-08-09 09:19:02,231 - financial_rag - INFO - info:51 - File validation passed: Concall 4QF25.pdf
+2025-08-09 09:19:02,399 - financial_rag - INFO - info:51 - Successfully processed: Concall 4QF25.pdf (19 pages)
+2025-08-09 09:19:14,163 - financial_rag - INFO - info:51 - Added 90 documents to existing vector store
+2025-08-09 09:19:14,179 - financial_rag - INFO - info:51 - File Processing - embeddings (embed_and_store): SUCCESS
+2025-08-09 09:19:15,489 - financial_rag - INFO - info:51 - Loaded from cache: Concall 4QF25.pdf
+2025-08-09 09:19:15,826 - financial_rag - INFO - info:51 - Loaded 90 documents from embedding cache
+2025-08-09 09:19:26,277 - financial_rag - INFO - info:51 - Added 90 documents to existing vector store
+2025-08-09 09:19:26,284 - financial_rag - INFO - info:51 - File Processing - embeddings (embed_and_store): SUCCESS
+2025-08-09 09:26:10,971 - financial_rag - INFO - info:51 - Parsed 15 questions from Excel file
+2025-08-09 09:26:36,203 - financial_rag - INFO - info:51 - Parsed 15 questions from Excel file
+2025-08-09 09:26:42,277 - financial_rag - INFO - info:51 - Parsed 15 questions from Excel file
+2025-08-09 09:26:47,266 - financial_rag - INFO - info:51 - Starting bulk processing of 15 questions
+2025-08-09 09:26:47,267 - financial_rag - INFO - info:51 - Processing question 1/15: Revenue guidance for the next few years...
+2025-08-09 09:26:47,271 - financial_rag - ERROR - error:62 - Failed to retrieve documents: 'HuggingFaceEmbeddings' object has no attribute 'get_relevant_documents'
+2025-08-09 09:26:47,271 - financial_rag - ERROR - error:62 - Error in query function: 'GeminiClient' object has no attribute 'generate_content'
+2025-08-09 09:26:47,272 - financial_rag - ERROR - error:62 - Error processing question 1: Failed to process question: 'GeminiClient' object has no attribute 'generate_content'
+2025-08-09 09:26:47,272 - financial_rag - INFO - info:51 - Processing question 2/15: Guidance on R&D expense...
+2025-08-09 09:26:47,273 - financial_rag - ERROR - error:62 - Failed to retrieve documents: 'HuggingFaceEmbeddings' object has no attribute 'get_relevant_documents'
+2025-08-09 09:26:47,274 - financial_rag - ERROR - error:62 - Error in query function: 'GeminiClient' object has no attribute 'generate_content'
+2025-08-09 09:26:47,274 - financial_rag - ERROR - error:62 - Error processing question 2: Failed to process question: 'GeminiClient' object has no attribute 'generate_content'
+2025-08-09 09:26:47,274 - financial_rag - INFO - info:51 - Processing question 3/15: What is the current capacity utilization...
+2025-08-09 09:26:47,275 - financial_rag - ERROR - error:62 - Failed to retrieve documents: 'HuggingFaceEmbeddings' object has no attribute 'get_relevant_documents'
+2025-08-09 09:26:47,275 - financial_rag - ERROR - error:62 - Error in query function: 'GeminiClient' object has no attribute 'generate_content'
+2025-08-09 09:26:47,276 - financial_rag - ERROR - error:62 - Error processing question 3: Failed to process question: 'GeminiClient' object has no attribute 'generate_content'
+2025-08-09 09:26:47,277 - financial_rag - INFO - info:51 - Processing question 4/15: What is the outlook on future capex...
+2025-08-09 09:26:47,278 - financial_rag - ERROR - error:62 - Failed to retrieve documents: 'HuggingFaceEmbeddings' object has no attribute 'get_relevant_documents'
+2025-08-09 09:26:47,279 - financial_rag - ERROR - error:62 - Error in query function: 'GeminiClient' object has no attribute 'generate_content'
+2025-08-09 09:26:47,279 - financial_rag - ERROR - error:62 - Error processing question 4: Failed to process question: 'GeminiClient' object has no attribute 'generate_content'
+2025-08-09 09:26:47,280 - financial_rag - INFO - info:51 - Processing question 5/15: Guidance on working capital...
+2025-08-09 09:26:47,280 - financial_rag - ERROR - error:62 - Failed to retrieve documents: 'HuggingFaceEmbeddings' object has no attribute 'get_relevant_documents'
+2025-08-09 09:26:47,281 - financial_rag - ERROR - error:62 - Error in query function: 'GeminiClient' object has no attribute 'generate_content'
+2025-08-09 09:26:47,281 - financial_rag - ERROR - error:62 - Error processing question 5: Failed to process question: 'GeminiClient' object has no attribute 'generate_content'
+2025-08-09 09:26:47,281 - financial_rag - INFO - info:51 - Processing question 6/15: Revenue growth guidance for the next few years...
+2025-08-09 09:26:47,282 - financial_rag - ERROR - error:62 - Failed to retrieve documents: 'HuggingFaceEmbeddings' object has no attribute 'get_relevant_documents'
+2025-08-09 09:26:47,282 - financial_rag - ERROR - error:62 - Error in query function: 'GeminiClient' object has no attribute 'generate_content'
+2025-08-09 09:26:47,283 - financial_rag - ERROR - error:62 - Error processing question 6: Failed to process question: 'GeminiClient' object has no attribute 'generate_content'
+2025-08-09 09:26:47,283 - financial_rag - INFO - info:51 - Processing question 7/15: Guidance on EBITDA margin...
+2025-08-09 09:26:47,284 - financial_rag - ERROR - error:62 - Failed to retrieve documents: 'HuggingFaceEmbeddings' object has no attribute 'get_relevant_documents'
+2025-08-09 09:26:47,284 - financial_rag - ERROR - error:62 - Error in query function: 'GeminiClient' object has no attribute 'generate_content'
+2025-08-09 09:26:47,285 - financial_rag - ERROR - error:62 - Error processing question 7: Failed to process question: 'GeminiClient' object has no attribute 'generate_content'
+2025-08-09 09:26:47,285 - financial_rag - INFO - info:51 - Processing question 8/15: What was the sales volume in Q1FY25...
+2025-08-09 09:26:47,286 - financial_rag - ERROR - error:62 - Failed to retrieve documents: 'HuggingFaceEmbeddings' object has no attribute 'get_relevant_documents'
+2025-08-09 09:26:47,287 - financial_rag - ERROR - error:62 - Error in query function: 'GeminiClient' object has no attribute 'generate_content'
+2025-08-09 09:26:47,287 - financial_rag - ERROR - error:62 - Error processing question 8: Failed to process question: 'GeminiClient' object has no attribute 'generate_content'
+2025-08-09 09:26:47,288 - financial_rag - INFO - info:51 - Processing question 9/15: What was the cost on a per ton basis in Q1FY26...
+2025-08-09 09:26:47,289 - financial_rag - ERROR - error:62 - Failed to retrieve documents: 'HuggingFaceEmbeddings' object has no attribute 'get_relevant_documents'
+2025-08-09 09:26:47,290 - financial_rag - ERROR - error:62 - Error in query function: 'GeminiClient' object has no attribute 'generate_content'
+2025-08-09 09:26:47,290 - financial_rag - ERROR - error:62 - Error processing question 9: Failed to process question: 'GeminiClient' object has no attribute 'generate_content'
+2025-08-09 09:26:47,291 - financial_rag - INFO - info:51 - Processing question 10/15: What was the total cost in Rs Cr in Q1FY26...
+2025-08-09 09:26:47,294 - financial_rag - ERROR - error:62 - Failed to retrieve documents: 'HuggingFaceEmbeddings' object has no attribute 'get_relevant_documents'
+2025-08-09 09:26:47,296 - financial_rag - ERROR - error:62 - Error in query function: 'GeminiClient' object has no attribute 'generate_content'
+2025-08-09 09:26:47,296 - financial_rag - ERROR - error:62 - Error processing question 10: Failed to process question: 'GeminiClient' object has no attribute 'generate_content'
+2025-08-09 09:26:47,297 - financial_rag - INFO - info:51 - Processing question 11/15: What is the current capacity...
+2025-08-09 09:26:47,298 - financial_rag - ERROR - error:62 - Failed to retrieve documents: 'HuggingFaceEmbeddings' object has no attribute 'get_relevant_documents'
+2025-08-09 09:26:47,299 - financial_rag - ERROR - error:62 - Error in query function: 'GeminiClient' object has no attribute 'generate_content'
+2025-08-09 09:26:47,299 - financial_rag - ERROR - error:62 - Error processing question 11: Failed to process question: 'GeminiClient' object has no attribute 'generate_content'
+2025-08-09 09:26:47,300 - financial_rag - INFO - info:51 - Processing question 12/15: What is capex for new expansion...
+2025-08-09 09:26:47,300 - financial_rag - ERROR - error:62 - Failed to retrieve documents: 'HuggingFaceEmbeddings' object has no attribute 'get_relevant_documents'
+2025-08-09 09:26:47,301 - financial_rag - ERROR - error:62 - Error in query function: 'GeminiClient' object has no attribute 'generate_content'
+2025-08-09 09:26:47,301 - financial_rag - ERROR - error:62 - Error processing question 12: Failed to process question: 'GeminiClient' object has no attribute 'generate_content'
+2025-08-09 09:26:47,302 - financial_rag - INFO - info:51 - Processing question 13/15: What was the revenue growth in Q1FY26 in USD terms...
+2025-08-09 09:26:47,303 - financial_rag - ERROR - error:62 - Failed to retrieve documents: 'HuggingFaceEmbeddings' object has no attribute 'get_relevant_documents'
+2025-08-09 09:26:47,304 - financial_rag - ERROR - error:62 - Error in query function: 'GeminiClient' object has no attribute 'generate_content'
+2025-08-09 09:26:47,304 - financial_rag - ERROR - error:62 - Error processing question 13: Failed to process question: 'GeminiClient' object has no attribute 'generate_content'
+2025-08-09 09:26:47,305 - financial_rag - INFO - info:51 - Processing question 14/15: What is the company guidance on capex for the year...
+2025-08-09 09:26:47,306 - financial_rag - ERROR - error:62 - Failed to retrieve documents: 'HuggingFaceEmbeddings' object has no attribute 'get_relevant_documents'
+2025-08-09 09:26:47,307 - financial_rag - ERROR - error:62 - Error in query function: 'GeminiClient' object has no attribute 'generate_content'
+2025-08-09 09:26:47,308 - financial_rag - ERROR - error:62 - Error processing question 14: Failed to process question: 'GeminiClient' object has no attribute 'generate_content'
+2025-08-09 09:26:47,309 - financial_rag - INFO - info:51 - Processing question 15/15: What caused the jump in employee costs over the la...
+2025-08-09 09:26:47,312 - financial_rag - ERROR - error:62 - Failed to retrieve documents: 'HuggingFaceEmbeddings' object has no attribute 'get_relevant_documents'
+2025-08-09 09:26:47,314 - financial_rag - ERROR - error:62 - Error in query function: 'GeminiClient' object has no attribute 'generate_content'
+2025-08-09 09:26:47,314 - financial_rag - ERROR - error:62 - Error processing question 15: Failed to process question: 'GeminiClient' object has no attribute 'generate_content'
+2025-08-09 09:26:47,316 - financial_rag - INFO - info:51 - Bulk processing completed: 0 successful, 15 failed in 0.05s
+2025-08-09 09:26:47,465 - financial_rag - INFO - info:51 - Bulk processing completed: 0/15 successful
+2025-08-09 09:27:29,994 - financial_rag - INFO - info:51 - Parsed 15 questions from Excel file
+2025-08-09 14:07:47,979 - financial_rag - INFO - info:51 - Parsed 15 questions from Excel file
+2025-08-09 14:09:54,892 - financial_rag - INFO - info:51 - Parsed 15 questions from Excel file
+2025-08-09 14:10:04,253 - financial_rag - INFO - info:51 - Starting bulk processing of 15 questions
+2025-08-09 14:10:04,254 - financial_rag - INFO - info:51 - Processing question 1/15: Revenue guidance for the next few years...
+2025-08-09 14:10:07,137 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (2.42s)
+2025-08-09 14:10:07,143 - financial_rag - WARNING - warning:55 - Failed to parse response for question 1: ResponseParser.parse_response() missing 2 required positional arguments: 'sources' and 'processing_time'
+2025-08-09 14:10:07,144 - financial_rag - INFO - info:51 - Processing question 2/15: Guidance on R&D expense...
+2025-08-09 14:10:08,547 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (1.32s)
+2025-08-09 14:10:08,549 - financial_rag - WARNING - warning:55 - Failed to parse response for question 2: ResponseParser.parse_response() missing 2 required positional arguments: 'sources' and 'processing_time'
+2025-08-09 14:10:08,550 - financial_rag - INFO - info:51 - Processing question 3/15: What is the current capacity utilization...
+2025-08-09 14:10:09,889 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (1.28s)
+2025-08-09 14:10:09,892 - financial_rag - WARNING - warning:55 - Failed to parse response for question 3: ResponseParser.parse_response() missing 2 required positional arguments: 'sources' and 'processing_time'
+2025-08-09 14:10:09,892 - financial_rag - INFO - info:51 - Processing question 4/15: What is the outlook on future capex...
+2025-08-09 14:10:11,647 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (1.69s)
+2025-08-09 14:10:11,649 - financial_rag - WARNING - warning:55 - Failed to parse response for question 4: ResponseParser.parse_response() missing 2 required positional arguments: 'sources' and 'processing_time'
+2025-08-09 14:10:11,650 - financial_rag - INFO - info:51 - Processing question 5/15: Guidance on working capital...
+2025-08-09 14:10:13,202 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (1.50s)
+2025-08-09 14:10:13,204 - financial_rag - WARNING - warning:55 - Failed to parse response for question 5: ResponseParser.parse_response() missing 2 required positional arguments: 'sources' and 'processing_time'
+2025-08-09 14:10:13,205 - financial_rag - INFO - info:51 - Processing question 6/15: Revenue growth guidance for the next few years...
+2025-08-09 14:10:14,644 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (1.41s)
+2025-08-09 14:10:14,648 - financial_rag - WARNING - warning:55 - Failed to parse response for question 6: ResponseParser.parse_response() missing 2 required positional arguments: 'sources' and 'processing_time'
+2025-08-09 14:10:14,649 - financial_rag - INFO - info:51 - Processing question 7/15: Guidance on EBITDA margin...
+2025-08-09 14:10:15,895 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (1.18s)
+2025-08-09 14:10:15,899 - financial_rag - WARNING - warning:55 - Failed to parse response for question 7: ResponseParser.parse_response() missing 2 required positional arguments: 'sources' and 'processing_time'
+2025-08-09 14:10:15,900 - financial_rag - INFO - info:51 - Processing question 8/15: What was the sales volume in Q1FY25...
+2025-08-09 14:10:19,250 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (3.28s)
+2025-08-09 14:10:19,252 - financial_rag - WARNING - warning:55 - Failed to parse response for question 8: ResponseParser.parse_response() missing 2 required positional arguments: 'sources' and 'processing_time'
+2025-08-09 14:10:19,253 - financial_rag - INFO - info:51 - Processing question 9/15: What was the cost on a per ton basis in Q1FY26...
+2025-08-09 14:10:30,965 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (11.63s)
+2025-08-09 14:10:30,968 - financial_rag - WARNING - warning:55 - Failed to parse response for question 9: ResponseParser.parse_response() missing 2 required positional arguments: 'sources' and 'processing_time'
+2025-08-09 14:10:30,968 - financial_rag - INFO - info:51 - Processing question 10/15: What was the total cost in Rs Cr in Q1FY26...
+2025-08-09 14:10:34,885 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (3.83s)
+2025-08-09 14:10:34,887 - financial_rag - WARNING - warning:55 - Failed to parse response for question 10: ResponseParser.parse_response() missing 2 required positional arguments: 'sources' and 'processing_time'
+2025-08-09 14:10:34,887 - financial_rag - INFO - info:51 - Processing question 11/15: What is the current capacity...
+2025-08-09 14:10:40,541 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (5.59s)
+2025-08-09 14:10:40,543 - financial_rag - WARNING - warning:55 - Failed to parse response for question 11: ResponseParser.parse_response() missing 2 required positional arguments: 'sources' and 'processing_time'
+2025-08-09 14:10:40,543 - financial_rag - INFO - info:51 - Processing question 12/15: What is capex for new expansion...
+2025-08-09 14:10:42,373 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (1.77s)
+2025-08-09 14:10:42,375 - financial_rag - WARNING - warning:55 - Failed to parse response for question 12: ResponseParser.parse_response() missing 2 required positional arguments: 'sources' and 'processing_time'
+2025-08-09 14:10:42,375 - financial_rag - INFO - info:51 - Processing question 13/15: What was the revenue growth in Q1FY26 in USD terms...
+2025-08-09 14:10:43,748 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (1.33s)
+2025-08-09 14:10:43,750 - financial_rag - WARNING - warning:55 - Failed to parse response for question 13: ResponseParser.parse_response() missing 2 required positional arguments: 'sources' and 'processing_time'
+2025-08-09 14:10:43,751 - financial_rag - INFO - info:51 - Processing question 14/15: What is the company guidance on capex for the year...
+2025-08-09 14:10:45,243 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (1.44s)
+2025-08-09 14:10:45,245 - financial_rag - WARNING - warning:55 - Failed to parse response for question 14: ResponseParser.parse_response() missing 2 required positional arguments: 'sources' and 'processing_time'
+2025-08-09 14:10:45,245 - financial_rag - INFO - info:51 - Processing question 15/15: What caused the jump in employee costs over the la...
+2025-08-09 14:10:47,497 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (2.19s)
+2025-08-09 14:10:47,499 - financial_rag - WARNING - warning:55 - Failed to parse response for question 15: ResponseParser.parse_response() missing 2 required positional arguments: 'sources' and 'processing_time'
+2025-08-09 14:10:47,499 - financial_rag - INFO - info:51 - Bulk processing completed: 15 successful, 0 failed in 43.25s
+2025-08-09 14:10:47,680 - financial_rag - INFO - info:51 - Bulk processing completed: 15/15 successful
+2025-08-09 14:14:22,650 - financial_rag - INFO - info:51 - Parsed 15 questions from Excel file

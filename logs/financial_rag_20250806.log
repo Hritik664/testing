@@ -1,0 +1,354 @@
+2025-08-06 07:55:59,540 - financial_rag - INFO - info:51 - Vector database and enhanced retriever loaded successfully
+2025-08-06 07:56:02,680 - financial_rag - INFO - info:51 - LLM clients initialized successfully
+2025-08-06 07:56:34,908 - financial_rag - INFO - info:51 - Vector database and enhanced retriever loaded successfully
+2025-08-06 07:56:34,910 - financial_rag - INFO - info:51 - LLM clients initialized successfully
+2025-08-06 07:56:59,359 - financial_rag - INFO - info:51 - Vector database and enhanced retriever loaded successfully
+2025-08-06 07:56:59,362 - financial_rag - INFO - info:51 - LLM clients initialized successfully
+2025-08-06 07:56:59,462 - financial_rag - INFO - info:51 - File validation passed: conference call transcript.pdf
+2025-08-06 07:56:59,468 - financial_rag - INFO - info:51 - File validation passed: Investor ppt.pdf
+2025-08-06 07:56:59,478 - financial_rag - INFO - info:51 - File validation passed: conference call transcript.pdf
+2025-08-06 07:56:59,500 - financial_rag - INFO - info:51 - File validation passed: Investor ppt.pdf
+2025-08-06 07:56:59,926 - financial_rag - INFO - info:51 - Successfully processed: conference call transcript.pdf (29 pages)
+2025-08-06 07:56:59,931 - financial_rag - INFO - info:51 - Successfully processed: Investor ppt.pdf (31 pages)
+2025-08-06 07:57:12,638 - financial_rag - INFO - info:51 - Added 124 documents to existing vector store
+2025-08-06 07:57:12,744 - financial_rag - INFO - info:51 - Successfully processed 2 files in 13.35s
+2025-08-06 08:00:20,382 - financial_rag - INFO - info:51 - Vector database and enhanced retriever loaded successfully
+2025-08-06 08:00:20,384 - financial_rag - INFO - info:51 - LLM clients initialized successfully
+2025-08-06 08:00:20,410 - financial_rag - INFO - info:51 - File validation passed: conference call transcript.pdf
+2025-08-06 08:00:20,424 - financial_rag - INFO - info:51 - File validation passed: Investor ppt.pdf
+2025-08-06 08:00:20,439 - financial_rag - INFO - info:51 - Loaded from cache: conference call transcript.pdf
+2025-08-06 08:00:20,447 - financial_rag - INFO - info:51 - Loaded from cache: Investor ppt.pdf
+2025-08-06 08:00:20,710 - financial_rag - INFO - info:51 - Loaded 124 documents from embedding cache
+2025-08-06 08:00:31,411 - financial_rag - INFO - info:51 - Added 124 documents to existing vector store
+2025-08-06 08:00:31,429 - financial_rag - INFO - info:51 - Successfully processed 2 files in 11.02s
+2025-08-06 08:00:31,447 - financial_rag - ERROR - error:60 - Failed to process query: BaseRetriever.get_relevant_documents() takes 2 positional arguments but 3 were given
+Traceback (most recent call last):
+  File "D:\CGVENTURES\financial_rag\ui\optimized_rag_app.py", line 251, in <module>
+    docs = enhanced_retriever.get_diverse_documents(sanitized_question, k_value)
+  File "D:\CGVENTURES\financial_rag\utils\enhanced_retriever.py", line 230, in get_diverse_documents
+    documents = self.get_relevant_documents(query, k * 2)
+  File "D:\CGVENTURES\financial_rag\venv\Lib\site-packages\langchain_core\_api\deprecation.py", line 189, in warning_emitting_wrapper
+    return wrapped(*args, **kwargs)
+TypeError: BaseRetriever.get_relevant_documents() takes 2 positional arguments but 3 were given
+2025-08-06 08:01:03,485 - financial_rag - INFO - info:51 - Vector database and enhanced retriever loaded successfully
+2025-08-06 08:01:03,488 - financial_rag - INFO - info:51 - LLM clients initialized successfully
+2025-08-06 08:01:04,772 - financial_rag - INFO - info:51 - Vector database and enhanced retriever loaded successfully
+2025-08-06 08:01:04,774 - financial_rag - INFO - info:51 - LLM clients initialized successfully
+2025-08-06 08:01:05,633 - financial_rag - INFO - info:51 - Vector database and enhanced retriever loaded successfully
+2025-08-06 08:01:05,635 - financial_rag - INFO - info:51 - LLM clients initialized successfully
+2025-08-06 08:01:08,497 - financial_rag - INFO - info:51 - Vector database and enhanced retriever loaded successfully
+2025-08-06 08:01:08,500 - financial_rag - INFO - info:51 - LLM clients initialized successfully
+2025-08-06 08:01:09,461 - financial_rag - INFO - info:51 - Vector database and enhanced retriever loaded successfully
+2025-08-06 08:01:09,463 - financial_rag - INFO - info:51 - LLM clients initialized successfully
+2025-08-06 08:01:10,724 - financial_rag - INFO - info:51 - Vector database and enhanced retriever loaded successfully
+2025-08-06 08:01:10,726 - financial_rag - INFO - info:51 - LLM clients initialized successfully
+2025-08-06 08:01:14,351 - financial_rag - INFO - info:51 - Vector database and enhanced retriever loaded successfully
+2025-08-06 08:01:14,353 - financial_rag - INFO - info:51 - LLM clients initialized successfully
+2025-08-06 08:01:14,368 - financial_rag - INFO - info:51 - File validation passed: conference call transcript.pdf
+2025-08-06 08:01:14,374 - financial_rag - INFO - info:51 - File validation passed: Investor ppt.pdf
+2025-08-06 08:01:14,387 - financial_rag - INFO - info:51 - Loaded from cache: conference call transcript.pdf
+2025-08-06 08:01:14,392 - financial_rag - INFO - info:51 - Loaded from cache: Investor ppt.pdf
+2025-08-06 08:01:14,712 - financial_rag - INFO - info:51 - Loaded 124 documents from embedding cache
+2025-08-06 08:01:25,888 - financial_rag - INFO - info:51 - Added 124 documents to existing vector store
+2025-08-06 08:01:25,907 - financial_rag - INFO - info:51 - Successfully processed 2 files in 11.54s
+2025-08-06 08:01:25,912 - financial_rag - ERROR - error:60 - Failed to process query: BaseRetriever.get_relevant_documents() takes 2 positional arguments but 3 were given
+Traceback (most recent call last):
+  File "D:\CGVENTURES\financial_rag\ui\optimized_rag_app.py", line 251, in <module>
+    docs = enhanced_retriever.get_diverse_documents(sanitized_question, k_value)
+  File "D:\CGVENTURES\financial_rag\utils\enhanced_retriever.py", line 230, in get_diverse_documents
+    documents = self.get_relevant_documents(query, k * 2)
+  File "D:\CGVENTURES\financial_rag\venv\Lib\site-packages\langchain_core\_api\deprecation.py", line 189, in warning_emitting_wrapper
+    return wrapped(*args, **kwargs)
+TypeError: BaseRetriever.get_relevant_documents() takes 2 positional arguments but 3 were given
+2025-08-06 08:03:34,490 - financial_rag - INFO - info:51 - Vector database and enhanced retriever loaded successfully
+2025-08-06 08:03:34,492 - financial_rag - INFO - info:51 - LLM clients initialized successfully
+2025-08-06 08:03:34,516 - financial_rag - INFO - info:51 - File validation passed: conference call transcript.pdf
+2025-08-06 08:03:34,531 - financial_rag - INFO - info:51 - Loaded from cache: conference call transcript.pdf
+2025-08-06 08:03:41,399 - financial_rag - INFO - info:51 - Added 93 documents to existing vector store
+2025-08-06 08:03:41,414 - financial_rag - INFO - info:51 - Successfully processed 1 files in 6.90s
+2025-08-06 08:03:41,421 - financial_rag - ERROR - error:60 - Failed to process query: BaseRetriever.get_relevant_documents() takes 2 positional arguments but 3 were given
+Traceback (most recent call last):
+  File "D:\CGVENTURES\financial_rag\ui\optimized_rag_app.py", line 251, in <module>
+    docs = enhanced_retriever.get_diverse_documents(sanitized_question, k_value)
+  File "D:\CGVENTURES\financial_rag\utils\enhanced_retriever.py", line 230, in get_diverse_documents
+    documents = self.get_relevant_documents(query, k * 2)
+  File "D:\CGVENTURES\financial_rag\venv\Lib\site-packages\langchain_core\_api\deprecation.py", line 189, in warning_emitting_wrapper
+    return wrapped(*args, **kwargs)
+TypeError: BaseRetriever.get_relevant_documents() takes 2 positional arguments but 3 were given
+2025-08-06 08:03:56,507 - financial_rag - INFO - info:51 - Vector database and enhanced retriever loaded successfully
+2025-08-06 08:03:56,509 - financial_rag - INFO - info:51 - LLM clients initialized successfully
+2025-08-06 08:03:56,548 - financial_rag - INFO - info:51 - File validation passed: conference call transcript.pdf
+2025-08-06 08:03:56,556 - financial_rag - INFO - info:51 - Loaded from cache: conference call transcript.pdf
+2025-08-06 08:03:56,853 - financial_rag - INFO - info:51 - Loaded 93 documents from embedding cache
+2025-08-06 08:04:03,726 - financial_rag - INFO - info:51 - Added 93 documents to existing vector store
+2025-08-06 08:04:03,740 - financial_rag - INFO - info:51 - Successfully processed 1 files in 7.20s
+2025-08-06 08:04:03,751 - financial_rag - ERROR - error:60 - Failed to process query: BaseRetriever.get_relevant_documents() takes 2 positional arguments but 3 were given
+Traceback (most recent call last):
+  File "D:\CGVENTURES\financial_rag\ui\optimized_rag_app.py", line 251, in <module>
+    docs = enhanced_retriever.get_diverse_documents(sanitized_question, k_value)
+  File "D:\CGVENTURES\financial_rag\utils\enhanced_retriever.py", line 230, in get_diverse_documents
+    documents = self.get_relevant_documents(query, k * 2)
+  File "D:\CGVENTURES\financial_rag\venv\Lib\site-packages\langchain_core\_api\deprecation.py", line 189, in warning_emitting_wrapper
+    return wrapped(*args, **kwargs)
+TypeError: BaseRetriever.get_relevant_documents() takes 2 positional arguments but 3 were given
+2025-08-06 08:04:18,093 - financial_rag - INFO - info:51 - Vector database and enhanced retriever loaded successfully
+2025-08-06 08:04:18,095 - financial_rag - INFO - info:51 - LLM clients initialized successfully
+2025-08-06 08:04:18,129 - financial_rag - INFO - info:51 - File validation passed: conference call transcript.pdf
+2025-08-06 08:04:18,144 - financial_rag - INFO - info:51 - Loaded from cache: conference call transcript.pdf
+2025-08-06 08:04:18,388 - financial_rag - INFO - info:51 - Loaded 93 documents from embedding cache
+2025-08-06 08:04:25,175 - financial_rag - INFO - info:51 - Added 93 documents to existing vector store
+2025-08-06 08:04:25,189 - financial_rag - INFO - info:51 - Successfully processed 1 files in 7.06s
+2025-08-06 08:04:25,197 - financial_rag - ERROR - error:60 - Failed to process query: BaseRetriever.get_relevant_documents() takes 2 positional arguments but 3 were given
+Traceback (most recent call last):
+  File "D:\CGVENTURES\financial_rag\ui\optimized_rag_app.py", line 251, in <module>
+    docs = enhanced_retriever.get_diverse_documents(sanitized_question, k_value)
+  File "D:\CGVENTURES\financial_rag\utils\enhanced_retriever.py", line 230, in get_diverse_documents
+    documents = self.get_relevant_documents(query, k * 2)
+  File "D:\CGVENTURES\financial_rag\venv\Lib\site-packages\langchain_core\_api\deprecation.py", line 189, in warning_emitting_wrapper
+    return wrapped(*args, **kwargs)
+TypeError: BaseRetriever.get_relevant_documents() takes 2 positional arguments but 3 were given
+2025-08-06 08:08:55,647 - financial_rag - INFO - info:51 - Vector database and enhanced retriever loaded successfully
+2025-08-06 08:08:58,495 - financial_rag - INFO - info:51 - LLM clients initialized successfully
+2025-08-06 08:09:12,386 - financial_rag - INFO - info:51 - Vector database and enhanced retriever loaded successfully
+2025-08-06 08:09:12,388 - financial_rag - INFO - info:51 - LLM clients initialized successfully
+2025-08-06 08:09:27,474 - financial_rag - INFO - info:51 - Vector database and enhanced retriever loaded successfully
+2025-08-06 08:09:27,477 - financial_rag - INFO - info:51 - LLM clients initialized successfully
+2025-08-06 08:09:27,516 - financial_rag - INFO - info:51 - File validation passed: conference call transcript.pdf
+2025-08-06 08:09:27,527 - financial_rag - INFO - info:51 - Loaded from cache: conference call transcript.pdf
+2025-08-06 08:09:27,802 - financial_rag - INFO - info:51 - Loaded 93 documents from embedding cache
+2025-08-06 08:09:34,629 - financial_rag - INFO - info:51 - Added 93 documents to existing vector store
+2025-08-06 08:09:34,656 - financial_rag - INFO - info:51 - Successfully processed 1 files in 7.15s
+2025-08-06 08:09:47,822 - financial_rag - INFO - info:51 - Vector database and enhanced retriever loaded successfully
+2025-08-06 08:09:47,825 - financial_rag - INFO - info:51 - LLM clients initialized successfully
+2025-08-06 08:09:47,859 - financial_rag - INFO - info:51 - File validation passed: conference call transcript.pdf
+2025-08-06 08:09:47,869 - financial_rag - INFO - info:51 - Loaded from cache: conference call transcript.pdf
+2025-08-06 08:09:48,161 - financial_rag - INFO - info:51 - Loaded 93 documents from embedding cache
+2025-08-06 08:09:56,042 - financial_rag - INFO - info:51 - Added 93 documents to existing vector store
+2025-08-06 08:09:56,055 - financial_rag - INFO - info:51 - Successfully processed 1 files in 8.20s
+2025-08-06 08:13:31,321 - financial_rag - INFO - info:51 - Vector database and enhanced retriever loaded successfully
+2025-08-06 08:13:31,323 - financial_rag - INFO - info:51 - LLM clients initialized successfully
+2025-08-06 08:13:31,349 - financial_rag - INFO - info:51 - File validation passed: conference call transcript.pdf
+2025-08-06 08:13:31,375 - financial_rag - INFO - info:51 - Loaded from cache: conference call transcript.pdf
+2025-08-06 08:13:31,610 - financial_rag - INFO - info:51 - Loaded 93 documents from embedding cache
+2025-08-06 08:13:38,231 - financial_rag - INFO - info:51 - Added 93 documents to existing vector store
+2025-08-06 08:13:38,244 - financial_rag - INFO - info:51 - Successfully processed 1 files in 6.90s
+2025-08-06 08:15:33,984 - financial_rag - INFO - info:51 - Vector database and enhanced retriever loaded successfully
+2025-08-06 08:15:36,988 - financial_rag - INFO - info:51 - LLM clients initialized successfully
+2025-08-06 08:15:55,881 - financial_rag - INFO - info:51 - Vector database and enhanced retriever loaded successfully
+2025-08-06 08:15:55,884 - financial_rag - INFO - info:51 - LLM clients initialized successfully
+2025-08-06 08:15:55,924 - financial_rag - INFO - info:51 - File validation passed: conference call transcript.pdf
+2025-08-06 08:15:55,942 - financial_rag - INFO - info:51 - Loaded from cache: conference call transcript.pdf
+2025-08-06 08:15:56,246 - financial_rag - INFO - info:51 - Loaded 93 documents from embedding cache
+2025-08-06 08:16:04,068 - financial_rag - INFO - info:51 - Added 93 documents to existing vector store
+2025-08-06 08:16:04,088 - financial_rag - INFO - info:51 - Successfully processed 1 files in 8.17s
+2025-08-06 08:16:21,113 - financial_rag - INFO - info:51 - Vector database and enhanced retriever loaded successfully
+2025-08-06 08:16:21,115 - financial_rag - INFO - info:51 - LLM clients initialized successfully
+2025-08-06 08:16:21,147 - financial_rag - INFO - info:51 - File validation passed: conference call transcript.pdf
+2025-08-06 08:16:21,162 - financial_rag - INFO - info:51 - Loaded from cache: conference call transcript.pdf
+2025-08-06 08:16:21,455 - financial_rag - INFO - info:51 - Loaded 93 documents from embedding cache
+2025-08-06 08:16:29,236 - financial_rag - INFO - info:51 - Added 93 documents to existing vector store
+2025-08-06 08:16:29,255 - financial_rag - INFO - info:51 - Successfully processed 1 files in 8.11s
+2025-08-06 08:16:43,020 - financial_rag - ERROR - error:60 - Failed to process query: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+Traceback (most recent call last):
+  File "D:\CGVENTURES\financial_rag\ui\optimized_rag_app.py", line 231, in <module>
+    result = openai_llm.invoke(enhanced_prompt)
+  File "D:\CGVENTURES\financial_rag\venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 395, in invoke
+    self.generate_prompt(
+    ~~~~~~~~~~~~~~~~~~~~^
+        [self._convert_input(input)],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    ).generations[0][0],
+    ^
+  File "D:\CGVENTURES\financial_rag\venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 980, in generate_prompt
+    return self.generate(prompt_messages, stop=stop, callbacks=callbacks, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\CGVENTURES\financial_rag\venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 799, in generate
+    self._generate_with_cache(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        m,
+        ^^
+    ...<2 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "D:\CGVENTURES\financial_rag\venv\Lib\site-packages\langchain_core\language_models\chat_models.py", line 1045, in _generate_with_cache
+    result = self._generate(
+        messages, stop=stop, run_manager=run_manager, **kwargs
+    )
+  File "D:\CGVENTURES\financial_rag\venv\Lib\site-packages\langchain_openai\chat_models\base.py", line 1131, in _generate
+    response = self.client.create(**payload)
+  File "D:\CGVENTURES\financial_rag\venv\Lib\site-packages\openai\_utils\_utils.py", line 287, in wrapper
+    return func(*args, **kwargs)
+  File "D:\CGVENTURES\financial_rag\venv\Lib\site-packages\openai\resources\chat\completions\completions.py", line 1087, in create
+    return self._post(
+           ~~~~~~~~~~^
+        "/chat/completions",
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<43 lines>...
+        stream_cls=Stream[ChatCompletionChunk],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\CGVENTURES\financial_rag\venv\Lib\site-packages\openai\_base_client.py", line 1256, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\CGVENTURES\financial_rag\venv\Lib\site-packages\openai\_base_client.py", line 1044, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2025-08-06 08:17:04,361 - financial_rag - INFO - info:51 - Vector database and enhanced retriever loaded successfully
+2025-08-06 08:17:04,363 - financial_rag - INFO - info:51 - LLM clients initialized successfully
+2025-08-06 08:17:04,415 - financial_rag - INFO - info:51 - File validation passed: conference call transcript.pdf
+2025-08-06 08:17:04,427 - financial_rag - INFO - info:51 - Loaded from cache: conference call transcript.pdf
+2025-08-06 08:17:04,712 - financial_rag - INFO - info:51 - Loaded 93 documents from embedding cache
+2025-08-06 08:17:12,070 - financial_rag - INFO - info:51 - Added 93 documents to existing vector store
+2025-08-06 08:17:12,086 - financial_rag - INFO - info:51 - Successfully processed 1 files in 7.70s
+2025-08-06 08:21:34,615 - financial_rag - INFO - info:51 - Vector database and enhanced retriever loaded successfully
+2025-08-06 08:21:37,081 - financial_rag - INFO - info:51 - LLM clients initialized successfully
+2025-08-06 08:22:21,908 - financial_rag - INFO - info:51 - Vector database and enhanced retriever loaded successfully
+2025-08-06 08:22:21,910 - financial_rag - INFO - info:51 - LLM clients initialized successfully
+2025-08-06 08:22:41,590 - financial_rag - INFO - info:51 - Vector database and enhanced retriever loaded successfully
+2025-08-06 08:22:41,592 - financial_rag - INFO - info:51 - LLM clients initialized successfully
+2025-08-06 08:22:41,646 - financial_rag - INFO - info:51 - File validation passed: conference call transcript.pdf
+2025-08-06 08:22:41,659 - financial_rag - INFO - info:51 - File validation passed: conference call transcript.pdf
+2025-08-06 08:22:41,844 - financial_rag - INFO - info:51 - Successfully processed: conference call transcript.pdf (29 pages)
+2025-08-06 08:22:49,873 - financial_rag - INFO - info:51 - Added 93 documents to existing vector store
+2025-08-06 08:22:49,891 - financial_rag - INFO - info:51 - Successfully processed 1 files in 8.25s
+2025-08-06 08:23:07,678 - financial_rag - INFO - info:51 - Vector database and enhanced retriever loaded successfully
+2025-08-06 08:23:07,681 - financial_rag - INFO - info:51 - LLM clients initialized successfully
+2025-08-06 08:23:07,712 - financial_rag - INFO - info:51 - File validation passed: conference call transcript.pdf
+2025-08-06 08:23:07,768 - financial_rag - INFO - info:51 - Loaded from cache: conference call transcript.pdf
+2025-08-06 08:23:08,045 - financial_rag - INFO - info:51 - Loaded 93 documents from embedding cache
+2025-08-06 08:23:15,555 - financial_rag - INFO - info:51 - Added 93 documents to existing vector store
+2025-08-06 08:23:15,575 - financial_rag - INFO - info:51 - Successfully processed 1 files in 7.87s
+2025-08-06 08:24:06,998 - financial_rag - INFO - info:51 - Vector database and enhanced retriever loaded successfully
+2025-08-06 08:24:07,000 - financial_rag - INFO - info:51 - LLM clients initialized successfully
+2025-08-06 08:24:07,046 - financial_rag - INFO - info:51 - File validation passed: conference call transcript.pdf
+2025-08-06 08:24:07,053 - financial_rag - INFO - info:51 - Loaded from cache: conference call transcript.pdf
+2025-08-06 08:24:07,319 - financial_rag - INFO - info:51 - Loaded 93 documents from embedding cache
+2025-08-06 08:24:14,471 - financial_rag - INFO - info:51 - Added 93 documents to existing vector store
+2025-08-06 08:24:14,487 - financial_rag - INFO - info:51 - Successfully processed 1 files in 7.44s
+2025-08-06 08:32:56,201 - financial_rag - INFO - info:51 - File validation passed: conference call transcript.pdf
+2025-08-06 08:32:56,364 - financial_rag - INFO - info:51 - Successfully processed: conference call transcript.pdf (29 pages)
+2025-08-06 08:33:04,637 - financial_rag - INFO - info:51 - Added 93 documents to existing vector store
+2025-08-06 08:38:13,727 - financial_rag - INFO - info:51 - Loaded from cache: conference call transcript.pdf
+2025-08-06 08:38:14,012 - financial_rag - INFO - info:51 - Loaded 93 documents from embedding cache
+2025-08-06 08:38:22,301 - financial_rag - INFO - info:51 - Added 93 documents to existing vector store
+2025-08-06 08:38:22,311 - financial_rag - INFO - info:51 - File Processing - embeddings (embed_and_store): SUCCESS
+2025-08-06 08:38:39,259 - financial_rag - INFO - info:51 - Vector database and enhanced retriever loaded successfully
+2025-08-06 08:38:42,442 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (3.05s)
+2025-08-06 08:38:42,459 - financial_rag - INFO - info:51 - Query - Model: Google Gemini 2.0, Status: SUCCESS, Query: What caused the jump in employee costs over the last few quarters?
+2025-08-06 08:46:27,301 - financial_rag - INFO - info:51 - Vector database and enhanced retriever loaded successfully
+2025-08-06 08:46:29,789 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (2.38s)
+2025-08-06 08:46:29,792 - financial_rag - INFO - info:51 - Query - Model: Google Gemini 2.0, Status: SUCCESS, Query: What was the revenue growth in Q1FY26 in USD terms?
+2025-08-06 08:46:59,848 - financial_rag - INFO - info:51 - Vector database and enhanced retriever loaded successfully
+2025-08-06 08:47:00,615 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (0.69s)
+2025-08-06 08:47:00,617 - financial_rag - INFO - info:51 - Query - Model: Google Gemini 2.0, Status: SUCCESS, Query: What was the revenue growth in Q1FY26 in USD terms?
+2025-08-06 08:47:16,627 - financial_rag - INFO - info:51 - Vector database and enhanced retriever loaded successfully
+2025-08-06 08:47:17,362 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (0.65s)
+2025-08-06 08:47:17,366 - financial_rag - INFO - info:51 - Query - Model: Google Gemini 2.0, Status: SUCCESS, Query: What was the revenue growth in Q1FY26 in USD terms?
+2025-08-06 08:47:34,232 - financial_rag - INFO - info:51 - Vector database and enhanced retriever loaded successfully
+2025-08-06 08:47:35,331 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (1.02s)
+2025-08-06 08:47:35,336 - financial_rag - INFO - info:51 - Query - Model: Google Gemini 2.0, Status: SUCCESS, Query: What caused the jump in employee costs over the last few quarters?
+2025-08-06 08:48:00,857 - financial_rag - INFO - info:51 - Vector database and enhanced retriever loaded successfully
+2025-08-06 08:48:01,750 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (0.82s)
+2025-08-06 08:48:01,754 - financial_rag - INFO - info:51 - Query - Model: Google Gemini 2.0, Status: SUCCESS, Query: What caused the jump in employee costs over the last few quarters?
+2025-08-06 08:48:15,983 - financial_rag - INFO - info:51 - Vector database and enhanced retriever loaded successfully
+2025-08-06 08:48:17,009 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (0.96s)
+2025-08-06 08:48:17,013 - financial_rag - INFO - info:51 - Query - Model: Google Gemini 2.0, Status: SUCCESS, Query: What caused the jump in employee costs over the last few quarters?
+2025-08-06 08:48:27,630 - financial_rag - INFO - info:51 - Loaded from cache: conference call transcript.pdf
+2025-08-06 08:48:27,884 - financial_rag - INFO - info:51 - Loaded 93 documents from embedding cache
+2025-08-06 08:48:34,898 - financial_rag - INFO - info:51 - Added 93 documents to existing vector store
+2025-08-06 08:48:34,907 - financial_rag - INFO - info:51 - File Processing - embeddings (embed_and_store): SUCCESS
+2025-08-06 08:48:35,272 - financial_rag - INFO - info:51 - Loaded from cache: conference call transcript.pdf
+2025-08-06 08:48:35,563 - financial_rag - INFO - info:51 - Loaded 93 documents from embedding cache
+2025-08-06 08:48:42,282 - financial_rag - INFO - info:51 - Added 93 documents to existing vector store
+2025-08-06 08:48:42,289 - financial_rag - INFO - info:51 - File Processing - embeddings (embed_and_store): SUCCESS
+2025-08-06 08:48:42,644 - financial_rag - INFO - info:51 - Loaded from cache: conference call transcript.pdf
+2025-08-06 08:48:42,952 - financial_rag - INFO - info:51 - Loaded 93 documents from embedding cache
+2025-08-06 08:48:49,825 - financial_rag - INFO - info:51 - Added 93 documents to existing vector store
+2025-08-06 08:48:49,834 - financial_rag - INFO - info:51 - File Processing - embeddings (embed_and_store): SUCCESS
+2025-08-06 08:48:50,178 - financial_rag - INFO - info:51 - Loaded from cache: conference call transcript.pdf
+2025-08-06 08:48:50,456 - financial_rag - INFO - info:51 - Loaded 93 documents from embedding cache
+2025-08-06 08:48:57,791 - financial_rag - INFO - info:51 - Added 93 documents to existing vector store
+2025-08-06 08:48:57,800 - financial_rag - INFO - info:51 - File Processing - embeddings (embed_and_store): SUCCESS
+2025-08-06 08:48:58,327 - financial_rag - INFO - info:51 - Loaded from cache: conference call transcript.pdf
+2025-08-06 08:48:58,708 - financial_rag - INFO - info:51 - Loaded 93 documents from embedding cache
+2025-08-06 08:49:06,258 - financial_rag - INFO - info:51 - Added 93 documents to existing vector store
+2025-08-06 08:49:06,268 - financial_rag - INFO - info:51 - File Processing - embeddings (embed_and_store): SUCCESS
+2025-08-06 08:49:06,627 - financial_rag - INFO - info:51 - Loaded from cache: conference call transcript.pdf
+2025-08-06 08:49:06,880 - financial_rag - INFO - info:51 - Loaded 93 documents from embedding cache
+2025-08-06 08:49:14,345 - financial_rag - INFO - info:51 - Added 93 documents to existing vector store
+2025-08-06 08:49:14,357 - financial_rag - INFO - info:51 - File Processing - embeddings (embed_and_store): SUCCESS
+2025-08-06 08:49:14,721 - financial_rag - INFO - info:51 - Loaded from cache: conference call transcript.pdf
+2025-08-06 08:49:14,975 - financial_rag - INFO - info:51 - Loaded 93 documents from embedding cache
+2025-08-06 08:49:20,050 - financial_rag - INFO - info:51 - Loaded from cache: conference call transcript.pdf
+2025-08-06 08:49:20,439 - financial_rag - INFO - info:51 - Loaded 93 documents from embedding cache
+2025-08-06 08:49:23,672 - financial_rag - INFO - info:51 - Added 93 documents to existing vector store
+2025-08-06 08:49:23,683 - financial_rag - INFO - info:51 - File Processing - embeddings (embed_and_store): SUCCESS
+2025-08-06 08:49:29,306 - financial_rag - INFO - info:51 - Added 93 documents to existing vector store
+2025-08-06 08:49:29,314 - financial_rag - INFO - info:51 - File Processing - embeddings (embed_and_store): SUCCESS
+2025-08-06 08:50:29,403 - financial_rag - INFO - info:51 - File validation passed: Investor ppt.pdf
+2025-08-06 08:50:29,647 - financial_rag - INFO - info:51 - Successfully processed: Investor ppt.pdf (31 pages)
+2025-08-06 08:50:33,031 - financial_rag - INFO - info:51 - Added 31 documents to existing vector store
+2025-08-06 08:50:33,035 - financial_rag - INFO - info:51 - File Processing - embeddings (embed_and_store): SUCCESS
+2025-08-06 08:50:33,431 - financial_rag - INFO - info:51 - Loaded from cache: Investor ppt.pdf
+2025-08-06 08:50:33,512 - financial_rag - INFO - info:51 - Loaded 31 documents from embedding cache
+2025-08-06 08:50:36,731 - financial_rag - INFO - info:51 - Added 31 documents to existing vector store
+2025-08-06 08:50:36,734 - financial_rag - INFO - info:51 - File Processing - embeddings (embed_and_store): SUCCESS
+2025-08-06 08:50:37,088 - financial_rag - INFO - info:51 - Loaded from cache: Investor ppt.pdf
+2025-08-06 08:50:37,148 - financial_rag - INFO - info:51 - Loaded 31 documents from embedding cache
+2025-08-06 08:50:39,981 - financial_rag - INFO - info:51 - Added 31 documents to existing vector store
+2025-08-06 08:50:39,984 - financial_rag - INFO - info:51 - File Processing - embeddings (embed_and_store): SUCCESS
+2025-08-06 08:50:40,327 - financial_rag - INFO - info:51 - Loaded from cache: Investor ppt.pdf
+2025-08-06 08:50:40,381 - financial_rag - INFO - info:51 - Loaded 31 documents from embedding cache
+2025-08-06 08:50:43,227 - financial_rag - INFO - info:51 - Added 31 documents to existing vector store
+2025-08-06 08:50:43,230 - financial_rag - INFO - info:51 - File Processing - embeddings (embed_and_store): SUCCESS
+2025-08-06 08:50:43,786 - financial_rag - INFO - info:51 - Loaded from cache: Investor ppt.pdf
+2025-08-06 08:50:43,862 - financial_rag - INFO - info:51 - Loaded 31 documents from embedding cache
+2025-08-06 08:50:47,255 - financial_rag - INFO - info:51 - Added 31 documents to existing vector store
+2025-08-06 08:50:47,259 - financial_rag - INFO - info:51 - File Processing - embeddings (embed_and_store): SUCCESS
+2025-08-06 08:52:18,202 - financial_rag - INFO - info:51 - Vector database and enhanced retriever loaded successfully
+2025-08-06 08:52:20,777 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (2.53s)
+2025-08-06 08:52:20,781 - financial_rag - INFO - info:51 - Query - Model: Google Gemini 2.0, Status: SUCCESS, Query: What was the sales volume in Q1FY25?
+2025-08-06 08:52:51,066 - financial_rag - INFO - info:51 - Vector database and enhanced retriever loaded successfully
+2025-08-06 08:52:52,185 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (1.01s)
+2025-08-06 08:52:52,188 - financial_rag - INFO - info:51 - Query - Model: Google Gemini 2.0, Status: SUCCESS, Query: What was the revenue growth in Q1FY26 in USD terms?
+2025-08-06 08:55:09,195 - financial_rag - INFO - info:51 - Created new vector store with 124 documents
+2025-08-06 08:55:09,208 - financial_rag - INFO - info:51 - File Processing - embeddings (embed_and_store): SUCCESS
+2025-08-06 21:29:00,708 - financial_rag - INFO - info:51 - Vector database and enhanced retriever loaded successfully
+2025-08-06 21:29:03,794 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (2.79s)
+2025-08-06 21:29:03,797 - financial_rag - INFO - info:51 - Query - Model: Google Gemini 2.0, Status: SUCCESS, Query: What was the revenue growth in Q1FY26 in USD terms?
+2025-08-06 21:29:31,017 - financial_rag - INFO - info:51 - Vector database and enhanced retriever loaded successfully
+2025-08-06 21:29:32,089 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (1.03s)
+2025-08-06 21:29:32,092 - financial_rag - INFO - info:51 - Query - Model: Google Gemini 2.0, Status: SUCCESS, Query: What was the revenue growth in Q1FY26 in USD terms?
+2025-08-06 21:31:29,147 - financial_rag - INFO - info:51 - Vector database and enhanced retriever loaded successfully
+2025-08-06 21:31:31,630 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (2.44s)
+2025-08-06 21:31:31,633 - financial_rag - INFO - info:51 - Query - Model: Google Gemini 2.0, Status: SUCCESS, Query: What was the sales volume in Q1FY25?
+2025-08-06 21:32:11,818 - financial_rag - INFO - info:51 - Vector database and enhanced retriever loaded successfully
+2025-08-06 21:32:12,676 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (0.82s)
+2025-08-06 21:32:12,678 - financial_rag - INFO - info:51 - Query - Model: Google Gemini 2.0, Status: SUCCESS, Query: What was the sales volume in Q1FY25?
+2025-08-06 21:32:23,248 - financial_rag - INFO - info:51 - Loaded from cache: conference call transcript.pdf
+2025-08-06 21:32:23,252 - financial_rag - INFO - info:51 - Loaded from cache: Investor ppt.pdf
+2025-08-06 21:32:23,558 - financial_rag - INFO - info:51 - Loaded 124 documents from embedding cache
+2025-08-06 21:32:34,603 - financial_rag - INFO - info:51 - Added 124 documents to existing vector store
+2025-08-06 21:32:34,616 - financial_rag - INFO - info:51 - File Processing - embeddings (embed_and_store): SUCCESS
+2025-08-06 21:32:52,870 - financial_rag - INFO - info:51 - Vector database and enhanced retriever loaded successfully
+2025-08-06 21:32:53,937 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (1.02s)
+2025-08-06 21:32:53,944 - financial_rag - INFO - info:51 - Query - Model: Google Gemini 2.0, Status: SUCCESS, Query: What was the sales volume in Q1FY25?
+2025-08-06 21:33:32,372 - financial_rag - INFO - info:51 - Vector database and enhanced retriever loaded successfully
+2025-08-06 21:33:34,740 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (2.33s)
+2025-08-06 21:33:34,747 - financial_rag - INFO - info:51 - Query - Model: Google Gemini 2.0, Status: SUCCESS, Query: What caused the jump in employee costs over the last few quarters?
+2025-08-06 21:34:37,725 - financial_rag - INFO - info:51 - Vector database and enhanced retriever loaded successfully
+2025-08-06 21:34:39,221 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (1.46s)
+2025-08-06 21:34:39,234 - financial_rag - INFO - info:51 - Query - Model: Google Gemini 2.0, Status: SUCCESS, Query: What is the current capacity?
+2025-08-06 22:53:59,330 - financial_rag - INFO - info:51 - File validation passed: Concall 4QF25.pdf
+2025-08-06 22:54:00,226 - financial_rag - INFO - info:51 - Successfully processed: Concall 4QF25.pdf (19 pages)
+2025-08-06 22:54:15,695 - financial_rag - INFO - info:51 - Added 90 documents to existing vector store
+2025-08-06 22:54:15,709 - financial_rag - INFO - info:51 - File Processing - embeddings (embed_and_store): SUCCESS
+2025-08-06 22:55:08,948 - financial_rag - INFO - info:51 - Vector database and enhanced retriever loaded successfully
+2025-08-06 22:55:12,113 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (2.92s)
+2025-08-06 22:55:12,130 - financial_rag - INFO - info:51 - Query - Model: Google Gemini 2.0, Status: SUCCESS, Query: Revenue guidance for the next few years

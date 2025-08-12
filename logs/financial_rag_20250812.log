@@ -1,0 +1,4 @@
+2025-08-12 09:06:29,368 - financial_rag - INFO - info:51 - File validation passed: Concall 4QF25.pdf
+2025-08-12 09:06:29,646 - financial_rag - INFO - info:51 - Successfully processed: Concall 4QF25.pdf (19 pages)
+2025-08-12 09:06:40,818 - financial_rag - INFO - info:51 - Added 90 documents to existing vector store
+2025-08-12 09:06:40,830 - financial_rag - INFO - info:51 - File Processing - embeddings (embed_and_store): SUCCESS

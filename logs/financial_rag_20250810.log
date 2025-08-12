@@ -1,0 +1,4 @@
+2025-08-10 13:42:21,740 - financial_rag - INFO - info:51 - Vector database loaded successfully with 304 documents
+2025-08-10 13:42:21,741 - financial_rag - INFO - info:51 - Enhanced retriever initialized successfully
+2025-08-10 13:42:26,661 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (4.50s)
+2025-08-10 13:42:26,695 - financial_rag - INFO - info:51 - Query - Model: Google Gemini 2.0, Status: SUCCESS, Query: what will be the estimated growth this year

@@ -1,0 +1,31 @@
+2025-08-05 21:45:20,989 - financial_rag - INFO - info:51 - Test info message
+2025-08-05 21:45:20,990 - financial_rag - WARNING - warning:55 - Test warning message
+2025-08-05 21:45:20,991 - financial_rag - ERROR - error:62 - Test error message
+2025-08-05 21:45:21,505 - financial_rag - INFO - info:51 - File validation passed: test.pdf
+2025-08-05 22:20:06,486 - financial_rag - INFO - info:51 - Vector database and enhanced retriever loaded successfully
+2025-08-05 22:20:09,184 - financial_rag - ERROR - error:60 - Failed to initialize LLM clients: 1 validation error for RetrievalQA
+retriever
+  Input should be a valid dictionary or instance of BaseRetriever [type=model_type, input_value=<utils.enhanced_retriever...t at 0x000001AE15C4F230>, input_type=EnhancedRetriever]
+    For further information visit https://errors.pydantic.dev/2.11/v/model_type
+Traceback (most recent call last):
+  File "D:\CGVENTURES\financial_rag\ui\optimized_rag_app.py", line 79, in <module>
+    qa_chain = RetrievalQA.from_chain_type(
+        llm=openai_llm,
+        retriever=enhanced_retriever,
+        return_source_documents=True
+    )
+  File "D:\CGVENTURES\financial_rag\venv\Lib\site-packages\langchain\chains\retrieval_qa\base.py", line 123, in from_chain_type
+    return cls(combine_documents_chain=combine_documents_chain, **kwargs)
+  File "D:\CGVENTURES\financial_rag\venv\Lib\site-packages\langchain_core\_api\deprecation.py", line 222, in warn_if_direct_instance
+    return wrapped(self, *args, **kwargs)
+  File "D:\CGVENTURES\financial_rag\venv\Lib\site-packages\langchain_core\_api\deprecation.py", line 222, in warn_if_direct_instance
+    return wrapped(self, *args, **kwargs)
+  File "D:\CGVENTURES\financial_rag\venv\Lib\site-packages\langchain_core\load\serializable.py", line 130, in __init__
+    super().__init__(*args, **kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "D:\CGVENTURES\financial_rag\venv\Lib\site-packages\pydantic\main.py", line 253, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+pydantic_core._pydantic_core.ValidationError: 1 validation error for RetrievalQA
+retriever
+  Input should be a valid dictionary or instance of BaseRetriever [type=model_type, input_value=<utils.enhanced_retriever...t at 0x000001AE15C4F230>, input_type=EnhancedRetriever]
+    For further information visit https://errors.pydantic.dev/2.11/v/model_type

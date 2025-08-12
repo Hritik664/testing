@@ -1,0 +1,39 @@
+# Core
+streamlit
+python-dotenv
+requests
+tqdm
+
+# LangChain packages (modular)
+langchain
+langchain-community
+langchain-openai
+langchain-chroma
+langchain-huggingface
+
+# Embeddings & NLP
+sentence-transformers
+
+# PDF & File Handling
+PyPDF2
+pymupdf
+
+# ChromaDB & FAISS (vector store backends)
+chromadb
+faiss-cpu
+
+# Optional (for future support with unstructured data)
+unstructured
+
+# Performance & ML
+scikit-learn
+numpy
+pandas
+openpyxl
+
+# API & Web
+fastapi
+uvicorn
+requests
+
+

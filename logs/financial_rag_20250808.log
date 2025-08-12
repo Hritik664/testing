@@ -1,0 +1,34 @@
+2025-08-08 23:26:56,600 - financial_rag - INFO - info:51 - Vector database and enhanced retriever loaded successfully
+2025-08-08 23:26:59,624 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (2.50s)
+2025-08-08 23:26:59,641 - financial_rag - INFO - info:51 - Query - Model: Google Gemini 2.0, Status: SUCCESS, Query: What was the sales volume in Q1FY25?
+2025-08-08 23:27:33,005 - financial_rag - INFO - info:51 - Vector database and enhanced retriever loaded successfully
+2025-08-08 23:27:33,940 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (0.85s)
+2025-08-08 23:27:33,946 - financial_rag - INFO - info:51 - Query - Model: Google Gemini 2.0, Status: SUCCESS, Query: What was the sales volume in Q1FY25?
+2025-08-08 23:32:08,745 - financial_rag - INFO - info:51 - Created new vector store with 214 documents
+2025-08-08 23:32:08,793 - financial_rag - INFO - info:51 - File Processing - embeddings (embed_and_store): SUCCESS
+2025-08-08 23:34:51,501 - financial_rag - INFO - info:51 - Vector database and enhanced retriever loaded successfully
+2025-08-08 23:34:54,237 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (2.48s)
+2025-08-08 23:34:54,246 - financial_rag - INFO - info:51 - Query - Model: Google Gemini 2.0, Status: SUCCESS, Query: What was the sales volume in Q1FY25?
+2025-08-08 23:35:30,074 - financial_rag - INFO - info:51 - Vector database and enhanced retriever loaded successfully
+2025-08-08 23:35:31,187 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (1.03s)
+2025-08-08 23:35:31,194 - financial_rag - INFO - info:51 - Query - Model: Google Gemini 2.0, Status: SUCCESS, Query: What was the sales volume in Q1FY25?
+2025-08-08 23:35:44,419 - financial_rag - INFO - info:51 - Loaded from cache: Concall 4QF25.pdf
+2025-08-08 23:35:44,424 - financial_rag - INFO - info:51 - Loaded from cache: conference call transcript.pdf
+2025-08-08 23:35:44,435 - financial_rag - INFO - info:51 - Loaded from cache: Investor ppt.pdf
+2025-08-08 23:35:45,550 - financial_rag - INFO - info:51 - Loaded 214 documents from embedding cache
+2025-08-08 23:36:12,502 - financial_rag - INFO - info:51 - Added 214 documents to existing vector store
+2025-08-08 23:36:12,522 - financial_rag - INFO - info:51 - File Processing - embeddings (embed_and_store): SUCCESS
+2025-08-08 23:36:24,570 - financial_rag - INFO - info:51 - Vector database and enhanced retriever loaded successfully
+2025-08-08 23:36:25,747 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (1.08s)
+2025-08-08 23:36:25,762 - financial_rag - INFO - info:51 - Query - Model: Google Gemini 2.0, Status: SUCCESS, Query: What was the sales volume in Q1FY25?
+2025-08-08 23:37:16,010 - financial_rag - INFO - info:51 - Vector database and enhanced retriever loaded successfully
+2025-08-08 23:37:17,229 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (1.07s)
+2025-08-08 23:37:17,265 - financial_rag - INFO - info:51 - Query - Model: Google Gemini 2.0, Status: SUCCESS, Query: What was the sales volume in Q1FY25?
+2025-08-08 23:45:48,918 - financial_rag - INFO - info:51 - Vector database and enhanced retriever loaded successfully
+2025-08-08 23:45:51,545 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (2.45s)
+2025-08-08 23:45:51,588 - financial_rag - INFO - info:51 - Query - Model: Google Gemini 2.0, Status: SUCCESS, Query: What was the sales volume in Q1FY25?
+2025-08-08 23:58:36,708 - financial_rag - INFO - info:51 - Loaded from cache: conference call transcript.pdf
+2025-08-08 23:58:36,712 - financial_rag - INFO - info:51 - Loaded from cache: Investor ppt.pdf
+2025-08-08 23:58:37,267 - financial_rag - INFO - info:51 - Loaded 124 documents from embedding cache
+2025-08-08 23:58:53,247 - financial_rag - INFO - info:51 - Added 124 documents to existing vector store
+2025-08-08 23:58:53,266 - financial_rag - INFO - info:51 - File Processing - embeddings (embed_and_store): SUCCESS
