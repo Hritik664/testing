@@ -1,0 +1,1244 @@
+2025-08-23 00:41:34,032 - financial_rag - INFO - info:51 - Vector database loaded successfully with 245 documents
+2025-08-23 00:41:34,042 - financial_rag - INFO - info:51 - Enhanced retriever initialized successfully
+2025-08-23 00:41:36,941 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (2.43s)
+2025-08-23 00:41:36,973 - financial_rag - INFO - info:51 - Query - Model: Google Gemini 2.0, Status: SUCCESS, Query: What was the revenue growth in Q1FY26 in USD terms?
+2025-08-23 00:58:09,455 - financial_rag - WARNING - warning:55 - Missing optional columns: Type, Figure in cr, Period, Figure
+2025-08-23 00:58:09,471 - financial_rag - INFO - info:51 - Parsed 8 questions from Excel file
+2025-08-23 00:58:22,232 - financial_rag - WARNING - warning:55 - Missing optional columns: Type, Figure in cr, Period, Figure
+2025-08-23 00:58:22,253 - financial_rag - INFO - info:51 - Parsed 8 questions from Excel file
+2025-08-23 00:58:26,977 - financial_rag - INFO - info:51 - Starting bulk processing of 8 questions
+2025-08-23 00:58:26,977 - financial_rag - INFO - info:51 - Processing question 1/8: What was the revenue growth in Q1FY26 in USD terms...
+2025-08-23 00:58:29,863 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (2.56s)
+2025-08-23 00:58:29,865 - financial_rag - WARNING - warning:55 - Failed to parse response for question 1: ResponseParser.parse_response() missing 2 required positional arguments: 'sources' and 'processing_time'
+2025-08-23 00:58:29,866 - financial_rag - INFO - info:51 - Processing question 2/8: What is the company's guidance on capex for the ye...
+2025-08-23 00:58:31,028 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (1.12s)
+2025-08-23 00:58:31,029 - financial_rag - WARNING - warning:55 - Failed to parse response for question 2: ResponseParser.parse_response() missing 2 required positional arguments: 'sources' and 'processing_time'
+2025-08-23 00:58:31,029 - financial_rag - INFO - info:51 - Processing question 3/8: What caused the jump in employee costs over the la...
+2025-08-23 00:58:32,620 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (1.54s)
+2025-08-23 00:58:32,621 - financial_rag - WARNING - warning:55 - Failed to parse response for question 3: ResponseParser.parse_response() missing 2 required positional arguments: 'sources' and 'processing_time'
+2025-08-23 00:58:32,621 - financial_rag - INFO - info:51 - Processing question 4/8: What was the sales volume in Q1FY25?...
+2025-08-23 00:58:33,529 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (0.83s)
+2025-08-23 00:58:33,530 - financial_rag - WARNING - warning:55 - Failed to parse response for question 4: ResponseParser.parse_response() missing 2 required positional arguments: 'sources' and 'processing_time'
+2025-08-23 00:58:33,530 - financial_rag - INFO - info:51 - Processing question 5/8: What was the cost on a per ton basis in Q1FY26?...
+2025-08-23 00:58:34,835 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (1.26s)
+2025-08-23 00:58:34,836 - financial_rag - WARNING - warning:55 - Failed to parse response for question 5: ResponseParser.parse_response() missing 2 required positional arguments: 'sources' and 'processing_time'
+2025-08-23 00:58:34,836 - financial_rag - INFO - info:51 - Processing question 6/8: What was the total cost in Rs Cr in Q1FY26?...
+2025-08-23 00:58:35,627 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (0.76s)
+2025-08-23 00:58:35,629 - financial_rag - WARNING - warning:55 - Failed to parse response for question 6: ResponseParser.parse_response() missing 2 required positional arguments: 'sources' and 'processing_time'
+2025-08-23 00:58:35,629 - financial_rag - INFO - info:51 - Processing question 7/8: What is the current capacity?...
+2025-08-23 00:58:37,178 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (1.51s)
+2025-08-23 00:58:37,179 - financial_rag - WARNING - warning:55 - Failed to parse response for question 7: ResponseParser.parse_response() missing 2 required positional arguments: 'sources' and 'processing_time'
+2025-08-23 00:58:37,180 - financial_rag - INFO - info:51 - Processing question 8/8: What is capex for new expansion?...
+2025-08-23 00:58:38,621 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (1.41s)
+2025-08-23 00:58:38,622 - financial_rag - WARNING - warning:55 - Failed to parse response for question 8: ResponseParser.parse_response() missing 2 required positional arguments: 'sources' and 'processing_time'
+2025-08-23 00:58:38,622 - financial_rag - INFO - info:51 - Bulk processing completed: 8 successful, 0 failed in 11.65s
+2025-08-23 00:58:38,750 - financial_rag - INFO - info:51 - Bulk processing completed: 8/8 successful
+2025-08-23 00:58:50,766 - financial_rag - WARNING - warning:55 - Missing optional columns: Type, Figure in cr, Period, Figure
+2025-08-23 00:58:50,787 - financial_rag - INFO - info:51 - Parsed 8 questions from Excel file
+2025-08-23 01:11:25,477 - financial_rag - WARNING - warning:55 - Missing optional columns: Type, Figure in cr, Period, Figure
+2025-08-23 01:11:25,490 - financial_rag - INFO - info:51 - Parsed 8 questions from Excel file
+2025-08-23 01:11:36,591 - financial_rag - WARNING - warning:55 - Missing optional columns: Type, Figure in cr, Period, Figure
+2025-08-23 01:11:36,612 - financial_rag - INFO - info:51 - Parsed 8 questions from Excel file
+2025-08-23 01:11:41,783 - financial_rag - INFO - info:51 - Starting bulk processing of 8 questions
+2025-08-23 01:11:41,783 - financial_rag - INFO - info:51 - Processing question 1/8: What was the revenue growth in Q1FY26 in USD terms...
+2025-08-23 01:11:44,690 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (2.61s)
+2025-08-23 01:11:44,692 - financial_rag - WARNING - warning:55 - Failed to parse response for question 'What was the revenue growth in Q1FY26 in USD terms...': ResponseParser.parse_response() missing 2 required positional arguments: 'sources' and 'processing_time'
+2025-08-23 01:11:44,692 - financial_rag - WARNING - warning:55 - Failed to parse response for question 1: ResponseParser.parse_response() missing 2 required positional arguments: 'sources' and 'processing_time'
+2025-08-23 01:11:44,693 - financial_rag - INFO - info:51 - Processing question 2/8: What is the company's guidance on capex for the ye...
+2025-08-23 01:11:46,153 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (1.42s)
+2025-08-23 01:11:46,154 - financial_rag - WARNING - warning:55 - Failed to parse response for question 'What is the company's guidance on capex for the ye...': ResponseParser.parse_response() missing 2 required positional arguments: 'sources' and 'processing_time'
+2025-08-23 01:11:46,155 - financial_rag - WARNING - warning:55 - Failed to parse response for question 2: ResponseParser.parse_response() missing 2 required positional arguments: 'sources' and 'processing_time'
+2025-08-23 01:11:46,155 - financial_rag - INFO - info:51 - Processing question 3/8: What caused the jump in employee costs over the la...
+2025-08-23 01:11:48,238 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (2.04s)
+2025-08-23 01:11:48,239 - financial_rag - WARNING - warning:55 - Failed to parse response for question 'What caused the jump in employee costs over the la...': ResponseParser.parse_response() missing 2 required positional arguments: 'sources' and 'processing_time'
+2025-08-23 01:11:48,240 - financial_rag - WARNING - warning:55 - Failed to parse response for question 3: ResponseParser.parse_response() missing 2 required positional arguments: 'sources' and 'processing_time'
+2025-08-23 01:11:48,240 - financial_rag - INFO - info:51 - Processing question 4/8: What was the sales volume in Q1FY25?...
+2025-08-23 01:11:49,211 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (0.93s)
+2025-08-23 01:11:49,211 - financial_rag - WARNING - warning:55 - Failed to parse response for question 'What was the sales volume in Q1FY25?...': ResponseParser.parse_response() missing 2 required positional arguments: 'sources' and 'processing_time'
+2025-08-23 01:11:49,212 - financial_rag - WARNING - warning:55 - Failed to parse response for question 4: ResponseParser.parse_response() missing 2 required positional arguments: 'sources' and 'processing_time'
+2025-08-23 01:11:49,212 - financial_rag - INFO - info:51 - Processing question 5/8: What was the cost on a per ton basis in Q1FY26?...
+2025-08-23 01:11:50,625 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (1.36s)
+2025-08-23 01:11:50,627 - financial_rag - WARNING - warning:55 - Failed to parse response for question 'What was the cost on a per ton basis in Q1FY26?...': ResponseParser.parse_response() missing 2 required positional arguments: 'sources' and 'processing_time'
+2025-08-23 01:11:50,627 - financial_rag - WARNING - warning:55 - Failed to parse response for question 5: ResponseParser.parse_response() missing 2 required positional arguments: 'sources' and 'processing_time'
+2025-08-23 01:11:50,628 - financial_rag - INFO - info:51 - Processing question 6/8: What was the total cost in Rs Cr in Q1FY26?...
+2025-08-23 01:11:51,557 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (0.89s)
+2025-08-23 01:11:51,558 - financial_rag - WARNING - warning:55 - Failed to parse response for question 'What was the total cost in Rs Cr in Q1FY26?...': ResponseParser.parse_response() missing 2 required positional arguments: 'sources' and 'processing_time'
+2025-08-23 01:11:51,559 - financial_rag - WARNING - warning:55 - Failed to parse response for question 6: ResponseParser.parse_response() missing 2 required positional arguments: 'sources' and 'processing_time'
+2025-08-23 01:11:51,560 - financial_rag - INFO - info:51 - Processing question 7/8: What is the current capacity?...
+2025-08-23 01:11:52,964 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (1.28s)
+2025-08-23 01:11:52,965 - financial_rag - WARNING - warning:55 - Failed to parse response for question 'What is the current capacity?...': ResponseParser.parse_response() missing 2 required positional arguments: 'sources' and 'processing_time'
+2025-08-23 01:11:52,966 - financial_rag - WARNING - warning:55 - Failed to parse response for question 7: ResponseParser.parse_response() missing 2 required positional arguments: 'sources' and 'processing_time'
+2025-08-23 01:11:52,966 - financial_rag - INFO - info:51 - Processing question 8/8: What is capex for new expansion?...
+2025-08-23 01:11:54,356 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (1.35s)
+2025-08-23 01:11:54,357 - financial_rag - WARNING - warning:55 - Failed to parse response for question 'What is capex for new expansion?...': ResponseParser.parse_response() missing 2 required positional arguments: 'sources' and 'processing_time'
+2025-08-23 01:11:54,357 - financial_rag - WARNING - warning:55 - Failed to parse response for question 8: ResponseParser.parse_response() missing 2 required positional arguments: 'sources' and 'processing_time'
+2025-08-23 01:11:54,357 - financial_rag - INFO - info:51 - Bulk processing completed: 8 successful, 0 failed in 12.57s
+2025-08-23 01:11:54,476 - financial_rag - INFO - info:51 - Bulk processing completed: 8/8 successful
+2025-08-23 01:22:20,322 - financial_rag - WARNING - warning:55 - Missing optional columns: Type, Figure in cr, Period, Figure
+2025-08-23 01:22:20,343 - financial_rag - INFO - info:51 - Parsed 8 questions from Excel file
+2025-08-23 01:31:15,198 - financial_rag - WARNING - warning:55 - Missing optional columns: Type, Figure in cr, Period, Figure
+2025-08-23 01:31:15,210 - financial_rag - INFO - info:51 - Parsed 8 questions from Excel file
+2025-08-23 01:31:29,952 - financial_rag - WARNING - warning:55 - Missing optional columns: Type, Figure in cr, Period, Figure
+2025-08-23 01:31:29,985 - financial_rag - INFO - info:51 - Parsed 8 questions from Excel file
+2025-08-23 01:31:35,339 - financial_rag - INFO - info:51 - Starting bulk processing of 8 questions
+2025-08-23 01:31:35,339 - financial_rag - INFO - info:51 - Processing question 1/8: What was the revenue growth in Q1FY26 in USD terms...
+2025-08-23 01:31:38,199 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (2.44s)
+2025-08-23 01:31:38,203 - financial_rag - WARNING - warning:55 - Failed to parse response for question 'What was the revenue growth in Q1FY26 in USD terms...': name 'question_processing_time' is not defined
+2025-08-23 01:31:38,203 - financial_rag - ERROR - error:60 - Parse error details: name 'question_processing_time' is not defined
+Traceback (most recent call last):
+  File "D:\CGVENTURES\financial_rag\ui\structured_rag_app.py", line 930, in query_function
+    structured_response = response_parser.parse_response(sanitized_question, enhanced_answer, sources, question_processing_time)
+                                                                                                       ^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'question_processing_time' is not defined
+2025-08-23 01:31:38,214 - financial_rag - WARNING - warning:55 - Failed to parse response for question 1: ResponseParser.parse_response() missing 2 required positional arguments: 'sources' and 'processing_time'
+2025-08-23 01:31:38,214 - financial_rag - INFO - info:51 - Processing question 2/8: What is the company's guidance on capex for the ye...
+2025-08-23 01:31:39,416 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (1.15s)
+2025-08-23 01:31:39,417 - financial_rag - WARNING - warning:55 - Failed to parse response for question 'What is the company's guidance on capex for the ye...': name 'question_processing_time' is not defined
+2025-08-23 01:31:39,418 - financial_rag - ERROR - error:60 - Parse error details: name 'question_processing_time' is not defined
+Traceback (most recent call last):
+  File "D:\CGVENTURES\financial_rag\ui\structured_rag_app.py", line 930, in query_function
+    structured_response = response_parser.parse_response(sanitized_question, enhanced_answer, sources, question_processing_time)
+                                                                                                       ^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'question_processing_time' is not defined
+2025-08-23 01:31:39,426 - financial_rag - WARNING - warning:55 - Failed to parse response for question 2: ResponseParser.parse_response() missing 2 required positional arguments: 'sources' and 'processing_time'
+2025-08-23 01:31:39,426 - financial_rag - INFO - info:51 - Processing question 3/8: What caused the jump in employee costs over the la...
+2025-08-23 01:31:41,589 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (2.12s)
+2025-08-23 01:31:41,590 - financial_rag - WARNING - warning:55 - Failed to parse response for question 'What caused the jump in employee costs over the la...': name 'question_processing_time' is not defined
+2025-08-23 01:31:41,590 - financial_rag - ERROR - error:60 - Parse error details: name 'question_processing_time' is not defined
+Traceback (most recent call last):
+  File "D:\CGVENTURES\financial_rag\ui\structured_rag_app.py", line 930, in query_function
+    structured_response = response_parser.parse_response(sanitized_question, enhanced_answer, sources, question_processing_time)
+                                                                                                       ^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'question_processing_time' is not defined
+2025-08-23 01:31:41,597 - financial_rag - WARNING - warning:55 - Failed to parse response for question 3: ResponseParser.parse_response() missing 2 required positional arguments: 'sources' and 'processing_time'
+2025-08-23 01:31:41,597 - financial_rag - INFO - info:51 - Processing question 4/8: What was the sales volume in Q1FY25?...
+2025-08-23 01:31:42,713 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (1.08s)
+2025-08-23 01:31:42,714 - financial_rag - WARNING - warning:55 - Failed to parse response for question 'What was the sales volume in Q1FY25?...': name 'question_processing_time' is not defined
+2025-08-23 01:31:42,714 - financial_rag - ERROR - error:60 - Parse error details: name 'question_processing_time' is not defined
+Traceback (most recent call last):
+  File "D:\CGVENTURES\financial_rag\ui\structured_rag_app.py", line 930, in query_function
+    structured_response = response_parser.parse_response(sanitized_question, enhanced_answer, sources, question_processing_time)
+                                                                                                       ^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'question_processing_time' is not defined
+2025-08-23 01:31:42,721 - financial_rag - WARNING - warning:55 - Failed to parse response for question 4: ResponseParser.parse_response() missing 2 required positional arguments: 'sources' and 'processing_time'
+2025-08-23 01:31:42,721 - financial_rag - INFO - info:51 - Processing question 5/8: What was the cost on a per ton basis in Q1FY26?...
+2025-08-23 01:31:44,300 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (1.53s)
+2025-08-23 01:31:44,301 - financial_rag - WARNING - warning:55 - Failed to parse response for question 'What was the cost on a per ton basis in Q1FY26?...': name 'question_processing_time' is not defined
+2025-08-23 01:31:44,301 - financial_rag - ERROR - error:60 - Parse error details: name 'question_processing_time' is not defined
+Traceback (most recent call last):
+  File "D:\CGVENTURES\financial_rag\ui\structured_rag_app.py", line 930, in query_function
+    structured_response = response_parser.parse_response(sanitized_question, enhanced_answer, sources, question_processing_time)
+                                                                                                       ^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'question_processing_time' is not defined
+2025-08-23 01:31:44,307 - financial_rag - WARNING - warning:55 - Failed to parse response for question 5: ResponseParser.parse_response() missing 2 required positional arguments: 'sources' and 'processing_time'
+2025-08-23 01:31:44,308 - financial_rag - INFO - info:51 - Processing question 6/8: What was the total cost in Rs Cr in Q1FY26?...
+2025-08-23 01:31:45,533 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (1.18s)
+2025-08-23 01:31:45,534 - financial_rag - WARNING - warning:55 - Failed to parse response for question 'What was the total cost in Rs Cr in Q1FY26?...': name 'question_processing_time' is not defined
+2025-08-23 01:31:45,534 - financial_rag - ERROR - error:60 - Parse error details: name 'question_processing_time' is not defined
+Traceback (most recent call last):
+  File "D:\CGVENTURES\financial_rag\ui\structured_rag_app.py", line 930, in query_function
+    structured_response = response_parser.parse_response(sanitized_question, enhanced_answer, sources, question_processing_time)
+                                                                                                       ^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'question_processing_time' is not defined
+2025-08-23 01:31:45,541 - financial_rag - WARNING - warning:55 - Failed to parse response for question 6: ResponseParser.parse_response() missing 2 required positional arguments: 'sources' and 'processing_time'
+2025-08-23 01:31:45,541 - financial_rag - INFO - info:51 - Processing question 7/8: What is the current capacity?...
+2025-08-23 01:31:46,658 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (1.06s)
+2025-08-23 01:31:46,665 - financial_rag - WARNING - warning:55 - Failed to parse response for question 'What is the current capacity?...': name 'question_processing_time' is not defined
+2025-08-23 01:31:46,666 - financial_rag - ERROR - error:60 - Parse error details: name 'question_processing_time' is not defined
+Traceback (most recent call last):
+  File "D:\CGVENTURES\financial_rag\ui\structured_rag_app.py", line 930, in query_function
+    structured_response = response_parser.parse_response(sanitized_question, enhanced_answer, sources, question_processing_time)
+                                                                                                       ^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'question_processing_time' is not defined
+2025-08-23 01:31:46,676 - financial_rag - WARNING - warning:55 - Failed to parse response for question 7: ResponseParser.parse_response() missing 2 required positional arguments: 'sources' and 'processing_time'
+2025-08-23 01:31:46,677 - financial_rag - INFO - info:51 - Processing question 8/8: What is capex for new expansion?...
+2025-08-23 01:31:48,299 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (1.48s)
+2025-08-23 01:31:48,301 - financial_rag - WARNING - warning:55 - Failed to parse response for question 'What is capex for new expansion?...': name 'question_processing_time' is not defined
+2025-08-23 01:31:48,301 - financial_rag - ERROR - error:60 - Parse error details: name 'question_processing_time' is not defined
+Traceback (most recent call last):
+  File "D:\CGVENTURES\financial_rag\ui\structured_rag_app.py", line 930, in query_function
+    structured_response = response_parser.parse_response(sanitized_question, enhanced_answer, sources, question_processing_time)
+                                                                                                       ^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'question_processing_time' is not defined
+2025-08-23 01:31:48,308 - financial_rag - WARNING - warning:55 - Failed to parse response for question 8: ResponseParser.parse_response() missing 2 required positional arguments: 'sources' and 'processing_time'
+2025-08-23 01:31:48,309 - financial_rag - INFO - info:51 - Bulk processing completed: 8 successful, 0 failed in 12.97s
+2025-08-23 01:31:48,492 - financial_rag - INFO - info:51 - Bulk processing completed: 8/8 successful
+2025-08-23 01:41:27,830 - financial_rag - WARNING - warning:55 - Missing optional columns: Type, Figure in cr, Period, Figure
+2025-08-23 01:41:27,847 - financial_rag - INFO - info:51 - Parsed 8 questions from Excel file
+2025-08-23 01:41:39,129 - financial_rag - WARNING - warning:55 - Missing optional columns: Type, Figure in cr, Period, Figure
+2025-08-23 01:41:39,143 - financial_rag - INFO - info:51 - Parsed 8 questions from Excel file
+2025-08-23 01:41:45,138 - financial_rag - INFO - info:51 - Starting bulk processing of 8 questions
+2025-08-23 01:41:45,144 - financial_rag - INFO - info:51 - Processing question 1/8: What was the revenue growth in Q1FY26 in USD terms...
+2025-08-23 01:41:48,575 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (2.98s)
+2025-08-23 01:41:48,578 - financial_rag - WARNING - warning:55 - Failed to parse response for question 'What was the revenue growth in Q1FY26 in USD terms...': name 'question_start_time' is not defined
+2025-08-23 01:41:48,579 - financial_rag - ERROR - error:60 - Parse error details: name 'question_start_time' is not defined
+Traceback (most recent call last):
+  File "D:\CGVENTURES\financial_rag\ui\structured_rag_app.py", line 929, in query_function
+    question_processing_time = time.time() - question_start_time
+                                             ^^^^^^^^^^^^^^^^^^^
+NameError: name 'question_start_time' is not defined
+2025-08-23 01:41:48,589 - financial_rag - WARNING - warning:55 - Failed to parse response for question 1: ResponseParser.parse_response() missing 2 required positional arguments: 'sources' and 'processing_time'
+2025-08-23 01:41:48,590 - financial_rag - INFO - info:51 - Processing question 2/8: What is the company's guidance on capex for the ye...
+2025-08-23 01:41:49,761 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (1.05s)
+2025-08-23 01:41:49,763 - financial_rag - WARNING - warning:55 - Failed to parse response for question 'What is the company's guidance on capex for the ye...': name 'question_start_time' is not defined
+2025-08-23 01:41:49,763 - financial_rag - ERROR - error:60 - Parse error details: name 'question_start_time' is not defined
+Traceback (most recent call last):
+  File "D:\CGVENTURES\financial_rag\ui\structured_rag_app.py", line 929, in query_function
+    question_processing_time = time.time() - question_start_time
+                                             ^^^^^^^^^^^^^^^^^^^
+NameError: name 'question_start_time' is not defined
+2025-08-23 01:41:49,773 - financial_rag - WARNING - warning:55 - Failed to parse response for question 2: ResponseParser.parse_response() missing 2 required positional arguments: 'sources' and 'processing_time'
+2025-08-23 01:41:49,773 - financial_rag - INFO - info:51 - Processing question 3/8: What caused the jump in employee costs over the la...
+2025-08-23 01:41:51,577 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (1.75s)
+2025-08-23 01:41:51,578 - financial_rag - WARNING - warning:55 - Failed to parse response for question 'What caused the jump in employee costs over the la...': name 'question_start_time' is not defined
+2025-08-23 01:41:51,578 - financial_rag - ERROR - error:60 - Parse error details: name 'question_start_time' is not defined
+Traceback (most recent call last):
+  File "D:\CGVENTURES\financial_rag\ui\structured_rag_app.py", line 929, in query_function
+    question_processing_time = time.time() - question_start_time
+                                             ^^^^^^^^^^^^^^^^^^^
+NameError: name 'question_start_time' is not defined
+2025-08-23 01:41:51,595 - financial_rag - WARNING - warning:55 - Failed to parse response for question 3: ResponseParser.parse_response() missing 2 required positional arguments: 'sources' and 'processing_time'
+2025-08-23 01:41:51,597 - financial_rag - INFO - info:51 - Processing question 4/8: What was the sales volume in Q1FY25?...
+2025-08-23 01:41:52,896 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (1.06s)
+2025-08-23 01:41:52,897 - financial_rag - WARNING - warning:55 - Failed to parse response for question 'What was the sales volume in Q1FY25?...': name 'question_start_time' is not defined
+2025-08-23 01:41:52,897 - financial_rag - ERROR - error:60 - Parse error details: name 'question_start_time' is not defined
+Traceback (most recent call last):
+  File "D:\CGVENTURES\financial_rag\ui\structured_rag_app.py", line 929, in query_function
+    question_processing_time = time.time() - question_start_time
+                                             ^^^^^^^^^^^^^^^^^^^
+NameError: name 'question_start_time' is not defined
+2025-08-23 01:41:52,908 - financial_rag - WARNING - warning:55 - Failed to parse response for question 4: ResponseParser.parse_response() missing 2 required positional arguments: 'sources' and 'processing_time'
+2025-08-23 01:41:52,908 - financial_rag - INFO - info:51 - Processing question 5/8: What was the cost on a per ton basis in Q1FY26?...
+2025-08-23 01:41:54,303 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (1.32s)
+2025-08-23 01:41:54,304 - financial_rag - WARNING - warning:55 - Failed to parse response for question 'What was the cost on a per ton basis in Q1FY26?...': name 'question_start_time' is not defined
+2025-08-23 01:41:54,305 - financial_rag - ERROR - error:60 - Parse error details: name 'question_start_time' is not defined
+Traceback (most recent call last):
+  File "D:\CGVENTURES\financial_rag\ui\structured_rag_app.py", line 929, in query_function
+    question_processing_time = time.time() - question_start_time
+                                             ^^^^^^^^^^^^^^^^^^^
+NameError: name 'question_start_time' is not defined
+2025-08-23 01:41:54,313 - financial_rag - WARNING - warning:55 - Failed to parse response for question 5: ResponseParser.parse_response() missing 2 required positional arguments: 'sources' and 'processing_time'
+2025-08-23 01:41:54,313 - financial_rag - INFO - info:51 - Processing question 6/8: What was the total cost in Rs Cr in Q1FY26?...
+2025-08-23 01:41:55,205 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (0.84s)
+2025-08-23 01:41:55,206 - financial_rag - WARNING - warning:55 - Failed to parse response for question 'What was the total cost in Rs Cr in Q1FY26?...': name 'question_start_time' is not defined
+2025-08-23 01:41:55,207 - financial_rag - ERROR - error:60 - Parse error details: name 'question_start_time' is not defined
+Traceback (most recent call last):
+  File "D:\CGVENTURES\financial_rag\ui\structured_rag_app.py", line 929, in query_function
+    question_processing_time = time.time() - question_start_time
+                                             ^^^^^^^^^^^^^^^^^^^
+NameError: name 'question_start_time' is not defined
+2025-08-23 01:41:55,216 - financial_rag - WARNING - warning:55 - Failed to parse response for question 6: ResponseParser.parse_response() missing 2 required positional arguments: 'sources' and 'processing_time'
+2025-08-23 01:41:55,217 - financial_rag - INFO - info:51 - Processing question 7/8: What is the current capacity?...
+2025-08-23 01:41:56,732 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (1.47s)
+2025-08-23 01:41:56,733 - financial_rag - WARNING - warning:55 - Failed to parse response for question 'What is the current capacity?...': name 'question_start_time' is not defined
+2025-08-23 01:41:56,733 - financial_rag - ERROR - error:60 - Parse error details: name 'question_start_time' is not defined
+Traceback (most recent call last):
+  File "D:\CGVENTURES\financial_rag\ui\structured_rag_app.py", line 929, in query_function
+    question_processing_time = time.time() - question_start_time
+                                             ^^^^^^^^^^^^^^^^^^^
+NameError: name 'question_start_time' is not defined
+2025-08-23 01:41:56,742 - financial_rag - WARNING - warning:55 - Failed to parse response for question 7: ResponseParser.parse_response() missing 2 required positional arguments: 'sources' and 'processing_time'
+2025-08-23 01:41:56,743 - financial_rag - INFO - info:51 - Processing question 8/8: What is capex for new expansion?...
+2025-08-23 01:41:58,417 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (1.63s)
+2025-08-23 01:41:58,418 - financial_rag - WARNING - warning:55 - Failed to parse response for question 'What is capex for new expansion?...': name 'question_start_time' is not defined
+2025-08-23 01:41:58,419 - financial_rag - ERROR - error:60 - Parse error details: name 'question_start_time' is not defined
+Traceback (most recent call last):
+  File "D:\CGVENTURES\financial_rag\ui\structured_rag_app.py", line 929, in query_function
+    question_processing_time = time.time() - question_start_time
+                                             ^^^^^^^^^^^^^^^^^^^
+NameError: name 'question_start_time' is not defined
+2025-08-23 01:41:58,428 - financial_rag - WARNING - warning:55 - Failed to parse response for question 8: ResponseParser.parse_response() missing 2 required positional arguments: 'sources' and 'processing_time'
+2025-08-23 01:41:58,429 - financial_rag - INFO - info:51 - Bulk processing completed: 8 successful, 0 failed in 13.29s
+2025-08-23 01:41:58,629 - financial_rag - INFO - info:51 - Bulk processing completed: 8/8 successful
+2025-08-23 01:45:40,567 - financial_rag - WARNING - warning:55 - Missing optional columns: Type, Figure in cr, Period, Figure
+2025-08-23 01:45:40,588 - financial_rag - INFO - info:51 - Parsed 8 questions from Excel file
+2025-08-23 01:56:52,096 - financial_rag - WARNING - warning:55 - Missing optional columns: Type, Figure in cr, Period, Figure
+2025-08-23 01:56:52,107 - financial_rag - INFO - info:51 - Parsed 8 questions from Excel file
+2025-08-23 01:57:01,654 - financial_rag - WARNING - warning:55 - Missing optional columns: Type, Figure in cr, Period, Figure
+2025-08-23 01:57:01,668 - financial_rag - INFO - info:51 - Parsed 8 questions from Excel file
+2025-08-23 01:57:06,746 - financial_rag - INFO - info:51 - Starting bulk processing of 8 questions
+2025-08-23 01:57:06,747 - financial_rag - INFO - info:51 - Processing question 1/8: What was the revenue growth in Q1FY26 in USD terms...
+2025-08-23 01:57:09,607 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (2.48s)
+2025-08-23 01:57:09,611 - financial_rag - INFO - info:51 - Successfully parsed structured response for question: What was the revenue growth in Q1FY26 in USD terms...
+2025-08-23 01:57:09,612 - financial_rag - INFO - info:51 - Found 2 metrics in response
+2025-08-23 01:57:09,612 - financial_rag - INFO - info:51 -   Metric 1: percentage = 1.1 % (None)
+2025-08-23 01:57:09,612 - financial_rag - INFO - info:51 -   Metric 2: currency = 7421 million (None)
+2025-08-23 01:57:09,734 - financial_rag - INFO - info:51 -    Metrics count: 2
+2025-08-23 01:57:09,748 - financial_rag - INFO - info:51 -    Metrics count: 2
+2025-08-23 01:57:09,748 - financial_rag - INFO - info:51 -      Metric 1: percentage = 1.1 % (None)
+2025-08-23 01:57:09,749 - financial_rag - INFO - info:51 -      Metric 2: currency = 7421 million (None)
+2025-08-23 01:57:09,749 - financial_rag - INFO - info:51 - Processing question 2/8: What is the company's guidance on capex for the ye...
+2025-08-23 01:57:11,293 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (1.46s)
+2025-08-23 01:57:11,295 - financial_rag - INFO - info:51 - Successfully parsed structured response for question: What is the company's guidance on capex for the ye...
+2025-08-23 01:57:11,295 - financial_rag - INFO - info:51 - Found 8 metrics in response
+2025-08-23 01:57:11,295 - financial_rag - INFO - info:51 -   Metric 1: capacity = , None (None)
+2025-08-23 01:57:11,296 - financial_rag - INFO - info:51 -   Metric 2: currency = 80 million (None)
+2025-08-23 01:57:11,296 - financial_rag - INFO - info:51 -   Metric 3: currency = 10 million (None)
+2025-08-23 01:57:11,296 - financial_rag - INFO - info:51 -   Metric 4: currency = 173 cr (None)
+2025-08-23 01:57:11,297 - financial_rag - INFO - info:51 -   Metric 5: currency = 700 cr (None)
+2025-08-23 01:57:11,297 - financial_rag - INFO - info:51 -   Metric 6: currency = 5 billion (None)
+2025-08-23 01:57:11,297 - financial_rag - INFO - info:51 -   Metric 7: currency = 8 billion (None)
+2025-08-23 01:57:11,297 - financial_rag - INFO - info:51 -   Metric 8: currency = 8 million (None)
+2025-08-23 01:57:11,302 - financial_rag - INFO - info:51 -    Metrics count: 8
+2025-08-23 01:57:11,307 - financial_rag - INFO - info:51 -    Metrics count: 8
+2025-08-23 01:57:11,308 - financial_rag - INFO - info:51 -      Metric 1: capacity = , None (None)
+2025-08-23 01:57:11,308 - financial_rag - INFO - info:51 -      Metric 2: currency = 80 million (None)
+2025-08-23 01:57:11,308 - financial_rag - INFO - info:51 -      Metric 3: currency = 10 million (None)
+2025-08-23 01:57:11,309 - financial_rag - INFO - info:51 -      Metric 4: currency = 173 cr (None)
+2025-08-23 01:57:11,309 - financial_rag - INFO - info:51 -      Metric 5: currency = 700 cr (None)
+2025-08-23 01:57:11,309 - financial_rag - INFO - info:51 -      Metric 6: currency = 5 billion (None)
+2025-08-23 01:57:11,309 - financial_rag - INFO - info:51 -      Metric 7: currency = 8 billion (None)
+2025-08-23 01:57:11,310 - financial_rag - INFO - info:51 -      Metric 8: currency = 8 million (None)
+2025-08-23 01:57:11,310 - financial_rag - INFO - info:51 - Processing question 3/8: What caused the jump in employee costs over the la...
+2025-08-23 01:57:13,017 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (1.65s)
+2025-08-23 01:57:13,019 - financial_rag - INFO - info:51 - Successfully parsed structured response for question: What caused the jump in employee costs over the la...
+2025-08-23 01:57:13,019 - financial_rag - INFO - info:51 - Found 1 metrics in response
+2025-08-23 01:57:13,019 - financial_rag - INFO - info:51 -   Metric 1: percentage = 60 % (None)
+2025-08-23 01:57:13,023 - financial_rag - INFO - info:51 -    Metrics count: 1
+2025-08-23 01:57:13,027 - financial_rag - INFO - info:51 -    Metrics count: 1
+2025-08-23 01:57:13,028 - financial_rag - INFO - info:51 -      Metric 1: percentage = 60 % (None)
+2025-08-23 01:57:13,028 - financial_rag - INFO - info:51 - Processing question 4/8: What was the sales volume in Q1FY25?...
+2025-08-23 01:57:14,021 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (0.95s)
+2025-08-23 01:57:14,022 - financial_rag - INFO - info:51 - Successfully parsed structured response for question: What was the sales volume in Q1FY25?...
+2025-08-23 01:57:14,022 - financial_rag - INFO - info:51 - Found 1 metrics in response
+2025-08-23 01:57:14,022 - financial_rag - INFO - info:51 -   Metric 1: currency = 4 billion (None)
+2025-08-23 01:57:14,026 - financial_rag - INFO - info:51 -    Metrics count: 1
+2025-08-23 01:57:14,030 - financial_rag - INFO - info:51 -    Metrics count: 1
+2025-08-23 01:57:14,030 - financial_rag - INFO - info:51 -      Metric 1: currency = 4 billion (None)
+2025-08-23 01:57:14,031 - financial_rag - INFO - info:51 - Processing question 5/8: What was the cost on a per ton basis in Q1FY26?...
+2025-08-23 01:57:15,432 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (1.36s)
+2025-08-23 01:57:15,434 - financial_rag - INFO - info:51 - Successfully parsed structured response for question: What was the cost on a per ton basis in Q1FY26?...
+2025-08-23 01:57:15,434 - financial_rag - WARNING - warning:55 - No metrics found in structured response for question: What was the cost on a per ton basis in Q1FY26?...
+2025-08-23 01:57:15,438 - financial_rag - INFO - info:51 -    Metrics count: 0
+2025-08-23 01:57:15,442 - financial_rag - INFO - info:51 -    Metrics count: 0
+2025-08-23 01:57:15,442 - financial_rag - INFO - info:51 - Processing question 6/8: What was the total cost in Rs Cr in Q1FY26?...
+2025-08-23 01:57:16,285 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (0.80s)
+2025-08-23 01:57:16,286 - financial_rag - INFO - info:51 - Successfully parsed structured response for question: What was the total cost in Rs Cr in Q1FY26?...
+2025-08-23 01:57:16,286 - financial_rag - INFO - info:51 - Found 1 metrics in response
+2025-08-23 01:57:16,287 - financial_rag - INFO - info:51 -   Metric 1: currency = 3932 cr (2025)
+2025-08-23 01:57:16,291 - financial_rag - INFO - info:51 -    Metrics count: 1
+2025-08-23 01:57:16,295 - financial_rag - INFO - info:51 -    Metrics count: 1
+2025-08-23 01:57:16,295 - financial_rag - INFO - info:51 -      Metric 1: currency = 3932 cr (2025)
+2025-08-23 01:57:16,296 - financial_rag - INFO - info:51 - Processing question 7/8: What is the current capacity?...
+2025-08-23 01:57:17,766 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (1.44s)
+2025-08-23 01:57:17,768 - financial_rag - INFO - info:51 - Successfully parsed structured response for question: What is the current capacity?...
+2025-08-23 01:57:17,768 - financial_rag - INFO - info:51 - Found 1 metrics in response
+2025-08-23 01:57:17,768 - financial_rag - INFO - info:51 -   Metric 1: currency = 8 billion (None)
+2025-08-23 01:57:17,773 - financial_rag - INFO - info:51 -    Metrics count: 1
+2025-08-23 01:57:17,777 - financial_rag - INFO - info:51 -    Metrics count: 1
+2025-08-23 01:57:17,778 - financial_rag - INFO - info:51 -      Metric 1: currency = 8 billion (None)
+2025-08-23 01:57:17,778 - financial_rag - INFO - info:51 - Processing question 8/8: What is capex for new expansion?...
+2025-08-23 01:57:19,068 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (1.26s)
+2025-08-23 01:57:19,069 - financial_rag - INFO - info:51 - Successfully parsed structured response for question: What is capex for new expansion?...
+2025-08-23 01:57:19,070 - financial_rag - INFO - info:51 - Found 3 metrics in response
+2025-08-23 01:57:19,070 - financial_rag - INFO - info:51 -   Metric 1: currency = 3287 cr (None)
+2025-08-23 01:57:19,071 - financial_rag - INFO - info:51 -   Metric 2: currency = 5 billion (None)
+2025-08-23 01:57:19,071 - financial_rag - INFO - info:51 -   Metric 3: currency = 8 billion (None)
+2025-08-23 01:57:19,077 - financial_rag - INFO - info:51 -    Metrics count: 3
+2025-08-23 01:57:19,082 - financial_rag - INFO - info:51 -    Metrics count: 3
+2025-08-23 01:57:19,083 - financial_rag - INFO - info:51 -      Metric 1: currency = 3287 cr (None)
+2025-08-23 01:57:19,083 - financial_rag - INFO - info:51 -      Metric 2: currency = 5 billion (None)
+2025-08-23 01:57:19,083 - financial_rag - INFO - info:51 -      Metric 3: currency = 8 billion (None)
+2025-08-23 01:57:19,084 - financial_rag - INFO - info:51 - Bulk processing completed: 8 successful, 0 failed in 12.34s
+2025-08-23 01:57:19,303 - financial_rag - INFO - info:51 - Bulk processing completed: 8/8 successful
+2025-08-23 02:00:21,951 - financial_rag - WARNING - warning:55 - Missing optional columns: Type, Figure in cr, Period, Figure
+2025-08-23 02:00:21,971 - financial_rag - INFO - info:51 - Parsed 8 questions from Excel file
+2025-08-23 09:18:12,649 - financial_rag - INFO - info:51 - Vector database loaded successfully with 245 documents
+2025-08-23 09:18:12,657 - financial_rag - INFO - info:51 - Enhanced retriever initialized successfully
+2025-08-23 09:18:12,657 - financial_rag - INFO - info:51 - Filtering documents to use only selected: [{'filename': 'Investor ppt.pdf', 'source': 'Investor Presentation', 'total_pages': 31, 'total_words': 1744, 'processed_at': '2025-08-17T12:12:55.162189', 'file_path': 'data\\processed\\Investor ppt.pdf.json'}]
+2025-08-23 09:18:12,658 - financial_rag - ERROR - error:60 - Failed to load vector database: name 'Chroma' is not defined
+Traceback (most recent call last):
+  File "D:\CGVENTURES\financial_rag\ui\structured_rag_app.py", line 548, in process_structured_query
+    filtered_base_retriever, filtered_docs = filter_documents_by_selection(vectordb, selected_docs, k_value)
+                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\CGVENTURES\financial_rag\ui\structured_rag_app.py", line 425, in filter_documents_by_selection
+    filtered_vectordb = Chroma(
+                        ^^^^^^
+NameError: name 'Chroma' is not defined
+2025-08-23 09:18:33,531 - financial_rag - ERROR - error:62 - Error checking vector database status: Cannot copy out of meta tensor; no data! Please use torch.nn.Module.to_empty() instead of torch.nn.Module.to() when moving module from meta to a different device.
+2025-08-23 09:18:37,902 - financial_rag - INFO - info:51 - Vector database loaded successfully with 245 documents
+2025-08-23 09:18:37,902 - financial_rag - INFO - info:51 - Enhanced retriever initialized successfully
+2025-08-23 09:18:37,903 - financial_rag - INFO - info:51 - Filtering documents to use only selected: [{'filename': 'Investor ppt.pdf', 'source': 'Investor Presentation', 'total_pages': 31, 'total_words': 1744, 'processed_at': '2025-08-17T12:12:55.162189', 'file_path': 'data\\processed\\Investor ppt.pdf.json'}]
+2025-08-23 09:18:37,918 - financial_rag - ERROR - error:60 - Failed to load vector database: name 'Chroma' is not defined
+Traceback (most recent call last):
+  File "D:\CGVENTURES\financial_rag\ui\structured_rag_app.py", line 548, in process_structured_query
+    filtered_base_retriever, filtered_docs = filter_documents_by_selection(vectordb, selected_docs, k_value)
+                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\CGVENTURES\financial_rag\ui\structured_rag_app.py", line 425, in filter_documents_by_selection
+    filtered_vectordb = Chroma(
+                        ^^^^^^
+NameError: name 'Chroma' is not defined
+2025-08-23 09:19:02,684 - financial_rag - INFO - info:51 - Vector database loaded successfully with 245 documents
+2025-08-23 09:19:02,684 - financial_rag - INFO - info:51 - Enhanced retriever initialized successfully
+2025-08-23 09:19:02,685 - financial_rag - INFO - info:51 - Filtering documents to use only selected: [{'filename': 'conference call transcript.pdf', 'source': 'Conference Call Transcript', 'total_pages': 29, 'total_words': 8601, 'processed_at': '2025-08-17T12:14:34.432926', 'file_path': 'data\\processed\\conference call transcript.pdf.json'}, {'filename': 'Investor ppt.pdf', 'source': 'Investor Presentation', 'total_pages': 31, 'total_words': 1744, 'processed_at': '2025-08-17T12:12:55.162189', 'file_path': 'data\\processed\\Investor ppt.pdf.json'}]
+2025-08-23 09:19:02,686 - financial_rag - ERROR - error:60 - Failed to load vector database: name 'Chroma' is not defined
+Traceback (most recent call last):
+  File "D:\CGVENTURES\financial_rag\ui\structured_rag_app.py", line 548, in process_structured_query
+    filtered_base_retriever, filtered_docs = filter_documents_by_selection(vectordb, selected_docs, k_value)
+                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\CGVENTURES\financial_rag\ui\structured_rag_app.py", line 425, in filter_documents_by_selection
+    filtered_vectordb = Chroma(
+                        ^^^^^^
+NameError: name 'Chroma' is not defined
+2025-08-23 09:22:03,571 - financial_rag - INFO - info:51 - File validation passed: Concall 4QF25.pdf
+2025-08-23 09:22:03,576 - financial_rag - INFO - info:51 - File validation passed: conference call transcript.pdf
+2025-08-23 09:22:03,659 - financial_rag - INFO - info:51 - File validation passed: Investor ppt.pdf
+2025-08-23 09:22:04,202 - financial_rag - INFO - info:51 - Successfully processed: Concall 4QF25.pdf (19 pages)
+2025-08-23 09:22:04,213 - financial_rag - INFO - info:51 - Successfully processed: Investor ppt.pdf (31 pages)
+2025-08-23 09:22:04,215 - financial_rag - INFO - info:51 - Successfully processed: conference call transcript.pdf (29 pages)
+2025-08-23 09:22:25,445 - financial_rag - INFO - info:51 - Added 214 documents to existing vector store
+2025-08-23 09:22:25,463 - financial_rag - INFO - info:51 - File Processing - embeddings (embed_and_store): SUCCESS
+2025-08-23 09:23:08,247 - financial_rag - INFO - info:51 - Vector database loaded successfully with 214 documents
+2025-08-23 09:23:08,249 - financial_rag - INFO - info:51 - Enhanced retriever initialized successfully
+2025-08-23 09:23:08,250 - financial_rag - INFO - info:51 - Filtering documents to use only selected: [{'filename': 'Investor ppt.pdf', 'source': 'Investor Presentation', 'total_pages': 31, 'total_words': 1744, 'processed_at': '2025-08-23T09:22:04.209056', 'file_path': 'data\\processed\\Investor ppt.pdf.json'}]
+2025-08-23 09:23:08,251 - financial_rag - ERROR - error:60 - Failed to load vector database: name 'Chroma' is not defined
+Traceback (most recent call last):
+  File "D:\CGVENTURES\financial_rag\ui\structured_rag_app.py", line 548, in process_structured_query
+    filtered_base_retriever, filtered_docs = filter_documents_by_selection(vectordb, selected_docs, k_value)
+                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\CGVENTURES\financial_rag\ui\structured_rag_app.py", line 425, in filter_documents_by_selection
+    filtered_vectordb = Chroma(
+                        ^^^^^^
+NameError: name 'Chroma' is not defined
+2025-08-23 09:32:05,911 - financial_rag - INFO - info:51 - File validation passed: Concall 4QF25.pdf
+2025-08-23 09:32:05,913 - financial_rag - INFO - info:51 - File validation passed: conference call transcript.pdf
+2025-08-23 09:32:05,913 - financial_rag - INFO - info:51 - File validation passed: Investor ppt.pdf
+2025-08-23 09:32:06,530 - financial_rag - INFO - info:51 - Successfully processed: Concall 4QF25.pdf (19 pages)
+2025-08-23 09:32:06,546 - financial_rag - INFO - info:51 - Successfully processed: Investor ppt.pdf (31 pages)
+2025-08-23 09:32:06,547 - financial_rag - INFO - info:51 - Successfully processed: conference call transcript.pdf (29 pages)
+2025-08-23 09:32:26,805 - financial_rag - INFO - info:51 - Added 214 documents to existing vector store
+2025-08-23 09:32:26,829 - financial_rag - INFO - info:51 - File Processing - embeddings (embed_and_store): SUCCESS
+2025-08-23 09:33:18,583 - financial_rag - INFO - info:51 - Vector database loaded successfully with 214 documents
+2025-08-23 09:33:18,586 - financial_rag - INFO - info:51 - Enhanced retriever initialized successfully
+2025-08-23 09:33:18,587 - financial_rag - INFO - info:51 - Filtering documents to use only selected: ['Investor ppt.pdf']
+2025-08-23 09:33:18,587 - financial_rag - INFO - info:51 - Filtering documents by filenames: ['Investor ppt.pdf']
+2025-08-23 09:33:18,589 - financial_rag - INFO - info:51 - Using filtered retriever with selected documents: ['Investor ppt.pdf']
+2025-08-23 09:33:21,153 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (2.39s)
+2025-08-23 09:33:21,163 - financial_rag - INFO - info:51 - Successfully parsed structured response for question:  What was the revenue growth in Q1FY26 in USD term...
+2025-08-23 09:33:21,226 - financial_rag - INFO - info:51 - Query - Model: Google Gemini 2.0, Status: SUCCESS, Query: What was the revenue growth in Q1FY26 in USD terms?
+2025-08-23 09:33:49,595 - financial_rag - INFO - info:51 - Vector database loaded successfully with 214 documents
+2025-08-23 09:33:49,596 - financial_rag - INFO - info:51 - Enhanced retriever initialized successfully
+2025-08-23 09:33:49,596 - financial_rag - INFO - info:51 - Filtering documents to use only selected: ['conference call transcript.pdf', 'Investor ppt.pdf']
+2025-08-23 09:33:49,597 - financial_rag - INFO - info:51 - Filtering documents by filenames: ['conference call transcript.pdf', 'Investor ppt.pdf']
+2025-08-23 09:33:49,597 - financial_rag - INFO - info:51 - Using filtered retriever with selected documents: ['conference call transcript.pdf', 'Investor ppt.pdf']
+2025-08-23 09:33:50,508 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (0.82s)
+2025-08-23 09:33:50,510 - financial_rag - INFO - info:51 - Successfully parsed structured response for question:  What was the revenue growth in Q1FY26 in USD term...
+2025-08-23 09:33:50,541 - financial_rag - INFO - info:51 - Query - Model: Google Gemini 2.0, Status: SUCCESS, Query: What was the revenue growth in Q1FY26 in USD terms?
+2025-08-23 09:35:17,800 - financial_rag - INFO - info:51 - Vector database loaded successfully with 214 documents
+2025-08-23 09:35:17,801 - financial_rag - INFO - info:51 - Enhanced retriever initialized successfully
+2025-08-23 09:35:17,802 - financial_rag - INFO - info:51 - Filtering documents to use only selected: ['conference call transcript.pdf']
+2025-08-23 09:35:17,802 - financial_rag - INFO - info:51 - Filtering documents by filenames: ['conference call transcript.pdf']
+2025-08-23 09:35:17,803 - financial_rag - INFO - info:51 - Using filtered retriever with selected documents: ['conference call transcript.pdf']
+2025-08-23 09:35:18,664 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (0.79s)
+2025-08-23 09:35:18,670 - financial_rag - INFO - info:51 - Successfully parsed structured response for question:  What was the revenue growth in Q1FY26 in USD term...
+2025-08-23 09:35:18,698 - financial_rag - INFO - info:51 - Query - Model: Google Gemini 2.0, Status: SUCCESS, Query: What was the revenue growth in Q1FY26 in USD terms?
+2025-08-23 09:59:53,915 - financial_rag - ERROR - error:62 - Error checking vector database status: Cannot copy out of meta tensor; no data! Please use torch.nn.Module.to_empty() instead of torch.nn.Module.to() when moving module from meta to a different device.
+2025-08-23 09:59:59,051 - financial_rag - ERROR - error:60 - Failed to load vector database: Cannot copy out of meta tensor; no data! Please use torch.nn.Module.to_empty() instead of torch.nn.Module.to() when moving module from meta to a different device.
+Traceback (most recent call last):
+  File "D:\CGVENTURES\financial_rag\ui\structured_rag_app.py", line 548, in process_structured_query
+    embedding_model = HuggingFaceEmbeddings(
+        model_name=Config.get_embedding_model_name(),
+        model_kwargs={'device': 'cuda' if Config.GPU_ENABLED else 'cpu'},
+        encode_kwargs={'normalize_embeddings': True, 'batch_size': Config.BATCH_SIZE}
+    )
+  File "D:\CGVENTURES\financial_rag\venv\Lib\site-packages\langchain_huggingface\embeddings\huggingface.py", line 98, in __init__
+    self._client = model_cls(
+                   ~~~~~~~~~^
+        self.model_name, cache_folder=self.cache_folder, **self.model_kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\CGVENTURES\financial_rag\venv\Lib\site-packages\sentence_transformers\SentenceTransformer.py", line 367, in __init__
+    self.to(device)
+    ~~~~~~~^^^^^^^^
+  File "D:\CGVENTURES\financial_rag\venv\Lib\site-packages\torch\nn\modules\module.py", line 1355, in to
+    return self._apply(convert)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\CGVENTURES\financial_rag\venv\Lib\site-packages\torch\nn\modules\module.py", line 915, in _apply
+    module._apply(fn)
+    ~~~~~~~~~~~~~^^^^
+  File "D:\CGVENTURES\financial_rag\venv\Lib\site-packages\torch\nn\modules\module.py", line 915, in _apply
+    module._apply(fn)
+    ~~~~~~~~~~~~~^^^^
+  File "D:\CGVENTURES\financial_rag\venv\Lib\site-packages\torch\nn\modules\module.py", line 915, in _apply
+    module._apply(fn)
+    ~~~~~~~~~~~~~^^^^
+  [Previous line repeated 1 more time]
+  File "D:\CGVENTURES\financial_rag\venv\Lib\site-packages\torch\nn\modules\module.py", line 942, in _apply
+    param_applied = fn(param)
+  File "D:\CGVENTURES\financial_rag\venv\Lib\site-packages\torch\nn\modules\module.py", line 1348, in convert
+    raise NotImplementedError(
+    ...<2 lines>...
+    ) from None
+NotImplementedError: Cannot copy out of meta tensor; no data! Please use torch.nn.Module.to_empty() instead of torch.nn.Module.to() when moving module from meta to a different device.
+2025-08-23 10:04:10,632 - financial_rag - INFO - info:51 - File validation passed: Concall 4QF25.pdf
+2025-08-23 10:04:10,633 - financial_rag - INFO - info:51 - File validation passed: conference call transcript.pdf
+2025-08-23 10:04:10,638 - financial_rag - INFO - info:51 - File validation passed: Investor ppt.pdf
+2025-08-23 10:04:11,330 - financial_rag - INFO - info:51 - Successfully processed: Concall 4QF25.pdf (19 pages)
+2025-08-23 10:04:11,332 - financial_rag - INFO - info:51 - Successfully processed: conference call transcript.pdf (29 pages)
+2025-08-23 10:04:11,334 - financial_rag - INFO - info:51 - Successfully processed: Investor ppt.pdf (31 pages)
+2025-08-23 10:04:35,907 - financial_rag - INFO - info:51 - Added 214 documents to existing vector store
+2025-08-23 10:04:35,928 - financial_rag - INFO - info:51 - File Processing - embeddings (embed_and_store): SUCCESS
+2025-08-23 10:05:33,950 - financial_rag - INFO - info:51 - Vector database loaded successfully with 214 documents
+2025-08-23 10:05:34,049 - financial_rag - INFO - info:51 - Sample document metadata: {'page_word_count': 679, 'total_pages': 19, 'word_count': 2, 'source': 'Conference Call Transcript', 'has_percentages': False, 'page': 17, 'entity_count': 0, 'chunk_id': 6, 'has_numbers': False, 'has_currency': False, 'total_words': 9281, 'filename': 'Concall 4QF25.pdf', 'chunk_size': 5, 'processed_at': '2025-08-23T10:04:11.319884'}
+2025-08-23 10:05:34,049 - financial_rag - INFO - info:51 - Available metadata keys: ['page_word_count', 'total_pages', 'word_count', 'source', 'has_percentages', 'page', 'entity_count', 'chunk_id', 'has_numbers', 'has_currency', 'total_words', 'filename', 'chunk_size', 'processed_at']
+2025-08-23 10:05:34,050 - financial_rag - INFO - info:51 - Enhanced retriever initialized successfully
+2025-08-23 10:05:34,051 - financial_rag - ERROR - error:60 - Failed to load vector database: name 'use_all_docs' is not defined
+Traceback (most recent call last):
+  File "D:\CGVENTURES\financial_rag\ui\structured_rag_app.py", line 596, in process_structured_query
+    if selected_docs and not use_all_docs:
+                             ^^^^^^^^^^^^
+NameError: name 'use_all_docs' is not defined
+2025-08-23 10:17:47,646 - financial_rag - INFO - info:51 - Vector database loaded successfully with 214 documents
+2025-08-23 10:17:47,983 - financial_rag - INFO - info:51 - Sample document metadata: {'entity_count': 0, 'chunk_id': 6, 'has_percentages': False, 'word_count': 2, 'chunk_size': 5, 'total_pages': 19, 'source': 'Conference Call Transcript', 'page': 17, 'total_words': 9281, 'has_numbers': False, 'filename': 'Concall 4QF25.pdf', 'page_word_count': 679, 'has_currency': False, 'processed_at': '2025-08-23T10:04:11.319884'}
+2025-08-23 10:17:47,983 - financial_rag - INFO - info:51 - Available metadata keys: ['entity_count', 'chunk_id', 'has_percentages', 'word_count', 'chunk_size', 'total_pages', 'source', 'page', 'total_words', 'has_numbers', 'filename', 'page_word_count', 'has_currency', 'processed_at']
+2025-08-23 10:17:47,984 - financial_rag - INFO - info:51 - Enhanced retriever initialized successfully
+2025-08-23 10:17:47,984 - financial_rag - INFO - info:51 - Filtering documents to use only selected: ['conference call transcript.pdf']
+2025-08-23 10:17:47,985 - financial_rag - INFO - info:51 - Selected docs structure: [{'filename': 'conference call transcript.pdf', 'source': 'Conference Call Transcript', 'total_pages': 29, 'total_words': 8601, 'processed_at': '2025-08-23T10:04:11.322163', 'file_path': 'data\\processed\\conference call transcript.pdf.json'}]
+2025-08-23 10:17:47,985 - financial_rag - INFO - info:51 - Filtering documents by filenames: ['conference call transcript.pdf']
+2025-08-23 10:17:47,986 - financial_rag - INFO - info:51 - Using filtered retriever with selected documents: ['conference call transcript.pdf']
+2025-08-23 10:17:48,034 - financial_rag - INFO - info:51 - Retrieved 2 documents from vector database
+2025-08-23 10:17:48,034 - financial_rag - INFO - info:51 - Selected filenames: ['conference call transcript.pdf']
+2025-08-23 10:17:48,035 - financial_rag - INFO - info:51 - Document source: 'Conference Call Transcript', filename: 'Concall 4QF25.pdf'
+2025-08-23 10:17:48,240 - financial_rag - INFO - info:51 - Document source: 'Conference Call Transcript', filename: 'Concall 4QF25.pdf'
+2025-08-23 10:17:48,246 - financial_rag - INFO - info:51 - Filtered results: 0 documents
+2025-08-23 10:17:48,247 - financial_rag - WARNING - warning:55 - Filtered retriever returned no documents, falling back to all documents
+2025-08-23 10:17:51,113 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (2.70s)
+2025-08-23 10:17:51,117 - financial_rag - INFO - info:51 - Successfully parsed structured response for question:  What was the revenue growth in Q1FY26 in USD term...
+2025-08-23 10:17:51,118 - financial_rag - INFO - info:51 - Found 2 metrics in response
+2025-08-23 10:17:51,118 - financial_rag - INFO - info:51 -   Metric 1: percentage = 1.1 % (None)
+2025-08-23 10:17:51,118 - financial_rag - INFO - info:51 -   Metric 2: currency = 7421 million (None)
+2025-08-23 10:17:51,152 - financial_rag - INFO - info:51 - Query - Model: Google Gemini 2.0, Status: SUCCESS, Query: What was the revenue growth in Q1FY26 in USD terms?
+2025-08-23 10:18:33,111 - financial_rag - INFO - info:51 - Vector database loaded successfully with 214 documents
+2025-08-23 10:18:33,138 - financial_rag - INFO - info:51 - Sample document metadata: {'word_count': 2, 'chunk_id': 6, 'has_percentages': False, 'entity_count': 0, 'source': 'Conference Call Transcript', 'page_word_count': 679, 'has_numbers': False, 'total_words': 9281, 'chunk_size': 5, 'processed_at': '2025-08-23T10:04:11.319884', 'filename': 'Concall 4QF25.pdf', 'page': 17, 'has_currency': False, 'total_pages': 19}
+2025-08-23 10:18:33,139 - financial_rag - INFO - info:51 - Available metadata keys: ['word_count', 'chunk_id', 'has_percentages', 'entity_count', 'source', 'page_word_count', 'has_numbers', 'total_words', 'chunk_size', 'processed_at', 'filename', 'page', 'has_currency', 'total_pages']
+2025-08-23 10:18:33,139 - financial_rag - INFO - info:51 - Enhanced retriever initialized successfully
+2025-08-23 10:18:33,140 - financial_rag - INFO - info:51 - Using all available documents (no filtering)
+2025-08-23 10:18:34,227 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (0.99s)
+2025-08-23 10:18:34,229 - financial_rag - INFO - info:51 - Successfully parsed structured response for question:  What was the revenue growth in Q1FY26 in USD term...
+2025-08-23 10:18:34,229 - financial_rag - INFO - info:51 - Found 2 metrics in response
+2025-08-23 10:18:34,229 - financial_rag - INFO - info:51 -   Metric 1: percentage = 1.1 % (None)
+2025-08-23 10:18:34,230 - financial_rag - INFO - info:51 -   Metric 2: currency = 7421 million (None)
+2025-08-23 10:18:34,252 - financial_rag - INFO - info:51 - Query - Model: Google Gemini 2.0, Status: SUCCESS, Query: What was the revenue growth in Q1FY26 in USD terms?
+2025-08-23 10:19:06,813 - financial_rag - INFO - info:51 - Vector database loaded successfully with 214 documents
+2025-08-23 10:19:06,845 - financial_rag - INFO - info:51 - Sample document metadata: {'total_pages': 19, 'chunk_id': 6, 'entity_count': 0, 'page': 17, 'source': 'Conference Call Transcript', 'page_word_count': 679, 'chunk_size': 5, 'processed_at': '2025-08-23T10:04:11.319884', 'has_numbers': False, 'total_words': 9281, 'filename': 'Concall 4QF25.pdf', 'has_percentages': False, 'word_count': 2, 'has_currency': False}
+2025-08-23 10:19:06,847 - financial_rag - INFO - info:51 - Available metadata keys: ['total_pages', 'chunk_id', 'entity_count', 'page', 'source', 'page_word_count', 'chunk_size', 'processed_at', 'has_numbers', 'total_words', 'filename', 'has_percentages', 'word_count', 'has_currency']
+2025-08-23 10:19:06,847 - financial_rag - INFO - info:51 - Enhanced retriever initialized successfully
+2025-08-23 10:19:06,848 - financial_rag - INFO - info:51 - Using all available documents (no filtering)
+2025-08-23 10:19:07,905 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (0.97s)
+2025-08-23 10:19:07,907 - financial_rag - INFO - info:51 - Successfully parsed structured response for question:  What was the revenue growth in Q1FY26 in USD term...
+2025-08-23 10:19:07,907 - financial_rag - INFO - info:51 - Found 2 metrics in response
+2025-08-23 10:19:07,907 - financial_rag - INFO - info:51 -   Metric 1: percentage = 1.1 % (None)
+2025-08-23 10:19:07,907 - financial_rag - INFO - info:51 -   Metric 2: currency = 7421 million (None)
+2025-08-23 10:19:07,932 - financial_rag - INFO - info:51 - Query - Model: Google Gemini 2.0, Status: SUCCESS, Query: What was the revenue growth in Q1FY26 in USD terms?
+2025-08-23 10:20:56,169 - financial_rag - INFO - info:51 - Vector database loaded successfully with 214 documents
+2025-08-23 10:20:56,194 - financial_rag - INFO - info:51 - Sample document metadata: {'word_count': 2, 'entity_count': 0, 'has_numbers': False, 'total_words': 9281, 'page_word_count': 679, 'source': 'Conference Call Transcript', 'filename': 'Concall 4QF25.pdf', 'has_percentages': False, 'processed_at': '2025-08-23T10:04:11.319884', 'page': 17, 'chunk_id': 6, 'has_currency': False, 'chunk_size': 5, 'total_pages': 19}
+2025-08-23 10:20:56,195 - financial_rag - INFO - info:51 - Available metadata keys: ['word_count', 'entity_count', 'has_numbers', 'total_words', 'page_word_count', 'source', 'filename', 'has_percentages', 'processed_at', 'page', 'chunk_id', 'has_currency', 'chunk_size', 'total_pages']
+2025-08-23 10:20:56,195 - financial_rag - INFO - info:51 - Enhanced retriever initialized successfully
+2025-08-23 10:20:56,196 - financial_rag - INFO - info:51 - Filtering documents to use only selected: ['Investor ppt.pdf']
+2025-08-23 10:20:56,196 - financial_rag - INFO - info:51 - Selected docs structure: [{'filename': 'Investor ppt.pdf', 'source': 'Investor Presentation', 'total_pages': 31, 'total_words': 1744, 'processed_at': '2025-08-23T10:04:11.326543', 'file_path': 'data\\processed\\Investor ppt.pdf.json'}]
+2025-08-23 10:20:56,196 - financial_rag - INFO - info:51 - Filtering documents by filenames: ['Investor ppt.pdf']
+2025-08-23 10:20:56,197 - financial_rag - INFO - info:51 - Using filtered retriever with selected documents: ['Investor ppt.pdf']
+2025-08-23 10:20:56,229 - financial_rag - INFO - info:51 - Retrieved 2 documents from vector database
+2025-08-23 10:20:56,230 - financial_rag - INFO - info:51 - Selected filenames: ['Investor ppt.pdf']
+2025-08-23 10:20:56,230 - financial_rag - INFO - info:51 - Document source: 'Conference Call Transcript', filename: 'Concall 4QF25.pdf'
+2025-08-23 10:20:56,234 - financial_rag - INFO - info:51 - Document source: 'Conference Call Transcript', filename: 'Concall 4QF25.pdf'
+2025-08-23 10:20:56,240 - financial_rag - INFO - info:51 - Filtered results: 0 documents
+2025-08-23 10:20:56,241 - financial_rag - WARNING - warning:55 - Filtered retriever returned no documents, falling back to all documents
+2025-08-23 10:20:57,282 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (0.93s)
+2025-08-23 10:20:57,283 - financial_rag - INFO - info:51 - Successfully parsed structured response for question:  What was the revenue growth in Q1FY26 in USD term...
+2025-08-23 10:20:57,283 - financial_rag - INFO - info:51 - Found 2 metrics in response
+2025-08-23 10:20:57,284 - financial_rag - INFO - info:51 -   Metric 1: percentage = 1.1 % (None)
+2025-08-23 10:20:57,284 - financial_rag - INFO - info:51 -   Metric 2: currency = 7421 million (None)
+2025-08-23 10:20:57,309 - financial_rag - INFO - info:51 - Query - Model: Google Gemini 2.0, Status: SUCCESS, Query: What was the revenue growth in Q1FY26 in USD terms?
+2025-08-23 10:32:39,275 - financial_rag - INFO - info:51 - Vector database loaded successfully with 214 documents
+2025-08-23 10:32:39,520 - financial_rag - INFO - info:51 - Sample document metadata: {'entity_count': 0, 'source': 'Conference Call Transcript', 'total_words': 9281, 'chunk_id': 6, 'total_pages': 19, 'has_numbers': False, 'has_percentages': False, 'page_word_count': 679, 'processed_at': '2025-08-23T10:04:11.319884', 'filename': 'Concall 4QF25.pdf', 'word_count': 2, 'chunk_size': 5, 'page': 17, 'has_currency': False}
+2025-08-23 10:32:39,521 - financial_rag - INFO - info:51 - Available metadata keys: ['entity_count', 'source', 'total_words', 'chunk_id', 'total_pages', 'has_numbers', 'has_percentages', 'page_word_count', 'processed_at', 'filename', 'word_count', 'chunk_size', 'page', 'has_currency']
+2025-08-23 10:32:39,522 - financial_rag - INFO - info:51 - Enhanced retriever initialized successfully
+2025-08-23 10:32:39,522 - financial_rag - INFO - info:51 - Filtering documents to use only selected: ['Investor ppt.pdf']
+2025-08-23 10:32:39,523 - financial_rag - INFO - info:51 - Selected docs structure: [{'filename': 'Investor ppt.pdf', 'source': 'Investor Presentation', 'total_pages': 31, 'total_words': 1744, 'processed_at': '2025-08-23T10:04:11.326543', 'file_path': 'data\\processed\\Investor ppt.pdf.json'}]
+2025-08-23 10:32:39,523 - financial_rag - INFO - info:51 - Filtering documents by filenames: ['Investor ppt.pdf']
+2025-08-23 10:32:39,523 - financial_rag - INFO - info:51 - Using filtered retriever with selected documents: ['Investor ppt.pdf']
+2025-08-23 10:32:39,553 - financial_rag - INFO - info:51 - Retrieved 2 documents from vector database
+2025-08-23 10:32:39,554 - financial_rag - INFO - info:51 - Selected filenames: ['Investor ppt.pdf']
+2025-08-23 10:32:39,555 - financial_rag - INFO - info:51 - Sample doc 1 metadata: {'has_currency': False, 'total_pages': 19, 'has_numbers': False, 'page': 17, 'entity_count': 0, 'chunk_id': 6, 'filename': 'Concall 4QF25.pdf', 'chunk_size': 5, 'word_count': 2, 'total_words': 9281, 'has_percentages': False, 'source': 'Conference Call Transcript', 'page_word_count': 679, 'processed_at': '2025-08-23T10:04:11.319884'}
+2025-08-23 10:32:39,556 - financial_rag - INFO - info:51 - Sample doc 2 metadata: {'page': 3, 'chunk_id': 0, 'processed_at': '2025-08-23T10:04:11.319884', 'entity_count': 1, 'has_numbers': True, 'filename': 'Concall 4QF25.pdf', 'chunk_size': 788, 'has_currency': False, 'word_count': 130, 'page_word_count': 462, 'total_words': 9281, 'has_percentages': False, 'source': 'Conference Call Transcript', 'total_pages': 19}
+2025-08-23 10:32:39,556 - financial_rag - INFO - info:51 - Document source: 'Conference Call Transcript', filename: 'Concall 4QF25.pdf'
+2025-08-23 10:32:39,557 - financial_rag - INFO - info:51 - Comparing: 'investor ppt' with filename: 'concall 4qf25' and source: 'conference call transcript'
+2025-08-23 10:32:39,567 - financial_rag - INFO - info:51 - Document source: 'Conference Call Transcript', filename: 'Concall 4QF25.pdf'
+2025-08-23 10:32:39,567 - financial_rag - INFO - info:51 - Comparing: 'investor ppt' with filename: 'concall 4qf25' and source: 'conference call transcript'
+2025-08-23 10:32:39,576 - financial_rag - INFO - info:51 - Filtered results: 0 documents
+2025-08-23 10:32:39,577 - financial_rag - WARNING - warning:55 - Filtered retriever returned no documents, falling back to all documents
+2025-08-23 10:32:42,194 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (2.46s)
+2025-08-23 10:32:42,199 - financial_rag - INFO - info:51 - Successfully parsed structured response for question: What was the revenue growth in Q1FY26 in USD terms...
+2025-08-23 10:32:42,199 - financial_rag - INFO - info:51 - Found 2 metrics in response
+2025-08-23 10:32:42,199 - financial_rag - INFO - info:51 -   Metric 1: percentage = 1.1 % (None)
+2025-08-23 10:32:42,200 - financial_rag - INFO - info:51 -   Metric 2: currency = 7421 million (None)
+2025-08-23 10:32:42,229 - financial_rag - INFO - info:51 - Query - Model: Google Gemini 2.0, Status: SUCCESS, Query: What was the revenue growth in Q1FY26 in USD terms?
+2025-08-23 11:32:02,777 - financial_rag - ERROR - error:62 - Error checking vector database: type object 'Config' has no attribute 'VECTOR_DB_PATH'
+2025-08-23 11:45:05,202 - financial_rag - INFO - info:51 - Found processed file: Concall 4QF25.pdf (Conference Call Transcript) - 19 pages
+2025-08-23 11:45:05,203 - financial_rag - INFO - info:51 - Found processed file: conference call transcript.pdf (Conference Call Transcript) - 29 pages
+2025-08-23 11:45:05,204 - financial_rag - INFO - info:51 - Found processed file: Investor ppt.pdf (Investor Presentation) - 31 pages
+2025-08-23 11:47:06,306 - financial_rag - INFO - info:51 - Found processed file: Concall 4QF25.pdf (Conference Call Transcript) - 19 pages
+2025-08-23 11:47:06,307 - financial_rag - INFO - info:51 - Found processed file: conference call transcript.pdf (Conference Call Transcript) - 29 pages
+2025-08-23 11:47:06,308 - financial_rag - INFO - info:51 - Found processed file: Investor ppt.pdf (Investor Presentation) - 31 pages
+2025-08-23 11:47:06,308 - financial_rag - INFO - info:51 - Clearing existing vector database...
+2025-08-23 11:47:11,986 - financial_rag - INFO - info:51 - Loaded document: Concall 4QF25.pdf
+2025-08-23 11:47:11,987 - financial_rag - INFO - info:51 - Loaded document: conference call transcript.pdf
+2025-08-23 11:47:11,989 - financial_rag - INFO - info:51 - Loaded document: Investor ppt.pdf
+2025-08-23 11:47:11,989 - financial_rag - INFO - info:51 - Embedding 3 documents...
+2025-08-23 11:47:11,989 - financial_rag - ERROR - error:62 - Failed to rebuild vector database: 'dict' object has no attribute 'page_content'
+2025-08-23 12:04:02,879 - financial_rag - INFO - info:51 - File validation passed: conference call transcript.pdf
+2025-08-23 12:04:02,882 - financial_rag - INFO - info:51 - File validation passed: Investor ppt.pdf
+2025-08-23 12:04:02,883 - financial_rag - INFO - info:51 - File validation passed: Concall 4QF25.pdf
+2025-08-23 12:04:03,432 - financial_rag - INFO - info:51 - Successfully processed: Investor ppt.pdf (31 pages)
+2025-08-23 12:04:03,433 - financial_rag - INFO - info:51 - Successfully processed: Concall 4QF25.pdf (19 pages)
+2025-08-23 12:04:03,435 - financial_rag - INFO - info:51 - Successfully processed: conference call transcript.pdf (29 pages)
+2025-08-23 12:04:25,695 - financial_rag - INFO - info:51 - Added 214 documents to existing vector store
+2025-08-23 12:04:25,714 - financial_rag - INFO - info:51 - File Processing - embeddings (embed_and_store): SUCCESS
+2025-08-23 12:10:06,528 - financial_rag - INFO - info:51 - Vector database loaded successfully with 214 documents
+2025-08-23 12:10:06,630 - financial_rag - INFO - info:51 - Sample document metadata: {'word_count': 2, 'entity_count': 0, 'has_numbers': False, 'total_pages': 19, 'source': 'Conference Call Transcript', 'processed_at': '2025-08-23T12:04:03.423590', 'has_currency': False, 'page_word_count': 679, 'filename': 'Concall 4QF25.pdf', 'page': 17, 'has_percentages': False, 'chunk_size': 5, 'total_words': 9281, 'chunk_id': 6}
+2025-08-23 12:10:06,631 - financial_rag - INFO - info:51 - Available metadata keys: ['word_count', 'entity_count', 'has_numbers', 'total_pages', 'source', 'processed_at', 'has_currency', 'page_word_count', 'filename', 'page', 'has_percentages', 'chunk_size', 'total_words', 'chunk_id']
+2025-08-23 12:10:06,632 - financial_rag - INFO - info:51 - Enhanced retriever initialized successfully
+2025-08-23 12:10:06,633 - financial_rag - INFO - info:51 - Filtering documents to use only selected: ['Investor ppt.pdf']
+2025-08-23 12:10:06,633 - financial_rag - INFO - info:51 - Selected docs structure: [{'filename': 'Investor ppt.pdf', 'source': 'Investor Presentation', 'total_pages': 31, 'total_words': 1744, 'processed_at': '2025-08-23T12:04:03.427891', 'file_path': 'data\\processed\\Investor ppt.pdf.json'}]
+2025-08-23 12:10:06,634 - financial_rag - INFO - info:51 - Filtering documents by filenames: ['Investor ppt.pdf']
+2025-08-23 12:10:06,635 - financial_rag - INFO - info:51 - Using filtered retriever with selected documents: ['Investor ppt.pdf']
+2025-08-23 12:10:06,674 - financial_rag - INFO - info:51 - Retrieved 2 documents from vector database
+2025-08-23 12:10:06,675 - financial_rag - INFO - info:51 - Selected filenames: ['Investor ppt.pdf']
+2025-08-23 12:10:06,675 - financial_rag - INFO - info:51 - Sample doc 1 metadata: {'has_numbers': False, 'entity_count': 0, 'chunk_size': 5, 'word_count': 2, 'has_percentages': False, 'has_currency': False, 'page': 17, 'total_words': 9281, 'total_pages': 19, 'page_word_count': 679, 'chunk_id': 6, 'filename': 'Concall 4QF25.pdf', 'processed_at': '2025-08-23T12:04:03.423590', 'source': 'Conference Call Transcript'}
+2025-08-23 12:10:06,676 - financial_rag - INFO - info:51 - Sample doc 2 metadata: {'page': 3, 'total_pages': 19, 'has_numbers': True, 'has_currency': False, 'total_words': 9281, 'entity_count': 1, 'chunk_size': 788, 'word_count': 130, 'page_word_count': 462, 'filename': 'Concall 4QF25.pdf', 'has_percentages': False, 'processed_at': '2025-08-23T12:04:03.423590', 'chunk_id': 0, 'source': 'Conference Call Transcript'}
+2025-08-23 12:10:06,676 - financial_rag - INFO - info:51 - Document source: 'Conference Call Transcript', filename: 'Concall 4QF25.pdf'
+2025-08-23 12:10:06,677 - financial_rag - INFO - info:51 - Comparing: 'investor ppt' with filename: 'concall 4qf25' and source: 'conference call transcript'
+2025-08-23 12:10:06,678 - financial_rag - INFO - info:51 - [NOT MATCHED] Document not matched: Concall 4QF25.pdf (Conference Call Transcript)
+2025-08-23 12:10:06,678 - financial_rag - INFO - info:51 - Document source: 'Conference Call Transcript', filename: 'Concall 4QF25.pdf'
+2025-08-23 12:10:06,678 - financial_rag - INFO - info:51 - Comparing: 'investor ppt' with filename: 'concall 4qf25' and source: 'conference call transcript'
+2025-08-23 12:10:06,679 - financial_rag - INFO - info:51 - [NOT MATCHED] Document not matched: Concall 4QF25.pdf (Conference Call Transcript)
+2025-08-23 12:10:06,679 - financial_rag - INFO - info:51 - Filtered results: 0 documents
+2025-08-23 12:10:06,679 - financial_rag - WARNING - warning:55 - Filtered retriever returned no documents, falling back to all documents
+2025-08-23 12:11:33,379 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (86.51s)
+2025-08-23 12:11:33,385 - financial_rag - INFO - info:51 - Successfully parsed structured response for question: What was the revenue growth in Q1FY26 in USD terms...
+2025-08-23 12:11:33,385 - financial_rag - INFO - info:51 - Found 2 metrics in response
+2025-08-23 12:11:33,386 - financial_rag - INFO - info:51 -   Metric 1: percentage = 1.1 % (None)
+2025-08-23 12:11:33,386 - financial_rag - INFO - info:51 -   Metric 2: currency = 7421 million (None)
+2025-08-23 12:11:33,430 - financial_rag - INFO - info:51 - Query - Model: Google Gemini 2.0, Status: SUCCESS, Query: What was the revenue growth in Q1FY26 in USD terms?
+2025-08-23 12:30:22,293 - financial_rag - INFO - info:51 - Found processed file: Concall 4QF25.pdf (Conference Call Transcript) - 19 pages
+2025-08-23 12:30:22,296 - financial_rag - INFO - info:51 - Found processed file: conference call transcript.pdf (Conference Call Transcript) - 29 pages
+2025-08-23 12:30:22,297 - financial_rag - INFO - info:51 - Found processed file: Investor ppt.pdf (Investor Presentation) - 31 pages
+2025-08-23 12:45:46,230 - financial_rag - INFO - info:51 - Found processed file: Concall 4QF25.pdf (Conference Call Transcript) - 19 pages
+2025-08-23 12:45:46,237 - financial_rag - INFO - info:51 - Found processed file: conference call transcript.pdf (Conference Call Transcript) - 29 pages
+2025-08-23 12:45:46,249 - financial_rag - INFO - info:51 - Found processed file: Investor ppt.pdf (Investor Presentation) - 31 pages
+2025-08-23 12:45:46,251 - financial_rag - INFO - info:51 - Clearing existing vector database...
+2025-08-23 12:45:52,510 - financial_rag - INFO - info:51 - Loaded document: Concall 4QF25.pdf
+2025-08-23 12:45:52,513 - financial_rag - INFO - info:51 - Loaded document: conference call transcript.pdf
+2025-08-23 12:45:52,515 - financial_rag - INFO - info:51 - Loaded document: Investor ppt.pdf
+2025-08-23 12:45:52,516 - financial_rag - INFO - info:51 - Embedding 3 documents...
+2025-08-23 12:45:52,519 - financial_rag - ERROR - error:62 - Failed to rebuild vector database: 'dict' object has no attribute 'page_content'
+2025-08-23 13:01:11,685 - financial_rag - INFO - info:51 - File validation passed: Concall 4QF25.pdf
+2025-08-23 13:01:11,689 - financial_rag - INFO - info:51 - File validation passed: conference call transcript.pdf
+2025-08-23 13:01:11,698 - financial_rag - INFO - info:51 - File validation passed: Investor ppt.pdf
+2025-08-23 13:01:12,260 - financial_rag - INFO - info:51 - Successfully processed: Concall 4QF25.pdf (19 pages)
+2025-08-23 13:01:12,274 - financial_rag - INFO - info:51 - Successfully processed: Investor ppt.pdf (31 pages)
+2025-08-23 13:01:12,276 - financial_rag - INFO - info:51 - Successfully processed: conference call transcript.pdf (29 pages)
+2025-08-23 13:01:36,370 - financial_rag - INFO - info:51 - Added 214 documents to existing vector store
+2025-08-23 13:01:36,396 - financial_rag - INFO - info:51 - File Processing - embeddings (embed_and_store): SUCCESS
+2025-08-23 13:03:08,782 - financial_rag - INFO - info:51 - Vector database loaded successfully with 214 documents
+2025-08-23 13:03:08,877 - financial_rag - INFO - info:51 - Sample document metadata: {'filename': 'Concall 4QF25.pdf', 'word_count': 2, 'source': 'Conference Call Transcript', 'page': 17, 'total_words': 9281, 'chunk_size': 5, 'entity_count': 0, 'has_percentages': False, 'total_pages': 19, 'processed_at': '2025-08-23T13:01:12.255216', 'has_currency': False, 'has_numbers': False, 'page_word_count': 679, 'chunk_id': 6}
+2025-08-23 13:03:08,877 - financial_rag - INFO - info:51 - Available metadata keys: ['filename', 'word_count', 'source', 'page', 'total_words', 'chunk_size', 'entity_count', 'has_percentages', 'total_pages', 'processed_at', 'has_currency', 'has_numbers', 'page_word_count', 'chunk_id']
+2025-08-23 13:03:08,878 - financial_rag - INFO - info:51 - Enhanced retriever initialized successfully
+2025-08-23 13:03:08,878 - financial_rag - INFO - info:51 - Filtering documents to use only selected: ['Investor ppt.pdf']
+2025-08-23 13:03:08,879 - financial_rag - INFO - info:51 - Selected docs structure: [{'filename': 'Investor ppt.pdf', 'source': 'Investor Presentation', 'total_pages': 31, 'total_words': 1744, 'processed_at': '2025-08-23T13:01:12.267977', 'file_path': 'data\\processed\\Investor ppt.pdf.json'}]
+2025-08-23 13:03:08,879 - financial_rag - INFO - info:51 - Filtering documents by filenames: ['Investor ppt.pdf']
+2025-08-23 13:03:08,879 - financial_rag - INFO - info:51 - Using filtered retriever with selected documents: ['Investor ppt.pdf']
+2025-08-23 13:03:08,903 - financial_rag - INFO - info:51 - Retrieved 2 documents from vector database
+2025-08-23 13:03:08,904 - financial_rag - INFO - info:51 - Selected filenames: ['Investor ppt.pdf']
+2025-08-23 13:03:08,904 - financial_rag - INFO - info:51 - Sample doc 1 metadata: {'total_words': 9281, 'source': 'Conference Call Transcript', 'total_pages': 19, 'page_word_count': 679, 'entity_count': 0, 'chunk_id': 6, 'page': 17, 'processed_at': '2025-08-23T13:01:12.255216', 'filename': 'Concall 4QF25.pdf', 'has_numbers': False, 'has_currency': False, 'has_percentages': False, 'word_count': 2, 'chunk_size': 5}
+2025-08-23 13:03:08,904 - financial_rag - INFO - info:51 - Sample doc 2 metadata: {'has_numbers': True, 'page_word_count': 462, 'has_currency': False, 'source': 'Conference Call Transcript', 'entity_count': 1, 'total_pages': 19, 'chunk_id': 0, 'filename': 'Concall 4QF25.pdf', 'page': 3, 'word_count': 130, 'chunk_size': 788, 'has_percentages': False, 'processed_at': '2025-08-23T13:01:12.255216', 'total_words': 9281}
+2025-08-23 13:03:08,905 - financial_rag - INFO - info:51 - Document source: 'Conference Call Transcript', filename: 'Concall 4QF25.pdf'
+2025-08-23 13:03:08,905 - financial_rag - INFO - info:51 - Comparing: 'investor ppt' with filename: 'concall 4qf25' and source: 'conference call transcript'
+2025-08-23 13:03:08,905 - financial_rag - INFO - info:51 - [NOT MATCHED] Document not matched: Concall 4QF25.pdf (Conference Call Transcript)
+2025-08-23 13:03:08,905 - financial_rag - INFO - info:51 - Document source: 'Conference Call Transcript', filename: 'Concall 4QF25.pdf'
+2025-08-23 13:03:08,906 - financial_rag - INFO - info:51 - Comparing: 'investor ppt' with filename: 'concall 4qf25' and source: 'conference call transcript'
+2025-08-23 13:03:08,906 - financial_rag - INFO - info:51 - [NOT MATCHED] Document not matched: Concall 4QF25.pdf (Conference Call Transcript)
+2025-08-23 13:03:08,906 - financial_rag - INFO - info:51 - Filtered results: 0 documents
+2025-08-23 13:03:08,906 - financial_rag - WARNING - warning:55 - Filtered retriever returned no documents, falling back to all documents
+2025-08-23 13:03:10,272 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (1.24s)
+2025-08-23 13:03:10,282 - financial_rag - INFO - info:51 - Successfully parsed structured response for question: What was the sales volume in Q1FY25?...
+2025-08-23 13:03:10,283 - financial_rag - INFO - info:51 - Found 3 metrics in response
+2025-08-23 13:03:10,284 - financial_rag - INFO - info:51 -   Metric 1: currency = 500 million (None)
+2025-08-23 13:03:10,284 - financial_rag - INFO - info:51 -   Metric 2: currency = 200 million (None)
+2025-08-23 13:03:10,285 - financial_rag - INFO - info:51 -   Metric 3: currency = 350 million (None)
+2025-08-23 13:03:10,339 - financial_rag - INFO - info:51 - Query - Model: Google Gemini 2.0, Status: SUCCESS, Query: What was the sales volume in Q1FY25?
+2025-08-23 13:05:58,525 - financial_rag - ERROR - error:62 - Error checking vector database status: Cannot copy out of meta tensor; no data! Please use torch.nn.Module.to_empty() instead of torch.nn.Module.to() when moving module from meta to a different device.
+2025-08-23 13:07:35,064 - financial_rag - ERROR - error:62 - Error checking vector database status: Cannot copy out of meta tensor; no data! Please use torch.nn.Module.to_empty() instead of torch.nn.Module.to() when moving module from meta to a different device.
+2025-08-23 13:07:39,985 - financial_rag - ERROR - error:60 - Failed to load vector database: Cannot copy out of meta tensor; no data! Please use torch.nn.Module.to_empty() instead of torch.nn.Module.to() when moving module from meta to a different device.
+Traceback (most recent call last):
+  File "D:\CGVENTURES\financial_rag\ui\structured_rag_app.py", line 562, in process_structured_query
+    embedding_model = HuggingFaceEmbeddings(
+        model_name=Config.get_embedding_model_name(),
+        model_kwargs={'device': 'cuda' if Config.GPU_ENABLED else 'cpu'},
+        encode_kwargs={'normalize_embeddings': True, 'batch_size': Config.BATCH_SIZE}
+    )
+  File "D:\CGVENTURES\financial_rag\venv\Lib\site-packages\langchain_huggingface\embeddings\huggingface.py", line 98, in __init__
+    self._client = model_cls(
+                   ~~~~~~~~~^
+        self.model_name, cache_folder=self.cache_folder, **self.model_kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\CGVENTURES\financial_rag\venv\Lib\site-packages\sentence_transformers\SentenceTransformer.py", line 367, in __init__
+    self.to(device)
+    ~~~~~~~^^^^^^^^
+  File "D:\CGVENTURES\financial_rag\venv\Lib\site-packages\torch\nn\modules\module.py", line 1355, in to
+    return self._apply(convert)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\CGVENTURES\financial_rag\venv\Lib\site-packages\torch\nn\modules\module.py", line 915, in _apply
+    module._apply(fn)
+    ~~~~~~~~~~~~~^^^^
+  File "D:\CGVENTURES\financial_rag\venv\Lib\site-packages\torch\nn\modules\module.py", line 915, in _apply
+    module._apply(fn)
+    ~~~~~~~~~~~~~^^^^
+  File "D:\CGVENTURES\financial_rag\venv\Lib\site-packages\torch\nn\modules\module.py", line 915, in _apply
+    module._apply(fn)
+    ~~~~~~~~~~~~~^^^^
+  [Previous line repeated 1 more time]
+  File "D:\CGVENTURES\financial_rag\venv\Lib\site-packages\torch\nn\modules\module.py", line 942, in _apply
+    param_applied = fn(param)
+  File "D:\CGVENTURES\financial_rag\venv\Lib\site-packages\torch\nn\modules\module.py", line 1348, in convert
+    raise NotImplementedError(
+    ...<2 lines>...
+    ) from None
+NotImplementedError: Cannot copy out of meta tensor; no data! Please use torch.nn.Module.to_empty() instead of torch.nn.Module.to() when moving module from meta to a different device.
+2025-08-23 13:07:55,547 - financial_rag - ERROR - error:62 - Error checking vector database status: Cannot copy out of meta tensor; no data! Please use torch.nn.Module.to_empty() instead of torch.nn.Module.to() when moving module from meta to a different device.
+2025-08-23 13:07:56,677 - financial_rag - ERROR - error:62 - Error checking vector database status: Cannot copy out of meta tensor; no data! Please use torch.nn.Module.to_empty() instead of torch.nn.Module.to() when moving module from meta to a different device.
+2025-08-23 13:08:04,093 - financial_rag - ERROR - error:62 - Error checking vector database status: Cannot copy out of meta tensor; no data! Please use torch.nn.Module.to_empty() instead of torch.nn.Module.to() when moving module from meta to a different device.
+2025-08-23 13:08:09,433 - financial_rag - ERROR - error:60 - Failed to load vector database: Cannot copy out of meta tensor; no data! Please use torch.nn.Module.to_empty() instead of torch.nn.Module.to() when moving module from meta to a different device.
+Traceback (most recent call last):
+  File "D:\CGVENTURES\financial_rag\ui\structured_rag_app.py", line 562, in process_structured_query
+    embedding_model = HuggingFaceEmbeddings(
+        model_name=Config.get_embedding_model_name(),
+        model_kwargs={'device': 'cuda' if Config.GPU_ENABLED else 'cpu'},
+        encode_kwargs={'normalize_embeddings': True, 'batch_size': Config.BATCH_SIZE}
+    )
+  File "D:\CGVENTURES\financial_rag\venv\Lib\site-packages\langchain_huggingface\embeddings\huggingface.py", line 98, in __init__
+    self._client = model_cls(
+                   ~~~~~~~~~^
+        self.model_name, cache_folder=self.cache_folder, **self.model_kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\CGVENTURES\financial_rag\venv\Lib\site-packages\sentence_transformers\SentenceTransformer.py", line 367, in __init__
+    self.to(device)
+    ~~~~~~~^^^^^^^^
+  File "D:\CGVENTURES\financial_rag\venv\Lib\site-packages\torch\nn\modules\module.py", line 1355, in to
+    return self._apply(convert)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\CGVENTURES\financial_rag\venv\Lib\site-packages\torch\nn\modules\module.py", line 915, in _apply
+    module._apply(fn)
+    ~~~~~~~~~~~~~^^^^
+  File "D:\CGVENTURES\financial_rag\venv\Lib\site-packages\torch\nn\modules\module.py", line 915, in _apply
+    module._apply(fn)
+    ~~~~~~~~~~~~~^^^^
+  File "D:\CGVENTURES\financial_rag\venv\Lib\site-packages\torch\nn\modules\module.py", line 915, in _apply
+    module._apply(fn)
+    ~~~~~~~~~~~~~^^^^
+  [Previous line repeated 1 more time]
+  File "D:\CGVENTURES\financial_rag\venv\Lib\site-packages\torch\nn\modules\module.py", line 942, in _apply
+    param_applied = fn(param)
+  File "D:\CGVENTURES\financial_rag\venv\Lib\site-packages\torch\nn\modules\module.py", line 1348, in convert
+    raise NotImplementedError(
+    ...<2 lines>...
+    ) from None
+NotImplementedError: Cannot copy out of meta tensor; no data! Please use torch.nn.Module.to_empty() instead of torch.nn.Module.to() when moving module from meta to a different device.
+2025-08-23 13:10:23,575 - financial_rag - ERROR - error:62 - Error checking vector database status: Cannot copy out of meta tensor; no data! Please use torch.nn.Module.to_empty() instead of torch.nn.Module.to() when moving module from meta to a different device.
+2025-08-23 13:10:24,749 - financial_rag - ERROR - error:62 - Error checking vector database status: Cannot copy out of meta tensor; no data! Please use torch.nn.Module.to_empty() instead of torch.nn.Module.to() when moving module from meta to a different device.
+2025-08-23 13:10:32,304 - financial_rag - ERROR - error:62 - Error checking vector database status: Cannot copy out of meta tensor; no data! Please use torch.nn.Module.to_empty() instead of torch.nn.Module.to() when moving module from meta to a different device.
+2025-08-23 13:10:37,728 - financial_rag - ERROR - error:60 - Failed to load vector database: Cannot copy out of meta tensor; no data! Please use torch.nn.Module.to_empty() instead of torch.nn.Module.to() when moving module from meta to a different device.
+Traceback (most recent call last):
+  File "D:\CGVENTURES\financial_rag\ui\structured_rag_app.py", line 562, in process_structured_query
+    embedding_model = HuggingFaceEmbeddings(
+        model_name=Config.get_embedding_model_name(),
+        model_kwargs={'device': 'cuda' if Config.GPU_ENABLED else 'cpu'},
+        encode_kwargs={'normalize_embeddings': True, 'batch_size': Config.BATCH_SIZE}
+    )
+  File "D:\CGVENTURES\financial_rag\venv\Lib\site-packages\langchain_huggingface\embeddings\huggingface.py", line 98, in __init__
+    self._client = model_cls(
+                   ~~~~~~~~~^
+        self.model_name, cache_folder=self.cache_folder, **self.model_kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\CGVENTURES\financial_rag\venv\Lib\site-packages\sentence_transformers\SentenceTransformer.py", line 367, in __init__
+    self.to(device)
+    ~~~~~~~^^^^^^^^
+  File "D:\CGVENTURES\financial_rag\venv\Lib\site-packages\torch\nn\modules\module.py", line 1355, in to
+    return self._apply(convert)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\CGVENTURES\financial_rag\venv\Lib\site-packages\torch\nn\modules\module.py", line 915, in _apply
+    module._apply(fn)
+    ~~~~~~~~~~~~~^^^^
+  File "D:\CGVENTURES\financial_rag\venv\Lib\site-packages\torch\nn\modules\module.py", line 915, in _apply
+    module._apply(fn)
+    ~~~~~~~~~~~~~^^^^
+  File "D:\CGVENTURES\financial_rag\venv\Lib\site-packages\torch\nn\modules\module.py", line 915, in _apply
+    module._apply(fn)
+    ~~~~~~~~~~~~~^^^^
+  [Previous line repeated 1 more time]
+  File "D:\CGVENTURES\financial_rag\venv\Lib\site-packages\torch\nn\modules\module.py", line 942, in _apply
+    param_applied = fn(param)
+  File "D:\CGVENTURES\financial_rag\venv\Lib\site-packages\torch\nn\modules\module.py", line 1348, in convert
+    raise NotImplementedError(
+    ...<2 lines>...
+    ) from None
+NotImplementedError: Cannot copy out of meta tensor; no data! Please use torch.nn.Module.to_empty() instead of torch.nn.Module.to() when moving module from meta to a different device.
+2025-08-23 13:29:27,923 - financial_rag - INFO - info:51 - File validation passed: Concall 4QF25.pdf
+2025-08-23 13:29:27,926 - financial_rag - INFO - info:51 - File validation passed: conference call transcript.pdf
+2025-08-23 13:29:27,996 - financial_rag - INFO - info:51 - File validation passed: Investor ppt.pdf
+2025-08-23 13:29:28,588 - financial_rag - INFO - info:51 - Successfully processed: Investor ppt.pdf (31 pages)
+2025-08-23 13:29:28,589 - financial_rag - INFO - info:51 - Successfully processed: Concall 4QF25.pdf (19 pages)
+2025-08-23 13:29:28,594 - financial_rag - INFO - info:51 - Successfully processed: conference call transcript.pdf (29 pages)
+2025-08-23 13:29:54,432 - financial_rag - INFO - info:51 - Added 214 documents to existing vector store
+2025-08-23 13:29:54,454 - financial_rag - INFO - info:51 - File Processing - embeddings (embed_and_store): SUCCESS
+2025-08-23 13:38:54,745 - financial_rag - ERROR - error:62 - Error checking vector database status: Cannot copy out of meta tensor; no data! Please use torch.nn.Module.to_empty() instead of torch.nn.Module.to() when moving module from meta to a different device.
+2025-08-23 13:38:57,249 - financial_rag - ERROR - error:62 - Error checking vector database status: Cannot copy out of meta tensor; no data! Please use torch.nn.Module.to_empty() instead of torch.nn.Module.to() when moving module from meta to a different device.
+2025-08-23 13:39:00,792 - financial_rag - ERROR - error:62 - Error checking vector database status: Cannot copy out of meta tensor; no data! Please use torch.nn.Module.to_empty() instead of torch.nn.Module.to() when moving module from meta to a different device.
+2025-08-23 13:39:09,702 - financial_rag - ERROR - error:62 - Error checking vector database status: Cannot copy out of meta tensor; no data! Please use torch.nn.Module.to_empty() instead of torch.nn.Module.to() when moving module from meta to a different device.
+2025-08-23 13:39:16,019 - financial_rag - ERROR - error:60 - Failed to load vector database: Cannot copy out of meta tensor; no data! Please use torch.nn.Module.to_empty() instead of torch.nn.Module.to() when moving module from meta to a different device.
+Traceback (most recent call last):
+  File "D:\CGVENTURES\financial_rag\ui\structured_rag_app.py", line 454, in process_structured_query
+    embedding_model = HuggingFaceEmbeddings(
+        model_name=Config.get_embedding_model_name(),
+        model_kwargs={'device': 'cuda' if Config.GPU_ENABLED else 'cpu'},
+        encode_kwargs={'normalize_embeddings': True, 'batch_size': Config.BATCH_SIZE}
+    )
+  File "D:\CGVENTURES\financial_rag\venv\Lib\site-packages\langchain_huggingface\embeddings\huggingface.py", line 98, in __init__
+    self._client = model_cls(
+                   ~~~~~~~~~^
+        self.model_name, cache_folder=self.cache_folder, **self.model_kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\CGVENTURES\financial_rag\venv\Lib\site-packages\sentence_transformers\SentenceTransformer.py", line 367, in __init__
+    self.to(device)
+    ~~~~~~~^^^^^^^^
+  File "D:\CGVENTURES\financial_rag\venv\Lib\site-packages\torch\nn\modules\module.py", line 1355, in to
+    return self._apply(convert)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\CGVENTURES\financial_rag\venv\Lib\site-packages\torch\nn\modules\module.py", line 915, in _apply
+    module._apply(fn)
+    ~~~~~~~~~~~~~^^^^
+  File "D:\CGVENTURES\financial_rag\venv\Lib\site-packages\torch\nn\modules\module.py", line 915, in _apply
+    module._apply(fn)
+    ~~~~~~~~~~~~~^^^^
+  File "D:\CGVENTURES\financial_rag\venv\Lib\site-packages\torch\nn\modules\module.py", line 915, in _apply
+    module._apply(fn)
+    ~~~~~~~~~~~~~^^^^
+  [Previous line repeated 1 more time]
+  File "D:\CGVENTURES\financial_rag\venv\Lib\site-packages\torch\nn\modules\module.py", line 942, in _apply
+    param_applied = fn(param)
+  File "D:\CGVENTURES\financial_rag\venv\Lib\site-packages\torch\nn\modules\module.py", line 1348, in convert
+    raise NotImplementedError(
+    ...<2 lines>...
+    ) from None
+NotImplementedError: Cannot copy out of meta tensor; no data! Please use torch.nn.Module.to_empty() instead of torch.nn.Module.to() when moving module from meta to a different device.
+2025-08-23 13:39:34,798 - financial_rag - ERROR - error:62 - Error checking vector database status: Cannot copy out of meta tensor; no data! Please use torch.nn.Module.to_empty() instead of torch.nn.Module.to() when moving module from meta to a different device.
+2025-08-23 13:39:36,880 - financial_rag - ERROR - error:62 - Error checking vector database status: Cannot copy out of meta tensor; no data! Please use torch.nn.Module.to_empty() instead of torch.nn.Module.to() when moving module from meta to a different device.
+2025-08-23 13:39:44,723 - financial_rag - ERROR - error:62 - Error checking vector database status: Cannot copy out of meta tensor; no data! Please use torch.nn.Module.to_empty() instead of torch.nn.Module.to() when moving module from meta to a different device.
+2025-08-23 13:39:50,255 - financial_rag - ERROR - error:60 - Failed to load vector database: Cannot copy out of meta tensor; no data! Please use torch.nn.Module.to_empty() instead of torch.nn.Module.to() when moving module from meta to a different device.
+Traceback (most recent call last):
+  File "D:\CGVENTURES\financial_rag\ui\structured_rag_app.py", line 454, in process_structured_query
+    embedding_model = HuggingFaceEmbeddings(
+        model_name=Config.get_embedding_model_name(),
+        model_kwargs={'device': 'cuda' if Config.GPU_ENABLED else 'cpu'},
+        encode_kwargs={'normalize_embeddings': True, 'batch_size': Config.BATCH_SIZE}
+    )
+  File "D:\CGVENTURES\financial_rag\venv\Lib\site-packages\langchain_huggingface\embeddings\huggingface.py", line 98, in __init__
+    self._client = model_cls(
+                   ~~~~~~~~~^
+        self.model_name, cache_folder=self.cache_folder, **self.model_kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\CGVENTURES\financial_rag\venv\Lib\site-packages\sentence_transformers\SentenceTransformer.py", line 367, in __init__
+    self.to(device)
+    ~~~~~~~^^^^^^^^
+  File "D:\CGVENTURES\financial_rag\venv\Lib\site-packages\torch\nn\modules\module.py", line 1355, in to
+    return self._apply(convert)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "D:\CGVENTURES\financial_rag\venv\Lib\site-packages\torch\nn\modules\module.py", line 915, in _apply
+    module._apply(fn)
+    ~~~~~~~~~~~~~^^^^
+  File "D:\CGVENTURES\financial_rag\venv\Lib\site-packages\torch\nn\modules\module.py", line 915, in _apply
+    module._apply(fn)
+    ~~~~~~~~~~~~~^^^^
+  File "D:\CGVENTURES\financial_rag\venv\Lib\site-packages\torch\nn\modules\module.py", line 915, in _apply
+    module._apply(fn)
+    ~~~~~~~~~~~~~^^^^
+  [Previous line repeated 1 more time]
+  File "D:\CGVENTURES\financial_rag\venv\Lib\site-packages\torch\nn\modules\module.py", line 942, in _apply
+    param_applied = fn(param)
+  File "D:\CGVENTURES\financial_rag\venv\Lib\site-packages\torch\nn\modules\module.py", line 1348, in convert
+    raise NotImplementedError(
+    ...<2 lines>...
+    ) from None
+NotImplementedError: Cannot copy out of meta tensor; no data! Please use torch.nn.Module.to_empty() instead of torch.nn.Module.to() when moving module from meta to a different device.
+2025-08-23 14:12:51,971 - financial_rag - INFO - info:51 - File validation passed: Concall 4QF25.pdf
+2025-08-23 14:12:51,976 - financial_rag - INFO - info:51 - File validation passed: conference call transcript.pdf
+2025-08-23 14:12:51,980 - financial_rag - INFO - info:51 - File validation passed: Investor ppt.pdf
+2025-08-23 14:12:52,651 - financial_rag - INFO - info:51 - Successfully processed: Concall 4QF25.pdf (19 pages)
+2025-08-23 14:12:52,660 - financial_rag - INFO - info:51 - Successfully processed: Investor ppt.pdf (31 pages)
+2025-08-23 14:12:52,666 - financial_rag - INFO - info:51 - Successfully processed: conference call transcript.pdf (29 pages)
+2025-08-23 14:13:18,374 - financial_rag - INFO - info:51 - Added 214 documents to existing vector store
+2025-08-23 14:13:18,394 - financial_rag - INFO - info:51 - File Processing - embeddings (embed_and_store): SUCCESS
+2025-08-23 14:14:49,088 - financial_rag - INFO - info:51 - Vector database loaded successfully with 214 documents
+2025-08-23 14:14:49,089 - financial_rag - INFO - info:51 - Enhanced retriever initialized successfully
+2025-08-23 14:14:52,451 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (3.19s)
+2025-08-23 14:14:52,456 - financial_rag - INFO - info:51 - Successfully parsed structured response for question: What was the sales volume in Q1FY25?...
+2025-08-23 14:14:52,456 - financial_rag - INFO - info:51 - Found 3 metrics in response
+2025-08-23 14:14:52,457 - financial_rag - INFO - info:51 -   Metric 1: currency = 500 million (None)
+2025-08-23 14:14:52,457 - financial_rag - INFO - info:51 -   Metric 2: currency = 200 million (None)
+2025-08-23 14:14:52,458 - financial_rag - INFO - info:51 -   Metric 3: currency = 350 million (None)
+2025-08-23 14:14:52,481 - financial_rag - INFO - info:51 - Query - Model: Google Gemini 2.0, Status: SUCCESS, Query: What was the sales volume in Q1FY25?
+2025-08-23 14:15:24,130 - financial_rag - INFO - info:51 - Vector database loaded successfully with 214 documents
+2025-08-23 14:15:24,130 - financial_rag - INFO - info:51 - Enhanced retriever initialized successfully
+2025-08-23 14:15:25,336 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (1.10s)
+2025-08-23 14:15:25,337 - financial_rag - INFO - info:51 - Successfully parsed structured response for question: What was the sales volume in Q1FY25?...
+2025-08-23 14:15:25,337 - financial_rag - INFO - info:51 - Found 3 metrics in response
+2025-08-23 14:15:25,338 - financial_rag - INFO - info:51 -   Metric 1: currency = 500 million (None)
+2025-08-23 14:15:25,338 - financial_rag - INFO - info:51 -   Metric 2: currency = 200 million (None)
+2025-08-23 14:15:25,338 - financial_rag - INFO - info:51 -   Metric 3: currency = 350 million (None)
+2025-08-23 14:15:25,363 - financial_rag - INFO - info:51 - Query - Model: Google Gemini 2.0, Status: SUCCESS, Query: What was the sales volume in Q1FY25?
+2025-08-23 14:16:33,092 - financial_rag - WARNING - warning:55 - Missing optional columns: Type, Figure in cr, Period, Figure
+2025-08-23 14:16:33,110 - financial_rag - INFO - info:51 - Parsed 8 questions from Excel file
+2025-08-23 14:16:46,458 - financial_rag - WARNING - warning:55 - Missing optional columns: Type, Figure in cr, Period, Figure
+2025-08-23 14:16:46,476 - financial_rag - INFO - info:51 - Parsed 8 questions from Excel file
+2025-08-23 14:16:51,472 - financial_rag - INFO - info:51 - Starting bulk processing of 8 questions
+2025-08-23 14:16:51,473 - financial_rag - INFO - info:51 - Processing question 1/8: What was the revenue growth in Q1FY26 in USD terms...
+2025-08-23 14:16:52,539 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (1.02s)
+2025-08-23 14:16:52,541 - financial_rag - INFO - info:51 - Successfully parsed structured response for question: What was the revenue growth in Q1FY26 in USD terms...
+2025-08-23 14:16:52,542 - financial_rag - INFO - info:51 - Found 2 metrics in response
+2025-08-23 14:16:52,542 - financial_rag - INFO - info:51 -   Metric 1: percentage = 1.1 % (None)
+2025-08-23 14:16:52,543 - financial_rag - INFO - info:51 -   Metric 2: currency = 7421 million (None)
+2025-08-23 14:16:52,558 - financial_rag - INFO - info:51 -    Metrics count: 2
+2025-08-23 14:16:52,563 - financial_rag - INFO - info:51 -    Metrics count: 2
+2025-08-23 14:16:52,563 - financial_rag - INFO - info:51 -      Metric 1: percentage = 1.1 % (None)
+2025-08-23 14:16:52,563 - financial_rag - INFO - info:51 -      Metric 2: currency = 7421 million (None)
+2025-08-23 14:16:52,563 - financial_rag - INFO - info:51 - Processing question 2/8: What is the company's guidance on capex for the ye...
+2025-08-23 14:16:54,418 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (1.81s)
+2025-08-23 14:16:54,419 - financial_rag - INFO - info:51 - Successfully parsed structured response for question: What is the company's guidance on capex for the ye...
+2025-08-23 14:16:54,420 - financial_rag - INFO - info:51 - Found 9 metrics in response
+2025-08-23 14:16:54,420 - financial_rag - INFO - info:51 -   Metric 1: currency = 80 million (None)
+2025-08-23 14:16:54,421 - financial_rag - INFO - info:51 -   Metric 2: currency = 10 million (None)
+2025-08-23 14:16:54,421 - financial_rag - INFO - info:51 -   Metric 3: currency = 173 cr (None)
+2025-08-23 14:16:54,421 - financial_rag - INFO - info:51 -   Metric 4: currency = 600 cr (None)
+2025-08-23 14:16:54,421 - financial_rag - INFO - info:51 -   Metric 5: currency = 700 cr (None)
+2025-08-23 14:16:54,421 - financial_rag - INFO - info:51 -   Metric 6: currency = 3287 cr (None)
+2025-08-23 14:16:54,422 - financial_rag - INFO - info:51 -   Metric 7: currency = 5 billion (None)
+2025-08-23 14:16:54,422 - financial_rag - INFO - info:51 -   Metric 8: currency = 8 billion (None)
+2025-08-23 14:16:54,422 - financial_rag - INFO - info:51 -   Metric 9: currency = 8 million (None)
+2025-08-23 14:16:54,427 - financial_rag - INFO - info:51 -    Metrics count: 9
+2025-08-23 14:16:54,431 - financial_rag - INFO - info:51 -    Metrics count: 9
+2025-08-23 14:16:54,433 - financial_rag - INFO - info:51 -      Metric 1: currency = 80 million (None)
+2025-08-23 14:16:54,434 - financial_rag - INFO - info:51 -      Metric 2: currency = 10 million (None)
+2025-08-23 14:16:54,435 - financial_rag - INFO - info:51 -      Metric 3: currency = 173 cr (None)
+2025-08-23 14:16:54,435 - financial_rag - INFO - info:51 -      Metric 4: currency = 600 cr (None)
+2025-08-23 14:16:54,436 - financial_rag - INFO - info:51 -      Metric 5: currency = 700 cr (None)
+2025-08-23 14:16:54,436 - financial_rag - INFO - info:51 -      Metric 6: currency = 3287 cr (None)
+2025-08-23 14:16:54,436 - financial_rag - INFO - info:51 -      Metric 7: currency = 5 billion (None)
+2025-08-23 14:16:54,437 - financial_rag - INFO - info:51 -      Metric 8: currency = 8 billion (None)
+2025-08-23 14:16:54,437 - financial_rag - INFO - info:51 -      Metric 9: currency = 8 million (None)
+2025-08-23 14:16:54,437 - financial_rag - INFO - info:51 - Processing question 3/8: What caused the jump in employee costs over the la...
+2025-08-23 14:16:56,181 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (1.71s)
+2025-08-23 14:16:56,184 - financial_rag - INFO - info:51 - Successfully parsed structured response for question: What caused the jump in employee costs over the la...
+2025-08-23 14:16:56,185 - financial_rag - INFO - info:51 - Found 1 metrics in response
+2025-08-23 14:16:56,185 - financial_rag - INFO - info:51 -   Metric 1: capacity = , None (None)
+2025-08-23 14:16:56,191 - financial_rag - INFO - info:51 -    Metrics count: 1
+2025-08-23 14:16:56,195 - financial_rag - INFO - info:51 -    Metrics count: 1
+2025-08-23 14:16:56,196 - financial_rag - INFO - info:51 -      Metric 1: capacity = , None (None)
+2025-08-23 14:16:56,196 - financial_rag - INFO - info:51 - Processing question 4/8: What was the sales volume in Q1FY25?...
+2025-08-23 14:16:57,262 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (1.03s)
+2025-08-23 14:16:57,264 - financial_rag - INFO - info:51 - Successfully parsed structured response for question: What was the sales volume in Q1FY25?...
+2025-08-23 14:16:57,264 - financial_rag - INFO - info:51 - Found 2 metrics in response
+2025-08-23 14:16:57,264 - financial_rag - INFO - info:51 -   Metric 1: currency = 4 billion (None)
+2025-08-23 14:16:57,264 - financial_rag - INFO - info:51 -   Metric 2: currency = 7421 million (None)
+2025-08-23 14:16:57,270 - financial_rag - INFO - info:51 -    Metrics count: 2
+2025-08-23 14:16:57,274 - financial_rag - INFO - info:51 -    Metrics count: 2
+2025-08-23 14:16:57,274 - financial_rag - INFO - info:51 -      Metric 1: currency = 4 billion (None)
+2025-08-23 14:16:57,275 - financial_rag - INFO - info:51 -      Metric 2: currency = 7421 million (None)
+2025-08-23 14:16:57,275 - financial_rag - INFO - info:51 - Processing question 5/8: What was the cost on a per ton basis in Q1FY26?...
+2025-08-23 14:16:59,116 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (1.80s)
+2025-08-23 14:16:59,118 - financial_rag - INFO - info:51 - Successfully parsed structured response for question: What was the cost on a per ton basis in Q1FY26?...
+2025-08-23 14:16:59,119 - financial_rag - INFO - info:51 - Found 1 metrics in response
+2025-08-23 14:16:59,119 - financial_rag - INFO - info:51 -   Metric 1: currency = 4 billion (2025)
+2025-08-23 14:16:59,124 - financial_rag - INFO - info:51 -    Metrics count: 1
+2025-08-23 14:16:59,130 - financial_rag - INFO - info:51 -    Metrics count: 1
+2025-08-23 14:16:59,130 - financial_rag - INFO - info:51 -      Metric 1: currency = 4 billion (2025)
+2025-08-23 14:16:59,131 - financial_rag - INFO - info:51 - Processing question 6/8: What was the total cost in Rs Cr in Q1FY26?...
+2025-08-23 14:17:00,551 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (1.38s)
+2025-08-23 14:17:00,554 - financial_rag - INFO - info:51 - Successfully parsed structured response for question: What was the total cost in Rs Cr in Q1FY26?...
+2025-08-23 14:17:00,555 - financial_rag - INFO - info:51 - Found 2 metrics in response
+2025-08-23 14:17:00,555 - financial_rag - INFO - info:51 -   Metric 1: currency = 3932000 cr (2025)
+2025-08-23 14:17:00,555 - financial_rag - INFO - info:51 -   Metric 2: currency = 3932000 cr (2025)
+2025-08-23 14:17:00,561 - financial_rag - INFO - info:51 -    Metrics count: 2
+2025-08-23 14:17:00,566 - financial_rag - INFO - info:51 -    Metrics count: 2
+2025-08-23 14:17:00,566 - financial_rag - INFO - info:51 -      Metric 1: currency = 3932000 cr (2025)
+2025-08-23 14:17:00,567 - financial_rag - INFO - info:51 -      Metric 2: currency = 3932000 cr (2025)
+2025-08-23 14:17:00,568 - financial_rag - INFO - info:51 - Processing question 7/8: What is the current capacity?...
+2025-08-23 14:17:01,379 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (0.78s)
+2025-08-23 14:17:01,380 - financial_rag - INFO - info:51 - Successfully parsed structured response for question: What is the current capacity?...
+2025-08-23 14:17:01,381 - financial_rag - INFO - info:51 - Found 1 metrics in response
+2025-08-23 14:17:01,381 - financial_rag - INFO - info:51 -   Metric 1: currency = 8 billion (None)
+2025-08-23 14:17:01,387 - financial_rag - INFO - info:51 -    Metrics count: 1
+2025-08-23 14:17:01,392 - financial_rag - INFO - info:51 -    Metrics count: 1
+2025-08-23 14:17:01,393 - financial_rag - INFO - info:51 -      Metric 1: currency = 8 billion (None)
+2025-08-23 14:17:01,393 - financial_rag - INFO - info:51 - Processing question 8/8: What is capex for new expansion?...
+2025-08-23 14:17:03,286 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (1.85s)
+2025-08-23 14:17:03,288 - financial_rag - INFO - info:51 - Successfully parsed structured response for question: What is capex for new expansion?...
+2025-08-23 14:17:03,288 - financial_rag - INFO - info:51 - Found 4 metrics in response
+2025-08-23 14:17:03,289 - financial_rag - INFO - info:51 -   Metric 1: currency = 3287 cr (None)
+2025-08-23 14:17:03,289 - financial_rag - INFO - info:51 -   Metric 2: currency = 5 billion (None)
+2025-08-23 14:17:03,289 - financial_rag - INFO - info:51 -   Metric 3: currency = 8 billion (None)
+2025-08-23 14:17:03,290 - financial_rag - INFO - info:51 -   Metric 4: currency = 8 million (None)
+2025-08-23 14:17:03,295 - financial_rag - INFO - info:51 -    Metrics count: 4
+2025-08-23 14:17:03,303 - financial_rag - INFO - info:51 -    Metrics count: 4
+2025-08-23 14:17:03,303 - financial_rag - INFO - info:51 -      Metric 1: currency = 3287 cr (None)
+2025-08-23 14:17:03,304 - financial_rag - INFO - info:51 -      Metric 2: currency = 5 billion (None)
+2025-08-23 14:17:03,305 - financial_rag - INFO - info:51 -      Metric 3: currency = 8 billion (None)
+2025-08-23 14:17:03,305 - financial_rag - INFO - info:51 -      Metric 4: currency = 8 million (None)
+2025-08-23 14:17:03,306 - financial_rag - INFO - info:51 - Bulk processing completed: 8 successful, 0 failed in 11.83s
+2025-08-23 14:17:03,654 - financial_rag - INFO - info:51 - Bulk processing completed: 8/8 successful
+2025-08-23 14:17:22,405 - financial_rag - WARNING - warning:55 - Missing optional columns: Type, Figure in cr, Period, Figure
+2025-08-23 14:17:22,434 - financial_rag - INFO - info:51 - Parsed 8 questions from Excel file
+2025-08-23 14:18:21,893 - financial_rag - INFO - info:51 - Parsed 5 questions from Excel file
+2025-08-23 14:18:35,319 - financial_rag - INFO - info:51 - Parsed 5 questions from Excel file
+2025-08-23 14:18:40,545 - financial_rag - INFO - info:51 - Starting bulk processing of 5 questions
+2025-08-23 14:18:40,545 - financial_rag - INFO - info:51 - Processing question 1/5: What was the change in operating margin from last ...
+2025-08-23 14:18:41,927 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (1.30s)
+2025-08-23 14:18:41,928 - financial_rag - INFO - info:51 - Successfully parsed structured response for question: What was the change in operating margin from last ...
+2025-08-23 14:18:41,929 - financial_rag - INFO - info:51 - Found 3 metrics in response
+2025-08-23 14:18:41,929 - financial_rag - INFO - info:51 -   Metric 1: revenue = , None (2025)
+2025-08-23 14:18:41,929 - financial_rag - INFO - info:51 -   Metric 2: percentage = 24.5 % (2025)
+2025-08-23 14:18:41,929 - financial_rag - INFO - info:51 -   Metric 3: currency = 4 billion (2025)
+2025-08-23 14:18:41,938 - financial_rag - INFO - info:51 -    Metrics count: 3
+2025-08-23 14:18:41,943 - financial_rag - INFO - info:51 -    Metrics count: 3
+2025-08-23 14:18:41,944 - financial_rag - INFO - info:51 -      Metric 1: revenue = , None (2025)
+2025-08-23 14:18:41,944 - financial_rag - INFO - info:51 -      Metric 2: percentage = 24.5 % (2025)
+2025-08-23 14:18:41,944 - financial_rag - INFO - info:51 -      Metric 3: currency = 4 billion (2025)
+2025-08-23 14:18:41,945 - financial_rag - INFO - info:51 - Processing question 2/5: What was the change in revenue in constant currenc...
+2025-08-23 14:18:42,966 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (0.97s)
+2025-08-23 14:18:42,967 - financial_rag - INFO - info:51 - Successfully parsed structured response for question: What was the change in revenue in constant currenc...
+2025-08-23 14:18:42,968 - financial_rag - INFO - info:51 - Found 2 metrics in response
+2025-08-23 14:18:42,968 - financial_rag - INFO - info:51 -   Metric 1: percentage = 3.1 % (None)
+2025-08-23 14:18:42,968 - financial_rag - INFO - info:51 -   Metric 2: currency = 7421 million (None)
+2025-08-23 14:18:42,972 - financial_rag - INFO - info:51 -    Metrics count: 2
+2025-08-23 14:18:42,976 - financial_rag - INFO - info:51 -    Metrics count: 2
+2025-08-23 14:18:42,976 - financial_rag - INFO - info:51 -      Metric 1: percentage = 3.1 % (None)
+2025-08-23 14:18:42,977 - financial_rag - INFO - info:51 -      Metric 2: currency = 7421 million (None)
+2025-08-23 14:18:42,977 - financial_rag - INFO - info:51 - Processing question 3/5: What was the free cash flow for the period...
+2025-08-23 14:18:44,402 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (1.39s)
+2025-08-23 14:18:44,403 - financial_rag - INFO - info:51 - Successfully parsed structured response for question: What was the free cash flow for the period...
+2025-08-23 14:18:44,403 - financial_rag - INFO - info:51 - Found 3 metrics in response
+2025-08-23 14:18:44,404 - financial_rag - INFO - info:51 -   Metric 1: currency = 1.3 billion (2025)
+2025-08-23 14:18:44,404 - financial_rag - INFO - info:51 -   Metric 2: currency = 7421 million (2025)
+2025-08-23 14:18:44,404 - financial_rag - INFO - info:51 -   Metric 3: currency = 4 billion (2025)
+2025-08-23 14:18:44,407 - financial_rag - INFO - info:51 -    Metrics count: 3
+2025-08-23 14:18:44,413 - financial_rag - INFO - info:51 -    Metrics count: 3
+2025-08-23 14:18:44,414 - financial_rag - INFO - info:51 -      Metric 1: currency = 1.3 billion (2025)
+2025-08-23 14:18:44,414 - financial_rag - INFO - info:51 -      Metric 2: currency = 7421 million (2025)
+2025-08-23 14:18:44,414 - financial_rag - INFO - info:51 -      Metric 3: currency = 4 billion (2025)
+2025-08-23 14:18:44,415 - financial_rag - INFO - info:51 - Processing question 4/5: What is the guidance on operating margin...
+2025-08-23 14:18:45,467 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (1.01s)
+2025-08-23 14:18:45,469 - financial_rag - INFO - info:51 - Successfully parsed structured response for question: What is the guidance on operating margin...
+2025-08-23 14:18:45,469 - financial_rag - INFO - info:51 - Found 2 metrics in response
+2025-08-23 14:18:45,469 - financial_rag - INFO - info:51 -   Metric 1: percentage = 24.5 % (2025)
+2025-08-23 14:18:45,469 - financial_rag - INFO - info:51 -   Metric 2: currency = 4 billion (2025)
+2025-08-23 14:18:45,473 - financial_rag - INFO - info:51 -    Metrics count: 2
+2025-08-23 14:18:45,478 - financial_rag - INFO - info:51 -    Metrics count: 2
+2025-08-23 14:18:45,478 - financial_rag - INFO - info:51 -      Metric 1: percentage = 24.5 % (2025)
+2025-08-23 14:18:45,478 - financial_rag - INFO - info:51 -      Metric 2: currency = 4 billion (2025)
+2025-08-23 14:18:45,479 - financial_rag - INFO - info:51 - Processing question 5/5: what is the outlook on BFSI deal wins...
+2025-08-23 14:18:47,566 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (2.04s)
+2025-08-23 14:18:47,567 - financial_rag - INFO - info:51 - Successfully parsed structured response for question: what is the outlook on BFSI deal wins...
+2025-08-23 14:18:47,568 - financial_rag - INFO - info:51 - Found 2 metrics in response
+2025-08-23 14:18:47,568 - financial_rag - INFO - info:51 -   Metric 1: percentage = 12 % (2025)
+2025-08-23 14:18:47,568 - financial_rag - INFO - info:51 -   Metric 2: currency = 2.5 billion (2025)
+2025-08-23 14:18:47,572 - financial_rag - INFO - info:51 -    Metrics count: 2
+2025-08-23 14:18:47,576 - financial_rag - INFO - info:51 -    Metrics count: 2
+2025-08-23 14:18:47,577 - financial_rag - INFO - info:51 -      Metric 1: percentage = 12 % (2025)
+2025-08-23 14:18:47,577 - financial_rag - INFO - info:51 -      Metric 2: currency = 2.5 billion (2025)
+2025-08-23 14:18:47,578 - financial_rag - INFO - info:51 - Bulk processing completed: 5 successful, 0 failed in 7.03s
+2025-08-23 14:18:47,748 - financial_rag - INFO - info:51 - Bulk processing completed: 5/5 successful
+2025-08-23 14:18:59,755 - financial_rag - INFO - info:51 - Parsed 5 questions from Excel file
+2025-08-23 14:33:53,065 - financial_rag - INFO - info:51 - Vector database loaded successfully with 214 documents
+2025-08-23 14:33:53,066 - financial_rag - INFO - info:51 - Enhanced retriever initialized successfully
+2025-08-23 14:33:53,067 - financial_rag - INFO - info:51 - Filtering for selected filenames: {'Investor ppt.pdf'}
+2025-08-23 14:33:53,157 - financial_rag - INFO - info:51 - Total documents in vector database: 214
+2025-08-23 14:33:53,159 - financial_rag - INFO - info:51 - Filtered documents found: 31
+2025-08-23 14:34:07,423 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (3.89s)
+2025-08-23 14:34:07,428 - financial_rag - INFO - info:51 - Successfully parsed structured response for question: What was the sales volume in Q1FY25?...
+2025-08-23 14:34:07,457 - financial_rag - INFO - info:51 - Query - Model: Google Gemini 2.0, Status: SUCCESS, Query: What was the sales volume in Q1FY25?
+2025-08-23 14:34:44,283 - financial_rag - INFO - info:51 - Vector database loaded successfully with 214 documents
+2025-08-23 14:34:44,284 - financial_rag - INFO - info:51 - Enhanced retriever initialized successfully
+2025-08-23 14:34:44,284 - financial_rag - INFO - info:51 - Filtering for selected filenames: {'Concall 4QF25.pdf', 'conference call transcript.pdf'}
+2025-08-23 14:34:44,308 - financial_rag - INFO - info:51 - Total documents in vector database: 214
+2025-08-23 14:34:44,311 - financial_rag - INFO - info:51 - Filtered documents found: 183
+2025-08-23 14:35:12,025 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (0.91s)
+2025-08-23 14:35:12,027 - financial_rag - INFO - info:51 - Successfully parsed structured response for question: What was the sales volume in Q1FY25?...
+2025-08-23 14:35:12,027 - financial_rag - INFO - info:51 - Found 3 metrics in response
+2025-08-23 14:35:12,028 - financial_rag - INFO - info:51 -   Metric 1: currency = 500 million (None)
+2025-08-23 14:35:12,028 - financial_rag - INFO - info:51 -   Metric 2: currency = 200 million (None)
+2025-08-23 14:35:12,029 - financial_rag - INFO - info:51 -   Metric 3: currency = 350 million (None)
+2025-08-23 14:35:12,057 - financial_rag - INFO - info:51 - Query - Model: Google Gemini 2.0, Status: SUCCESS, Query: What was the sales volume in Q1FY25?
+2025-08-23 14:36:07,789 - financial_rag - INFO - info:51 - Vector database loaded successfully with 214 documents
+2025-08-23 14:36:07,798 - financial_rag - INFO - info:51 - Enhanced retriever initialized successfully
+2025-08-23 14:36:07,799 - financial_rag - INFO - info:51 - Filtering for selected filenames: {'Concall 4QF25.pdf', 'conference call transcript.pdf', 'Investor ppt.pdf'}
+2025-08-23 14:36:07,830 - financial_rag - INFO - info:51 - Total documents in vector database: 214
+2025-08-23 14:36:07,836 - financial_rag - INFO - info:51 - Filtered documents found: 214
+2025-08-23 14:36:40,436 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (0.91s)
+2025-08-23 14:36:40,437 - financial_rag - INFO - info:51 - Successfully parsed structured response for question: What was the sales volume in Q1FY25?...
+2025-08-23 14:36:40,437 - financial_rag - INFO - info:51 - Found 3 metrics in response
+2025-08-23 14:36:40,438 - financial_rag - INFO - info:51 -   Metric 1: currency = 500 million (None)
+2025-08-23 14:36:40,438 - financial_rag - INFO - info:51 -   Metric 2: currency = 200 million (None)
+2025-08-23 14:36:40,438 - financial_rag - INFO - info:51 -   Metric 3: currency = 350 million (None)
+2025-08-23 14:36:40,472 - financial_rag - INFO - info:51 - Query - Model: Google Gemini 2.0, Status: SUCCESS, Query: What was the sales volume in Q1FY25?
+2025-08-23 14:38:53,434 - financial_rag - INFO - info:51 - Vector database loaded successfully with 214 documents
+2025-08-23 14:38:53,434 - financial_rag - INFO - info:51 - Enhanced retriever initialized successfully
+2025-08-23 14:38:53,435 - financial_rag - INFO - info:51 - Filtering for selected filenames: {'Concall 4QF25.pdf', 'conference call transcript.pdf', 'Investor ppt.pdf'}
+2025-08-23 14:38:53,477 - financial_rag - INFO - info:51 - Total documents in vector database: 214
+2025-08-23 14:38:53,480 - financial_rag - INFO - info:51 - Filtered documents found: 214
+2025-08-23 14:39:25,763 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (0.90s)
+2025-08-23 14:39:25,765 - financial_rag - INFO - info:51 - Successfully parsed structured response for question: What was the sales volume in Q1FY25?...
+2025-08-23 14:39:25,765 - financial_rag - INFO - info:51 - Found 3 metrics in response
+2025-08-23 14:39:25,766 - financial_rag - INFO - info:51 -   Metric 1: currency = 500 million (None)
+2025-08-23 14:39:25,766 - financial_rag - INFO - info:51 -   Metric 2: currency = 200 million (None)
+2025-08-23 14:39:25,767 - financial_rag - INFO - info:51 -   Metric 3: currency = 350 million (None)
+2025-08-23 14:39:25,799 - financial_rag - INFO - info:51 - Query - Model: Google Gemini 2.0, Status: SUCCESS, Query: What was the sales volume in Q1FY25?
+2025-08-23 14:39:57,817 - financial_rag - INFO - info:51 - Vector database loaded successfully with 214 documents
+2025-08-23 14:39:57,818 - financial_rag - INFO - info:51 - Enhanced retriever initialized successfully
+2025-08-23 14:39:57,818 - financial_rag - INFO - info:51 - Filtering for selected filenames: {'Concall 4QF25.pdf', 'conference call transcript.pdf'}
+2025-08-23 14:39:57,854 - financial_rag - INFO - info:51 - Total documents in vector database: 214
+2025-08-23 14:39:57,858 - financial_rag - INFO - info:51 - Filtered documents found: 183
+2025-08-23 14:40:25,820 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (0.88s)
+2025-08-23 14:40:25,821 - financial_rag - INFO - info:51 - Successfully parsed structured response for question: What was the sales volume in Q1FY25?...
+2025-08-23 14:40:25,822 - financial_rag - INFO - info:51 - Found 3 metrics in response
+2025-08-23 14:40:25,822 - financial_rag - INFO - info:51 -   Metric 1: currency = 500 million (None)
+2025-08-23 14:40:25,823 - financial_rag - INFO - info:51 -   Metric 2: currency = 200 million (None)
+2025-08-23 14:40:25,823 - financial_rag - INFO - info:51 -   Metric 3: currency = 350 million (None)
+2025-08-23 14:40:25,847 - financial_rag - INFO - info:51 - Query - Model: Google Gemini 2.0, Status: SUCCESS, Query: What was the sales volume in Q1FY25?
+2025-08-23 14:41:02,511 - financial_rag - WARNING - warning:55 - Missing optional columns: Type, Figure in cr, Period, Figure
+2025-08-23 14:41:02,529 - financial_rag - INFO - info:51 - Parsed 8 questions from Excel file
+2025-08-23 14:41:18,233 - financial_rag - WARNING - warning:55 - Missing optional columns: Type, Figure in cr, Period, Figure
+2025-08-23 14:41:18,261 - financial_rag - INFO - info:51 - Parsed 8 questions from Excel file
+2025-08-23 14:41:25,392 - financial_rag - INFO - info:51 - Starting bulk processing of 8 questions
+2025-08-23 14:41:25,393 - financial_rag - INFO - info:51 - Processing question 1/8: What was the revenue growth in Q1FY26 in USD terms...
+2025-08-23 14:41:25,393 - financial_rag - INFO - info:51 - Filtering for selected filenames: {'Concall 4QF25.pdf'}
+2025-08-23 14:41:25,428 - financial_rag - INFO - info:51 - Total documents in vector database: 214
+2025-08-23 14:41:25,431 - financial_rag - INFO - info:51 - Filtered documents found: 90
+2025-08-23 14:41:43,585 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (1.46s)
+2025-08-23 14:41:43,587 - financial_rag - INFO - info:51 - Successfully parsed structured response for question: What was the revenue growth in Q1FY26 in USD terms...
+2025-08-23 14:41:43,588 - financial_rag - WARNING - warning:55 - No metrics found in structured response for question: What was the revenue growth in Q1FY26 in USD terms...
+2025-08-23 14:41:43,604 - financial_rag - INFO - info:51 -    Metrics count: 0
+2025-08-23 14:41:43,610 - financial_rag - INFO - info:51 -    Metrics count: 0
+2025-08-23 14:41:43,610 - financial_rag - INFO - info:51 - Processing question 2/8: What is the company's guidance on capex for the ye...
+2025-08-23 14:41:43,611 - financial_rag - INFO - info:51 - Filtering for selected filenames: {'Concall 4QF25.pdf'}
+2025-08-23 14:41:43,642 - financial_rag - INFO - info:51 - Total documents in vector database: 214
+2025-08-23 14:41:43,645 - financial_rag - INFO - info:51 - Filtered documents found: 90
+2025-08-23 14:42:02,600 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (1.27s)
+2025-08-23 14:42:02,603 - financial_rag - INFO - info:51 - Successfully parsed structured response for question: What is the company's guidance on capex for the ye...
+2025-08-23 14:42:02,603 - financial_rag - INFO - info:51 - Found 3 metrics in response
+2025-08-23 14:42:02,603 - financial_rag - INFO - info:51 -   Metric 1: currency = 173 cr (None)
+2025-08-23 14:42:02,604 - financial_rag - INFO - info:51 -   Metric 2: currency = 8 million (None)
+2025-08-23 14:42:02,604 - financial_rag - INFO - info:51 -   Metric 3: currency = 10 million (None)
+2025-08-23 14:42:02,610 - financial_rag - INFO - info:51 -    Metrics count: 3
+2025-08-23 14:42:02,615 - financial_rag - INFO - info:51 -    Metrics count: 3
+2025-08-23 14:42:02,616 - financial_rag - INFO - info:51 -      Metric 1: currency = 173 cr (None)
+2025-08-23 14:42:02,616 - financial_rag - INFO - info:51 -      Metric 2: currency = 8 million (None)
+2025-08-23 14:42:02,616 - financial_rag - INFO - info:51 -      Metric 3: currency = 10 million (None)
+2025-08-23 14:42:02,617 - financial_rag - INFO - info:51 - Processing question 3/8: What caused the jump in employee costs over the la...
+2025-08-23 14:42:02,617 - financial_rag - INFO - info:51 - Filtering for selected filenames: {'Concall 4QF25.pdf'}
+2025-08-23 14:42:02,650 - financial_rag - INFO - info:51 - Total documents in vector database: 214
+2025-08-23 14:42:02,653 - financial_rag - INFO - info:51 - Filtered documents found: 90
+2025-08-23 14:42:21,721 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (1.28s)
+2025-08-23 14:42:21,723 - financial_rag - INFO - info:51 - Successfully parsed structured response for question: What caused the jump in employee costs over the la...
+2025-08-23 14:42:21,723 - financial_rag - INFO - info:51 - Found 2 metrics in response
+2025-08-23 14:42:21,723 - financial_rag - INFO - info:51 -   Metric 1: percentage = 50 % (2025)
+2025-08-23 14:42:21,723 - financial_rag - INFO - info:51 -   Metric 2: percentage = 60 % (2025)
+2025-08-23 14:42:21,729 - financial_rag - INFO - info:51 -    Metrics count: 2
+2025-08-23 14:42:21,735 - financial_rag - INFO - info:51 -    Metrics count: 2
+2025-08-23 14:42:21,735 - financial_rag - INFO - info:51 -      Metric 1: percentage = 50 % (2025)
+2025-08-23 14:42:21,736 - financial_rag - INFO - info:51 -      Metric 2: percentage = 60 % (2025)
+2025-08-23 14:42:21,736 - financial_rag - INFO - info:51 - Processing question 4/8: What was the sales volume in Q1FY25?...
+2025-08-23 14:42:21,737 - financial_rag - INFO - info:51 - Filtering for selected filenames: {'Concall 4QF25.pdf'}
+2025-08-23 14:42:21,766 - financial_rag - INFO - info:51 - Total documents in vector database: 214
+2025-08-23 14:42:21,769 - financial_rag - INFO - info:51 - Filtered documents found: 90
+2025-08-23 14:42:39,645 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (1.03s)
+2025-08-23 14:42:39,646 - financial_rag - INFO - info:51 - Successfully parsed structured response for question: What was the sales volume in Q1FY25?...
+2025-08-23 14:42:39,647 - financial_rag - INFO - info:51 - Found 3 metrics in response
+2025-08-23 14:42:39,647 - financial_rag - INFO - info:51 -   Metric 1: currency = 500 million (None)
+2025-08-23 14:42:39,648 - financial_rag - INFO - info:51 -   Metric 2: currency = 200 million (None)
+2025-08-23 14:42:39,648 - financial_rag - INFO - info:51 -   Metric 3: currency = 350 million (None)
+2025-08-23 14:42:39,654 - financial_rag - INFO - info:51 -    Metrics count: 3
+2025-08-23 14:42:39,658 - financial_rag - INFO - info:51 -    Metrics count: 3
+2025-08-23 14:42:39,658 - financial_rag - INFO - info:51 -      Metric 1: currency = 500 million (None)
+2025-08-23 14:42:39,659 - financial_rag - INFO - info:51 -      Metric 2: currency = 200 million (None)
+2025-08-23 14:42:39,659 - financial_rag - INFO - info:51 -      Metric 3: currency = 350 million (None)
+2025-08-23 14:42:39,659 - financial_rag - INFO - info:51 - Processing question 5/8: What was the cost on a per ton basis in Q1FY26?...
+2025-08-23 14:42:39,660 - financial_rag - INFO - info:51 - Filtering for selected filenames: {'Concall 4QF25.pdf'}
+2025-08-23 14:42:39,685 - financial_rag - INFO - info:51 - Total documents in vector database: 214
+2025-08-23 14:42:39,688 - financial_rag - INFO - info:51 - Filtered documents found: 90
+2025-08-23 14:42:57,292 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (0.88s)
+2025-08-23 14:42:57,294 - financial_rag - INFO - info:51 - Successfully parsed structured response for question: What was the cost on a per ton basis in Q1FY26?...
+2025-08-23 14:42:57,294 - financial_rag - INFO - info:51 - Found 3 metrics in response
+2025-08-23 14:42:57,295 - financial_rag - INFO - info:51 -   Metric 1: currency = 500 million (None)
+2025-08-23 14:42:57,296 - financial_rag - INFO - info:51 -   Metric 2: currency = 220 million (None)
+2025-08-23 14:42:57,296 - financial_rag - INFO - info:51 -   Metric 3: currency = 50 million (None)
+2025-08-23 14:42:57,301 - financial_rag - INFO - info:51 -    Metrics count: 3
+2025-08-23 14:42:57,306 - financial_rag - INFO - info:51 -    Metrics count: 3
+2025-08-23 14:42:57,306 - financial_rag - INFO - info:51 -      Metric 1: currency = 500 million (None)
+2025-08-23 14:42:57,306 - financial_rag - INFO - info:51 -      Metric 2: currency = 220 million (None)
+2025-08-23 14:42:57,306 - financial_rag - INFO - info:51 -      Metric 3: currency = 50 million (None)
+2025-08-23 14:42:57,307 - financial_rag - INFO - info:51 - Processing question 6/8: What was the total cost in Rs Cr in Q1FY26?...
+2025-08-23 14:42:57,307 - financial_rag - INFO - info:51 - Filtering for selected filenames: {'Concall 4QF25.pdf'}
+2025-08-23 14:42:57,339 - financial_rag - INFO - info:51 - Total documents in vector database: 214
+2025-08-23 14:42:57,341 - financial_rag - INFO - info:51 - Filtered documents found: 90
+2025-08-23 14:43:14,715 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (0.98s)
+2025-08-23 14:43:14,719 - financial_rag - INFO - info:51 - Successfully parsed structured response for question: What was the total cost in Rs Cr in Q1FY26?...
+2025-08-23 14:43:14,720 - financial_rag - INFO - info:51 - Found 1 metrics in response
+2025-08-23 14:43:14,720 - financial_rag - INFO - info:51 -   Metric 1: currency = 400 cr (2025)
+2025-08-23 14:43:14,727 - financial_rag - INFO - info:51 -    Metrics count: 1
+2025-08-23 14:43:14,733 - financial_rag - INFO - info:51 -    Metrics count: 1
+2025-08-23 14:43:14,733 - financial_rag - INFO - info:51 -      Metric 1: currency = 400 cr (2025)
+2025-08-23 14:43:14,734 - financial_rag - INFO - info:51 - Processing question 7/8: What is the current capacity?...
+2025-08-23 14:43:14,734 - financial_rag - INFO - info:51 - Filtering for selected filenames: {'Concall 4QF25.pdf'}
+2025-08-23 14:43:14,764 - financial_rag - INFO - info:51 - Total documents in vector database: 214
+2025-08-23 14:43:14,766 - financial_rag - INFO - info:51 - Filtered documents found: 90
+2025-08-23 14:43:31,417 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (1.06s)
+2025-08-23 14:43:31,418 - financial_rag - INFO - info:51 - Successfully parsed structured response for question: What is the current capacity?...
+2025-08-23 14:43:31,419 - financial_rag - INFO - info:51 - Found 2 metrics in response
+2025-08-23 14:43:31,419 - financial_rag - INFO - info:51 -   Metric 1: percentage = 65 % (None)
+2025-08-23 14:43:31,419 - financial_rag - INFO - info:51 -   Metric 2: currency = 8 billion (None)
+2025-08-23 14:43:31,423 - financial_rag - INFO - info:51 -    Metrics count: 2
+2025-08-23 14:43:31,427 - financial_rag - INFO - info:51 -    Metrics count: 2
+2025-08-23 14:43:31,427 - financial_rag - INFO - info:51 -      Metric 1: percentage = 65 % (None)
+2025-08-23 14:43:31,428 - financial_rag - INFO - info:51 -      Metric 2: currency = 8 billion (None)
+2025-08-23 14:43:31,428 - financial_rag - INFO - info:51 - Processing question 8/8: What is capex for new expansion?...
+2025-08-23 14:43:31,429 - financial_rag - INFO - info:51 - Filtering for selected filenames: {'Concall 4QF25.pdf'}
+2025-08-23 14:43:31,456 - financial_rag - INFO - info:51 - Total documents in vector database: 214
+2025-08-23 14:43:31,459 - financial_rag - INFO - info:51 - Filtered documents found: 90
+2025-08-23 14:43:49,776 - financial_rag - INFO - info:51 - API Call - Gemini: SUCCESS (1.25s)
+2025-08-23 14:43:49,777 - financial_rag - INFO - info:51 - Successfully parsed structured response for question: What is capex for new expansion?...
+2025-08-23 14:43:49,778 - financial_rag - INFO - info:51 - Found 4 metrics in response
+2025-08-23 14:43:49,778 - financial_rag - INFO - info:51 -   Metric 1: revenue = , None (None)
+2025-08-23 14:43:49,779 - financial_rag - INFO - info:51 -   Metric 2: currency = 5 billion (None)
+2025-08-23 14:43:49,779 - financial_rag - INFO - info:51 -   Metric 3: currency = 8 billion (None)
+2025-08-23 14:43:49,779 - financial_rag - INFO - info:51 -   Metric 4: currency = 8 million (None)
+2025-08-23 14:43:49,785 - financial_rag - INFO - info:51 -    Metrics count: 4
+2025-08-23 14:43:49,790 - financial_rag - INFO - info:51 -    Metrics count: 4
+2025-08-23 14:43:49,790 - financial_rag - INFO - info:51 -      Metric 1: revenue = , None (None)
+2025-08-23 14:43:49,790 - financial_rag - INFO - info:51 -      Metric 2: currency = 5 billion (None)
+2025-08-23 14:43:49,791 - financial_rag - INFO - info:51 -      Metric 3: currency = 8 billion (None)
+2025-08-23 14:43:49,791 - financial_rag - INFO - info:51 -      Metric 4: currency = 8 million (None)
+2025-08-23 14:43:49,792 - financial_rag - INFO - info:51 - Bulk processing completed: 8 successful, 0 failed in 144.40s
+2025-08-23 14:43:50,035 - financial_rag - INFO - info:51 - Bulk processing completed: 8/8 successful
+2025-08-23 14:44:02,406 - financial_rag - WARNING - warning:55 - Missing optional columns: Type, Figure in cr, Period, Figure
+2025-08-23 14:44:02,441 - financial_rag - INFO - info:51 - Parsed 8 questions from Excel file

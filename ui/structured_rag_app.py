@@ -60,6 +60,96 @@ def load_existing_documents():
     
     return documents
 
+def filter_documents_by_selection(vectordb, selected_docs, question, k_value, search_type="Standard"):
+    """
+    Filter documents from vector database based on selected PDFs.
+    Returns filtered documents and a flag indicating if any relevant documents were found.
+    """
+    if not selected_docs:
+        logger.warning("No documents selected for filtering")
+        return [], False
+    
+    # Get selected filenames
+    selected_filenames = {doc['filename'] for doc in selected_docs}
+    logger.info(f"Filtering for selected filenames: {selected_filenames}")
+    
+    # Get all documents from vector database
+    all_docs = vectordb.get()
+    
+    if not all_docs or not all_docs['documents']:
+        logger.warning("No documents found in vector database")
+        return [], False
+    
+    logger.info(f"Total documents in vector database: {len(all_docs['documents'])}")
+    
+    # Filter documents by selected filenames
+    filtered_docs = []
+    for i, doc in enumerate(all_docs['documents']):
+        metadata = all_docs['metadatas'][i] if all_docs['metadatas'] else {}
+        source = metadata.get('source', '')
+        filename = metadata.get('filename', '')
+        
+        # Check if this document belongs to a selected PDF
+        if any(selected_filename in source or selected_filename in filename for selected_filename in selected_filenames):
+            # Create a Document object for the filtered document
+            from langchain.schema import Document
+            filtered_docs.append(Document(
+                page_content=doc,
+                metadata=metadata
+            ))
+    
+    logger.info(f"Filtered documents found: {len(filtered_docs)}")
+    
+    if not filtered_docs:
+        logger.warning("No documents found matching selected filenames")
+        return [], False
+    
+    # Create a temporary vector database with only selected documents
+    from langchain_community.vectorstores import Chroma
+    from langchain_huggingface import HuggingFaceEmbeddings
+    from chromadb.config import Settings
+    import tempfile
+    import shutil
+    
+    # Create temporary directory for filtered vector store
+    temp_dir = tempfile.mkdtemp()
+    
+    try:
+        # Create embedding model
+        embedding_model = HuggingFaceEmbeddings(
+            model_name=Config.get_embedding_model_name(),
+            model_kwargs={'device': 'cuda' if Config.GPU_ENABLED else 'cpu'},
+            encode_kwargs={'normalize_embeddings': True, 'batch_size': Config.BATCH_SIZE}
+        )
+        
+        # Create temporary vector database with filtered documents
+        temp_vectordb = Chroma.from_documents(
+            documents=filtered_docs,
+            embedding=embedding_model,
+            persist_directory=temp_dir
+        )
+        
+        # Create retrievers for filtered documents
+        base_retriever = temp_vectordb.as_retriever(search_kwargs={"k": k_value})
+        enhanced_retriever = EnhancedRetriever(temp_vectordb, base_retriever)
+        
+        # Retrieve relevant documents based on search type
+        if search_type == "Enhanced":
+            docs = enhanced_retriever.get_relevant_documents(question, k=k_value)
+        elif search_type == "Diverse":
+            docs = enhanced_retriever.get_diverse_documents(question, k=k_value)
+        else:
+            docs = base_retriever.get_relevant_documents(question, k=k_value)
+        
+        # Check if any relevant documents were found
+        relevant_docs_found = len(docs) > 0
+        
+        return docs, relevant_docs_found
+        
+    finally:
+        # Clean up temporary directory
+        shutil.rmtree(temp_dir, ignore_errors=True)
+
 def main():
     st.title("📊 Structured Financial RAG System")
     st.markdown("**Agent-Ready Responses with Structured Output**")
@@ -166,8 +256,10 @@ def main():
         
         if selected_docs:
             st.sidebar.success(f"✅ {len(selected_docs)} documents selected")
+            st.sidebar.info("💡 Questions will be answered using only the selected documents")
         else:
             st.sidebar.warning("⚠️ No documents selected")
+            st.sidebar.info("💡 Please select documents to enable question processing")
     
     # Main content area
     col1, col2 = st.columns([2, 1])
@@ -405,7 +497,10 @@ def main():
                     
                     with col3:
                         if st.button("🚀 Process All Questions", type="primary", key="bulk_process_questions"):
-                            process_bulk_questions(questions, model_choice, bulk_search_type, k_value, include_sources, selected_docs, bulk_output_format)
+                            if not selected_docs:
+                                st.warning("⚠️ Please select at least one document from the sidebar before processing bulk questions")
+                            else:
+                                process_bulk_questions(questions, model_choice, bulk_search_type, k_value, include_sources, selected_docs, bulk_output_format)
                 
                 except Exception as e:
                     st.error(f"❌ Failed to parse Excel file: {str(e)}")
@@ -498,13 +593,19 @@ def process_structured_query(question, model_choice, search_type, k_value, inclu
         # Process query
         start_time = time.time()
         
-        # Select retrieval method
-        if search_type == "Enhanced":
-            docs = enhanced_retriever.get_relevant_documents(sanitized_question, k=k_value)
-        elif search_type == "Diverse":
-            docs = enhanced_retriever.get_diverse_documents(sanitized_question, k=k_value)
-        else:
-            docs = base_retriever.get_relevant_documents(sanitized_question, k=k_value)
+        # Filter documents based on selection
+        docs, relevant_docs_found = filter_documents_by_selection(
+            vectordb, selected_docs, sanitized_question, k_value, search_type
+        )
+        
+        # Check if any relevant documents were found in selected PDFs
+        if not relevant_docs_found:
+            st.warning("⚠️ **No relevant information found in the selected documents.**")
+            st.info("💡 **Suggestions:**")
+            st.info("• Try selecting different documents from the sidebar")
+            st.info("• Check if your question is related to the selected PDFs")
+            st.info("• Upload additional documents if needed")
+            return
         
         # Create context from documents
         context = "\n\n".join([doc.page_content for doc in docs])
@@ -571,27 +672,20 @@ Provide a precise answer with exact figures and time periods:
         
         # Parse into structured format
         try:
-            structured_response = response_parser.parse_response(
-                sanitized_question, 
-                enhanced_answer, 
-                sources, 
-                processing_time
-            )
+            from utils.structured_output import response_parser
+            # Extract sources from documents
+            sources = [f"{doc.metadata.get('source', 'Unknown')} (page {doc.metadata.get('page', 'Unknown')})" for doc in docs]
+            question_processing_time = time.time() - start_time
             
-        except Exception as e:
-            st.error(f"❌ Error parsing structured response: {str(e)}")
-            logger.error(f"Structured response parsing error: {e}", exc_info=True)
-            
-            # Fallback: show raw answer
-            st.subheader("📬 Answer")
-            with st.container():
-                st.markdown(f"""
-                <div style="background-color: #f0f2f6; padding: 20px; border-radius: 10px; border-left: 5px solid #1f77b4;">
-                    <p style="margin: 0; font-size: 16px; line-height: 1.6;">{enhanced_answer}</p>
-                </div>
-                """, unsafe_allow_html=True)
-            st.info(f"⏱️ Response time: {processing_time:.2f}s | 📊 Retrieved {len(docs)} documents")
-            return
+            structured_response = response_parser.parse_response(sanitized_question, enhanced_answer, sources, question_processing_time)
+            logger.info(f"Successfully parsed structured response for question: {question[:50]}...")
+            if structured_response and structured_response.metrics:
+                logger.info(f"Found {len(structured_response.metrics)} metrics in response")
+                for i, metric in enumerate(structured_response.metrics):
+                    logger.info(f"  Metric {i+1}: {metric.metric_name} = {metric.value} {metric.unit} ({metric.time_period})")
+        except Exception as parse_error:
+            logger.warning(f"Failed to parse response for question '{question[:50]}...': {parse_error}")
+            structured_response = None
         
         # Enhanced Answer Display
         st.markdown("---")
@@ -864,6 +958,9 @@ def process_bulk_questions(questions, model_choice, search_type, k_value, includ
         # Define query function for bulk processing
         def query_function(question, **kwargs):
             try:
+                # Start timing for this question
+                question_start_time = time.time()
+                
                 # Validate and sanitize question
                 is_valid, error_msg = InputValidator.validate_query(question)
                 if not is_valid:
@@ -871,15 +968,24 @@ def process_bulk_questions(questions, model_choice, search_type, k_value, includ
                 
                 sanitized_question = InputValidator.sanitize_text(question)
                 
-                # Retrieve relevant documents
-                if search_type == "Standard":
-                    docs = base_retriever.get_relevant_documents(sanitized_question, k=k_value)
-                elif search_type == "Enhanced":
-                    docs = enhanced_retriever.get_relevant_documents(sanitized_question, k=k_value)
-                    # Apply reranking
-                    docs = enhanced_retriever.rerank_documents(sanitized_question, docs)
-                else:  # Diverse
-                    docs = enhanced_retriever.get_diverse_documents(sanitized_question, k=k_value)
+                # Filter documents based on selection
+                docs, relevant_docs_found = filter_documents_by_selection(
+                    vectordb, selected_docs, sanitized_question, k_value, search_type
+                )
+                
+                # Check if any relevant documents were found in selected PDFs
+                if not relevant_docs_found:
+                    # Return a special result indicating no relevant documents found
+                    class QueryResult:
+                        def __init__(self, answer, structured_response=None, no_relevant_docs=False):
+                            self.answer = answer
+                            self.structured_response = structured_response
+                            self.no_relevant_docs = no_relevant_docs
+                    
+                    return QueryResult(
+                        "Information not available in the selected documents. Please try selecting different documents or uploading additional relevant documents.",
+                        no_relevant_docs=True
+                    )
                 
                 # Prepare context
                 context = "\n\n".join([doc.page_content for doc in docs])
@@ -898,6 +1004,7 @@ Instructions:
 2. If the information is not available in the context, say "Information not found in the provided documents"
 3. Use specific numbers and metrics when available
 4. Be precise and factual
+5. Structure your response to include specific financial metrics, figures, and time periods when available
 
 Answer:"""
                     
@@ -917,6 +1024,7 @@ Instructions:
 2. If the information is not available in the context, say "Information not found in the provided documents"
 3. Use specific numbers and metrics when available
 4. Be precise and factual
+5. Structure your response to include specific financial metrics, figures, and time periods when available
 
 Answer:"""
                     
@@ -925,12 +1033,42 @@ Answer:"""
                 # Enhance answer
                 enhanced_answer = answer_enhancer.enhance_answer(answer, docs, sanitized_question)
                 
-                # Create a simple result object
-                class QueryResult:
-                    def __init__(self, answer):
-                        self.answer = answer
+                # Parse into structured format
+                try:
+                    from utils.structured_output import response_parser
+                    # Extract sources from documents
+                    sources = [f"{doc.metadata.get('source', 'Unknown')} (page {doc.metadata.get('page', 'Unknown')})" for doc in docs]
+                    # Calculate processing time for this question
+                    question_processing_time = time.time() - question_start_time
+                    
+                    structured_response = response_parser.parse_response(sanitized_question, enhanced_answer, sources, question_processing_time)
+                    logger.info(f"Successfully parsed structured response for question: {question[:50]}...")
+                    if structured_response and structured_response.metrics:
+                        logger.info(f"Found {len(structured_response.metrics)} metrics in response")
+                        for i, metric in enumerate(structured_response.metrics):
+                            logger.info(f"  Metric {i+1}: {metric.metric_name} = {metric.value} {metric.unit} ({metric.time_period})")
+                    else:
+                        logger.warning(f"No metrics found in structured response for question: {question[:50]}...")
+                        logger.debug(f"Structured response: {structured_response}")
+                except Exception as parse_error:
+                    logger.warning(f"Failed to parse response for question '{question[:50]}...': {parse_error}")
+                    logger.error(f"Parse error details: {parse_error}", exc_info=True)
+                    structured_response = None
                 
-                return QueryResult(enhanced_answer)
+                # Create a result object with both answer and structured response
+                class QueryResult:
+                    def __init__(self, answer, structured_response=None):
+                        self.answer = answer
+                        self.structured_response = structured_response
+                
+                # Debug logging
+                if structured_response:
+                    logger.info(f"✅ Created QueryResult with structured response for: {question[:50]}...")
+                    logger.info(f"   Metrics count: {len(structured_response.metrics) if structured_response.metrics else 0}")
+                else:
+                    logger.warning(f"⚠️ Created QueryResult WITHOUT structured response for: {question[:50]}...")
+                
+                return QueryResult(enhanced_answer, structured_response)
                 
             except Exception as e:
                 logger.error(f"Error in query function: {str(e)}")
@@ -972,6 +1110,10 @@ Answer:"""
                     'Question': result.question[:80] + "..." if len(result.question) > 80 else result.question,
                     'Status': result.status,
                     'Answer': result.answer[:100] + "..." if len(result.answer) > 100 else result.answer,
+                    'Answer Type': '',
+                    'Answer Figure': '',
+                    'Answer Period': '',
+                    'Answer Unit': '',
                     'Processing Time (s)': round(result.processing_time, 2),
                     'Error': result.error_message or ''
                 }
@@ -982,6 +1124,14 @@ Answer:"""
                         'Confidence': f"{result.structured_response.confidence:.2f}",
                         'Metrics Found': len(result.structured_response.metrics)
                     })
+                    
+                    # Extract answer fields from structured response
+                    if result.structured_response.metrics:
+                        first_metric = result.structured_response.metrics[0]
+                        row['Answer Type'] = first_metric.metric_name or ''
+                        row['Answer Figure'] = first_metric.value or ''
+                        row['Answer Period'] = first_metric.time_period or ''
+                        row['Answer Unit'] = first_metric.unit or ''
                 else:
                     row.update({
                         'Response Type': '',

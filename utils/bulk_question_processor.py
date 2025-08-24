@@ -55,9 +55,9 @@ class BulkQuestionProcessor:
     """Processes bulk questions from Excel files."""
     
     def __init__(self):
-        self.expected_columns = [
-            'Question', 'Type', 'Figure in cr', 'Period', 'Figure'
-        ]
+        self.required_columns = ['Question']  # Only Question is required
+        self.optional_columns = ['Type', 'Figure in cr', 'Period', 'Figure']  # These are optional
+        self.expected_columns = self.required_columns + self.optional_columns
         self.column_mapping = {
             'Question': 'question',
             'Type': 'question_type', 
@@ -81,13 +81,13 @@ class BulkQuestionProcessor:
             df = pd.read_excel(file_bytes)
             
             # Check if required columns exist
-            missing_columns = []
-            for col in self.expected_columns:
+            missing_required_columns = []
+            for col in self.required_columns:
                 if col not in df.columns:
-                    missing_columns.append(col)
+                    missing_required_columns.append(col)
             
-            if missing_columns:
-                return False, f"Missing required columns: {', '.join(missing_columns)}"
+            if missing_required_columns:
+                return False, f"Missing required columns: {', '.join(missing_required_columns)}"
             
             # Check if file has data
             if df.empty:
@@ -96,6 +96,15 @@ class BulkQuestionProcessor:
             # Check for required data in Question column
             if df['Question'].isna().all():
                 return False, "No questions found in the 'Question' column"
+            
+            # Warn about missing optional columns but don't fail validation
+            missing_optional_columns = []
+            for col in self.optional_columns:
+                if col not in df.columns:
+                    missing_optional_columns.append(col)
+            
+            if missing_optional_columns:
+                logger.warning(f"Missing optional columns: {', '.join(missing_optional_columns)}")
             
             return True, "File validation successful"
             
@@ -113,12 +122,27 @@ class BulkQuestionProcessor:
                 if pd.isna(row['Question']) or str(row['Question']).strip() == '':
                     continue
                 
+                # Handle missing optional columns gracefully
+                question_type = ''
+                figure_type = ''
+                period = ''
+                figure_value = ''
+                
+                if 'Type' in df.columns:
+                    question_type = str(row['Type']).strip() if not pd.isna(row['Type']) else ''
+                if 'Figure in cr' in df.columns:
+                    figure_type = str(row['Figure in cr']).strip() if not pd.isna(row['Figure in cr']) else ''
+                if 'Period' in df.columns:
+                    period = str(row['Period']).strip() if not pd.isna(row['Period']) else ''
+                if 'Figure' in df.columns:
+                    figure_value = str(row['Figure']).strip() if not pd.isna(row['Figure']) else ''
+                
                 question = BulkQuestion(
                     question=str(row['Question']).strip(),
-                    question_type=str(row['Type']).strip() if not pd.isna(row['Type']) else '',
-                    figure_type=str(row['Figure in cr']).strip() if not pd.isna(row['Figure in cr']) else '',
-                    period=str(row['Period']).strip() if not pd.isna(row['Period']) else '',
-                    figure_value=str(row['Figure']).strip() if not pd.isna(row['Figure']) else '',
+                    question_type=question_type,
+                    figure_type=figure_type,
+                    period=period,
+                    figure_value=figure_value,
                     row_number=index + 2  # Excel rows are 1-indexed, +1 for header
                 )
                 questions.append(question)
@@ -153,9 +177,43 @@ class BulkQuestionProcessor:
                 # Call the query function
                 query_result = query_function(question.question, **query_kwargs)
                 
-                # Parse the response into structured format
-                structured_response = None
-                if hasattr(query_result, 'answer') and query_result.answer:
+                # Check if no relevant documents were found
+                if hasattr(query_result, 'no_relevant_docs') and query_result.no_relevant_docs:
+                    processing_time = time.time() - question_start_time
+                    result = BulkQuestionResult(
+                        question=question.question,
+                        question_type=question.question_type,
+                        figure_type=question.figure_type,
+                        period=question.period,
+                        figure_value=question.figure_value,
+                        row_number=question.row_number,
+                        answer=query_result.answer,
+                        structured_response=None,
+                        processing_time=processing_time,
+                        status="no_relevant_docs",
+                        error_message="No relevant information found in selected documents"
+                    )
+                    results.append(result)
+                    failed += 1
+                    continue
+                
+                # Get the structured response from the query function
+                structured_response = getattr(query_result, 'structured_response', None)
+                
+                # Debug logging
+                if structured_response:
+                    logger.info(f"✅ Received structured response for question {i}: {question.question[:50]}...")
+                    logger.info(f"   Metrics count: {len(structured_response.metrics) if structured_response.metrics else 0}")
+                    if structured_response.metrics:
+                        for j, metric in enumerate(structured_response.metrics):
+                            logger.info(f"     Metric {j+1}: {metric.metric_name} = {metric.value} {metric.unit} ({metric.time_period})")
+                else:
+                    logger.warning(f"⚠️ No structured response received for question {i}: {question.question[:50]}...")
+                    logger.debug(f"   QueryResult attributes: {dir(query_result)}")
+                    logger.debug(f"   QueryResult hasattr structured_response: {hasattr(query_result, 'structured_response')}")
+                
+                # If no structured response from query function, try to parse the answer
+                if not structured_response and hasattr(query_result, 'answer') and query_result.answer:
                     try:
                         structured_response = response_parser.parse_response(
                             question.question, 
@@ -291,6 +349,10 @@ class BulkQuestionProcessor:
                 'Period': result.period,
                 'Expected Figure': result.figure_value,
                 'Answer': result.answer,
+                'Answer Type': '',
+                'Answer Figure in cr': '',
+                'Answer Period': '',
+                'Answer Figure': '',
                 'Status': result.status,
                 'Processing Time (s)': round(result.processing_time, 2),
                 'Error Message': result.error_message or ''
@@ -304,6 +366,15 @@ class BulkQuestionProcessor:
                     'Metrics Count': len(result.structured_response.metrics),
                     'Sources Count': len(result.structured_response.sources)
                 })
+                
+                # Extract answer fields from structured response
+                if result.structured_response.metrics:
+                    # Try to extract the first metric as the main answer
+                    first_metric = result.structured_response.metrics[0]
+                    row['Answer Type'] = first_metric.metric_name or ''
+                    row['Answer Figure in cr'] = first_metric.value or ''
+                    row['Answer Period'] = first_metric.time_period or ''
+                    row['Answer Figure'] = first_metric.unit or ''
             else:
                 row.update({
                     'Response Type': '',
@@ -380,6 +451,10 @@ class BulkQuestionProcessor:
                 'Period': result.period,
                 'Expected Figure': result.figure_value,
                 'Answer': result.answer,
+                'Answer Type': '',
+                'Answer Figure in cr': '',
+                'Answer Period': '',
+                'Answer Figure': '',
                 'Status': result.status,
                 'Processing Time (s)': round(result.processing_time, 2),
                 'Error Message': result.error_message or '',
@@ -387,6 +462,15 @@ class BulkQuestionProcessor:
                 'Confidence': result.structured_response.confidence if result.structured_response else '',
                 'Metrics Count': len(result.structured_response.metrics) if result.structured_response else 0
             }
+            
+            # Extract answer fields from structured response if available
+            if result.structured_response and result.structured_response.metrics:
+                first_metric = result.structured_response.metrics[0]
+                row['Answer Type'] = first_metric.metric_name or ''
+                row['Answer Figure in cr'] = first_metric.value or ''
+                row['Answer Period'] = first_metric.time_period or ''
+                row['Answer Figure'] = first_metric.unit or ''
+            
             results_data.append(row)
         
         df = pd.DataFrame(results_data)

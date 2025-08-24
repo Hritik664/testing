@@ -1,0 +1,217 @@
+{
+  "timestamp": "2025-08-24 14:04:33.475758",
+  "system_info": {
+    "platform": "Windows-11-10.0.26100-SP0",
+    "python_version": "3.13.2 (tags/v3.13.2:4f8bb39, Feb  4 2025, 15:23:48) [MSC v.1942 64 bit (AMD64)]",
+    "python_executable": "D:\\CGVENTURES\\financial_rag\\venv\\Scripts\\python.exe",
+    "architecture": [
+      "64bit",
+      "WindowsPE"
+    ],
+    "processor": "AMD64 Family 23 Model 24 Stepping 1, AuthenticAMD",
+    "machine": "AMD64",
+    "node": "DESKTOP-S966Q7S",
+    "system": "Windows",
+    "release": "11",
+    "version": "10.0.26100",
+    "memory_total_gb": 5.88,
+    "memory_available_gb": 0.93,
+    "memory_percent": 84.1
+  },
+  "python_packages": {
+    "torch": {
+      "version": "2.7.1+cpu",
+      "cuda_available": false,
+      "cuda_version": null
+    },
+    "transformers": "4.54.1",
+    "sentence-transformers": "5.0.0",
+    "langchain": "0.3.27",
+    "langchain_huggingface": "ERROR: module 'langchain_huggingface' has no attribute '__version__'",
+    "chromadb": "1.0.15",
+    "streamlit": "1.47.1",
+    "pandas": "2.3.1",
+    "numpy": "2.3.2",
+    "pypdf": "5.9.0",
+    "python-dotenv": "ERROR: module 'dotenv' has no attribute '__version__'",
+    "requests": "2.32.4"
+  },
+  "project_structure": {
+    "current_directory": "D:\\CGVENTURES\\financial_rag",
+    "project_root": "D:\\CGVENTURES\\financial_rag",
+    "directories": {
+      "data/raw": {
+        "exists": true,
+        "is_dir": true,
+        "readable": true,
+        "writable": true
+      },
+      "data/processed": {
+        "exists": true,
+        "is_dir": true,
+        "readable": true,
+        "writable": true
+      },
+      "embeddings/vector_store": {
+        "exists": true,
+        "is_dir": true,
+        "readable": true,
+        "writable": true
+      },
+      "utils": {
+        "exists": true,
+        "is_dir": true,
+        "readable": true,
+        "writable": true
+      },
+      "ui": {
+        "exists": true,
+        "is_dir": true,
+        "readable": true,
+        "writable": true
+      },
+      "models/local_llms": {
+        "exists": true,
+        "is_dir": true,
+        "readable": true,
+        "writable": true
+      },
+      "logs": {
+        "exists": true,
+        "is_dir": true,
+        "readable": true,
+        "writable": true
+      }
+    },
+    "critical_files": {
+      "config.py": {
+        "exists": true,
+        "is_file": true,
+        "readable": true,
+        "size": 2827
+      },
+      "requirements.txt": {
+        "exists": true,
+        "is_file": true,
+        "readable": true,
+        "size": 470
+      },
+      ".env": {
+        "exists": true,
+        "is_file": true,
+        "readable": true,
+        "size": 235
+      },
+      "ui/structured_rag_app.py": {
+        "exists": true,
+        "is_file": true,
+        "readable": true,
+        "size": 53465
+      },
+      "utils/logger.py": {
+        "exists": true,
+        "is_file": true,
+        "readable": true,
+        "size": 3352
+      }
+    },
+    "data_files": {
+      "data/raw": {
+        "file_count": 2,
+        "files": [
+          "conference call transcript.pdf",
+          "Investor ppt.pdf"
+        ]
+      },
+      "data/processed": {
+        "file_count": 3,
+        "files": [
+          "Concall 4QF25.pdf.json",
+          "conference call transcript.pdf.json",
+          "Investor ppt.pdf.json"
+        ]
+      },
+      "embeddings/vector_store": {
+        "file_count": 2,
+        "files": [
+          "3456813a-e5a1-4ce1-a9ea-ec300e00ada6",
+          "chroma.sqlite3"
+        ]
+      }
+    }
+  },
+  "environment_variables": {
+    "env_file_exists": true,
+    "environment_variables": {
+      "OPENAI_API_KEY": "NOT SET",
+      "GEMINI_API_KEY": "NOT SET",
+      "PYTHONPATH": "NOT SET",
+      "CUDA_VISIBLE_DEVICES": "NOT SET",
+      "TOKENIZERS_PARALLELISM": "NOT SET"
+    },
+    "config_values": {
+      "EMBEDDING_MODEL": "sentence-transformers/all-MiniLM-L6-v2",
+      "GPU_ENABLED": false,
+      "BATCH_SIZE": 32,
+      "CHUNK_SIZE": 800,
+      "CHUNK_OVERLAP": 200,
+      "MAX_WORKERS": 4
+    }
+  },
+  "embedding_system": {
+    "torch": {
+      "version": "2.7.1+cpu",
+      "cuda_available": false,
+      "cuda_device_count": 0,
+      "current_device": null
+    },
+    "sentence_transformer": "ERROR: (MaxRetryError('HTTPSConnectionPool(host=\\'huggingface.co\\', port=443): Max retries exceeded with url: /api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=False&expand=False (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x00000289A30F3390>: Failed to resolve \\'huggingface.co\\' ([Errno 11001] getaddrinfo failed)\"))'), '(Request ID: 2105911a-4fc6-4ca8-a195-c9247d3aa64f)')",
+    "embedding_test": "ERROR: (MaxRetryError('HTTPSConnectionPool(host=\\'huggingface.co\\', port=443): Max retries exceeded with url: /api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=False&expand=False (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x00000289A30F3390>: Failed to resolve \\'huggingface.co\\' ([Errno 11001] getaddrinfo failed)\"))'), '(Request ID: 2105911a-4fc6-4ca8-a195-c9247d3aa64f)')",
+    "langchain_embeddings": "ERROR: (MaxRetryError('HTTPSConnectionPool(host=\\'huggingface.co\\', port=443): Max retries exceeded with url: /api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=False&expand=False (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x00000289A30F2C10>: Failed to resolve \\'huggingface.co\\' ([Errno 11001] getaddrinfo failed)\"))'), '(Request ID: a0b8950e-a642-4ec5-9b93-c32b933fec77)')"
+  },
+  "vector_database": {
+    "vector_store_path": {
+      "exists": true,
+      "is_dir": true,
+      "readable": true,
+      "writable": true
+    },
+    "chromadb_client": {
+      "success": true,
+      "client_type": "Client"
+    },
+    "collections": {
+      "count": 1,
+      "names": [
+        "langchain"
+      ]
+    },
+    "total_documents": 214
+  },
+  "pdf_processing": {
+    "pypdf": {
+      "version": "5.9.0",
+      "available": true
+    },
+    "available_pdfs": {
+      "count": 2,
+      "files": [
+        "conference call transcript.pdf",
+        "Investor ppt.pdf"
+      ]
+    },
+    "pdf_reading_test": "ERROR: 'OptimizedPDFProcessor' object is not callable",
+    "pdf_processor_test": "ERROR: 'OptimizedPDFProcessor' object is not callable"
+  },
+  "streamlit_app": {
+    "streamlit": {
+      "version": "1.47.1",
+      "available": true
+    },
+    "app_import": "ERROR: (MaxRetryError('HTTPSConnectionPool(host=\\'huggingface.co\\', port=443): Max retries exceeded with url: /api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=False&expand=False (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x00000289A54EB750>: Failed to resolve \\'huggingface.co\\' ([Errno 11001] getaddrinfo failed)\"))'), '(Request ID: a6412708-78ff-45ab-9727-f3df948777e0)')"
+  },
+  "network_connectivity": {
+    "internet_connectivity": "ERROR: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /get (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x00000289A54EB250>: Failed to resolve 'httpbin.org' ([Errno 11001] getaddrinfo failed)\"))",
+    "huggingface_connectivity": "ERROR: HTTPSConnectionPool(host='httpbin.org', port=443): Max retries exceeded with url: /get (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x00000289A54EB250>: Failed to resolve 'httpbin.org' ([Errno 11001] getaddrinfo failed)\"))"
+  }
+}
